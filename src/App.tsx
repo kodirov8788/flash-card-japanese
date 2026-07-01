@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { deckGroups, getCardsForGroup } from './data';
+import { deckGroups, getCardsForGroup, flashcards } from './data';
 import type { Card } from './types';
 
 function App() {
@@ -94,7 +94,7 @@ function App() {
           <p>Learn core Japanese vocabulary with modern, intuitive cards</p>
         </div>
         <div className="stats-badge">
-          <span>{learnedCards.size} / 400</span> Words Mastered
+          <span>{learnedCards.size} / {flashcards.length}</span> Words Mastered
         </div>
       </header>
 
