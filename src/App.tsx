@@ -17,14 +17,28 @@ function App() {
     }
     return new Set();
   });
+  const [showLearnedOnly, setShowLearnedOnly] = useState(false);
 
   const activeGroup = deckGroups.find(g => g.id === activeGroupId) || deckGroups[0];
-  const cards = getCardsForGroup(activeGroupId);
-  const currentCard: Card | undefined = cards[currentIndex];
+  const allCards = getCardsForGroup(activeGroupId);
+  // Study mode hides mastered cards so they don't show up again; review mode shows only mastered cards.
+  const studyCards = showLearnedOnly
+    ? allCards.filter(c => learnedCards.has(c.id))
+    : allCards.filter(c => !learnedCards.has(c.id));
+  const currentCard: Card | undefined = studyCards[currentIndex];
 
   useEffect(() => {
     localStorage.setItem('learned_cards', JSON.stringify(Array.from(learnedCards)));
   }, [learnedCards]);
+
+  // Keep currentIndex valid whenever the active card list changes size
+  // (e.g. a card gets marked learned and disappears from the study queue).
+  useEffect(() => {
+    setCurrentIndex(prev => {
+      if (studyCards.length === 0) return 0;
+      return Math.min(prev, studyCards.length - 1);
+    });
+  }, [studyCards.length]);
 
   // Keyboard controls
   useEffect(() => {
@@ -48,10 +62,10 @@ function App() {
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [currentIndex, activeGroupId, currentCard]);
+  }, [currentIndex, activeGroupId, currentCard, studyCards.length, showLearnedOnly]);
 
   const handleNext = () => {
-    if (currentIndex < cards.length - 1) {
+    if (currentIndex < studyCards.length - 1) {
       setCurrentIndex(prev => prev + 1);
       setIsFlipped(false);
     }
@@ -84,7 +98,13 @@ function App() {
     return Math.round((learnedCount / groupCards.length) * 100);
   };
 
-  const currentDeckLearnedCount = cards.filter(c => learnedCards.has(c.id)).length;
+  const currentDeckLearnedCount = allCards.filter(c => learnedCards.has(c.id)).length;
+
+  const handleModeToggle = () => {
+    setShowLearnedOnly(prev => !prev);
+    setCurrentIndex(0);
+    setIsFlipped(false);
+  };
 
   return (
     <div className="app-container">
@@ -95,6 +115,17 @@ function App() {
         </div>
         <div className="stats-badge">
           <span>{learnedCards.size} / {flashcards.length}</span> Words Mastered
+          <div className="mode-toggle">
+            <span className="mode-toggle-label">Review Learned</span>
+            <label className="switch" title="Toggle to review words you've already learned">
+              <input
+                type="checkbox"
+                checked={showLearnedOnly}
+                onChange={handleModeToggle}
+              />
+              <span className="switch-slider"></span>
+            </label>
+          </div>
         </div>
       </header>
 
@@ -170,7 +201,7 @@ function App() {
                     <span className="card-back-meaning">{currentCard.back.split('—')[1]?.trim()}</span>
                   </div>
                   <div className="card-footer-tip">
-                    Press <span className="shortcut-tag">L</span> to mark as learned
+                    Press <span className="shortcut-tag">L</span> to {learnedCards.has(currentCard.id) ? 'un-mark as learned' : 'mark as learned'}
                   </div>
                 </div>
               </div>
@@ -196,7 +227,7 @@ function App() {
               <button
                 className="btn"
                 onClick={handleNext}
-                disabled={currentIndex === cards.length - 1}
+                disabled={currentIndex === studyCards.length - 1}
               >
                 Next →
               </button>
@@ -220,13 +251,16 @@ function App() {
             {/* Deck progress details */}
             <div className="progress-section">
               <div className="progress-info">
-                <span>Progress</span>
-                <span>{currentIndex + 1} / {cards.length} cards ({currentDeckLearnedCount} mastered)</span>
+                <span>{showLearnedOnly ? 'Reviewing Learned' : 'Progress'}</span>
+                <span>
+                  {currentIndex + 1} / {studyCards.length} cards
+                  {!showLearnedOnly && ` (${currentDeckLearnedCount} mastered)`}
+                </span>
               </div>
               <div className="progress-bar-bg">
                 <div
                   className="progress-bar-fill"
-                  style={{ width: `${((currentIndex + 1) / cards.length) * 100}%` }}
+                  style={{ width: `${((currentIndex + 1) / studyCards.length) * 100}%` }}
                 ></div>
               </div>
             </div>
@@ -234,10 +268,10 @@ function App() {
             {/* Quick Word List Grid */}
             <div className="word-list-section">
               <h4 style={{ fontSize: '0.9rem', fontWeight: 700, color: 'var(--text-main)' }}>
-                Deck Overview
+                {showLearnedOnly ? 'Mastered Words' : 'Words To Learn'}
               </h4>
               <div className="word-list-grid">
-                {cards.map((card, idx) => {
+                {studyCards.map((card, idx) => {
                   const isLearned = learnedCards.has(card.id);
                   const isActive = idx === currentIndex;
                   return (
@@ -282,7 +316,15 @@ function App() {
             </div>
           </section>
         ) : (
-          <div style={{ textAlign: 'center', padding: '3rem' }}>No cards available.</div>
+          <div className="empty-state">
+            <div className="empty-state-icon">{showLearnedOnly ? '📭' : '🎉'}</div>
+            <h3>{showLearnedOnly ? 'No mastered words yet' : 'All caught up!'}</h3>
+            <p>
+              {showLearnedOnly
+                ? "Mark some words as learned and they'll show up here for review."
+                : 'You\'ve learned every word in this deck. Flip the switch above to review them, or pick another deck.'}
+            </p>
+          </div>
         )}
       </main>
     </div>
