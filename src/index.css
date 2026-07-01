@@ -481,3 +481,86 @@ body {
   font-size: 0.75rem;
   border-bottom: 2px solid rgba(0,0,0,0.15);
 }
+
+/* Mobile Responsiveness Rules */
+@media (max-width: 600px) {
+  .app-container {
+    padding: 1rem;
+    gap: 1.25rem;
+  }
+
+  .app-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .logo-section h1 {
+    font-size: 1.5rem;
+  }
+
+  .stats-badge {
+    align-self: stretch;
+    justify-content: center;
+    font-size: 0.85rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .card-container {
+    height: 280px;
+  }
+
+  .card-face {
+    padding: 1.5rem;
+  }
+
+  .card-front-text {
+    font-size: 2.8rem;
+  }
+
+  .card-back-reading {
+    font-size: 1.8rem;
+  }
+
+  .card-back-meaning {
+    font-size: 1.05rem;
+  }
+
+  .controls {
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: center;
+  }
+
+  .controls .btn {
+    flex: 1 1 40%;
+    padding: 0.75rem 1rem;
+    font-size: 0.85rem;
+    justify-content: center;
+  }
+
+  .controls .btn:nth-child(2) {
+    order: -1;
+    flex: 1 1 100%; /* Make Flip Card prominent */
+  }
+
+  .word-list-section {
+    padding: 1rem;
+  }
+
+  .word-list-grid {
+    grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+    gap: 0.35rem;
+    max-height: 120px;
+  }
+
+  .word-item {
+    padding: 0.3rem;
+    font-size: 0.75rem;
+  }
+
+  .shortcuts-footer {
+    display: none; /* Hide keyboard shortcuts on mobile device */
+  }
+}
