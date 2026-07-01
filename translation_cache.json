@@ -1,0 +1,3367 @@
+{
+  "お供しいとこ": {
+    "reading": "お",
+    "uz": "Qayerga borish kerak",
+    "en": "tail (of an animal), cauda"
+  },
+  "お卵": {
+    "reading": "おとしたまご",
+    "uz": "tuxum",
+    "en": "poached egg"
+  },
+  "お口": {
+    "reading": "おおぐち",
+    "uz": "og'iz",
+    "en": "big mouth, mouth opened wide"
+  },
+  "お名前": {
+    "reading": "おなまえ",
+    "uz": "nomi",
+    "en": "name"
+  },
+  "お問": {
+    "reading": "おといあわせばんごう",
+    "uz": "Savol",
+    "en": "reference number, order number, tracking number"
+  },
+  "お忙しいとこ": {
+    "reading": "と",
+    "uz": "Men bandman.",
+    "en": "door (esp. Japanese-style)"
+  },
+  "お手数をおかけ": {
+    "reading": "おてすうをおかけいたします",
+    "uz": "noqulayliklar uchun uzr so'raymiz",
+    "en": "to be a burden, to make trouble for someone"
+  },
+  "お皿": {
+    "reading": "おさら",
+    "uz": "plastinka",
+    "en": "plate, dish"
+  },
+  "お金など": {
+    "reading": "おかね",
+    "uz": "pul va boshqalar.",
+    "en": "money"
+  },
+  "お願いがあ": {
+    "reading": "おねがい",
+    "uz": "Bir iltimosim bor",
+    "en": "request, favour (to ask), wish"
+  },
+  "お願いがある": {
+    "reading": "おねがい",
+    "uz": "Bir iltimosim bor",
+    "en": "request, favour (to ask), wish"
+  },
+  "ご了承ください": {
+    "reading": "ごりょうしょうください",
+    "uz": "shu esta tutilsinki",
+    "en": "please be aware (that ...), please note (that ...), please understand (that ...)"
+  },
+  "ご型": {
+    "reading": "ごぶんけい",
+    "uz": "mog'or",
+    "en": "the five basic sentence structures of English (SV, SVC, SVO, SVOO, SVOC)"
+  },
+  "一です": {
+    "reading": "です",
+    "uz": "Bu bitta",
+    "en": "be, is"
+  },
+  "一位": {
+    "reading": "いちい",
+    "uz": "Birinchi o'rin",
+    "en": "first place, first rank"
+  },
+  "一度恥": {
+    "reading": "いちど",
+    "uz": "bir marta uyat",
+    "en": "once, one time, on one occasion"
+  },
+  "一段": {
+    "reading": "いちだん",
+    "uz": "Bir bosqich",
+    "en": "even more, still more, much more, further"
+  },
+  "一等": {
+    "reading": "いっとう",
+    "uz": "birinchi sinf",
+    "en": "first class, first rank, first grade, first place, first prize"
+  },
+  "一緒に行った": {
+    "reading": "いっしょに",
+    "uz": "birga ketdi",
+    "en": "together (with)"
+  },
+  "一首歌": {
+    "reading": "",
+    "uz": "Bitta she'r",
+    "en": "One poem"
+  },
+  "上司にきずら": {
+    "reading": "じょうし",
+    "uz": "Rahbar bilan muammo",
+    "en": "A problem with the boss"
+  },
+  "上型": {
+    "reading": "",
+    "uz": "Yuqori mog'or",
+    "en": "Upper mold"
+  },
+  "下取り": {
+    "reading": "したどり",
+    "uz": "Savdo",
+    "en": "Trade-in"
+  },
+  "下取りして": {
+    "reading": "したどり",
+    "uz": "Savdo qiling",
+    "en": "Trade it in"
+  },
+  "不成体統": {
+    "reading": "とういつ",
+    "uz": "amorf tana",
+    "en": "amorphous body"
+  },
+  "世紀": {
+    "reading": "せいき",
+    "uz": "asr",
+    "en": "century"
+  },
+  "世紀に完成した": {
+    "reading": "せいき",
+    "uz": "asrda yakunlangan",
+    "en": "completed in the century"
+  },
+  "丘口": {
+    "reading": "",
+    "uz": "Okaguchi",
+    "en": "Okaguchi"
+  },
+  "両子": {
+    "reading": "",
+    "uz": "Ikkala bola ham",
+    "en": "Both children"
+  },
+  "両目": {
+    "reading": "りょうめ",
+    "uz": "ikkala ko'z",
+    "en": "both eyes"
+  },
+  "並み性": {
+    "reading": "",
+    "uz": "o'rtacha sifat",
+    "en": "average quality"
+  },
+  "並んでいる": {
+    "reading": "ならんで",
+    "uz": "saf tortdi",
+    "en": "lined up"
+  },
+  "中の仏像": {
+    "reading": "ちゅう",
+    "uz": "Ichkarida Budda haykali",
+    "en": "Buddha statue inside"
+  },
+  "中の企像": {
+    "reading": "ちゅう",
+    "uz": "ichkarida rejalashtirish",
+    "en": "plan inside"
+  },
+  "中三口": {
+    "reading": "ちゅう",
+    "uz": "O'rta uchta og'iz",
+    "en": "Middle three mouths"
+  },
+  "中央改札": {
+    "reading": "ちゅうおう",
+    "uz": "markaziy chipta darvozasi",
+    "en": "central ticket gate"
+  },
+  "乍一看": {
+    "reading": "みる",
+    "uz": "Qarang",
+    "en": "Take a look"
+  },
+  "予定がきっし": {
+    "reading": "よてい",
+    "uz": "Mening jadvalim mukammal",
+    "en": "My schedule is perfect"
+  },
+  "事務": {
+    "reading": "じむ",
+    "uz": "Ofis ishi",
+    "en": "Office work"
+  },
+  "事務職": {
+    "reading": "じむしょく",
+    "uz": "Ofis ishi",
+    "en": "Office job"
+  },
+  "事実だけあっ": {
+    "reading": "じじつ",
+    "uz": "Faqat faktlar",
+    "en": "Just the facts"
+  },
+  "事実だとすれ": {
+    "reading": "じじつ",
+    "uz": "Faraz qilaylik, bu haqiqat",
+    "en": "Let's assume it's a fact"
+  },
+  "事実どおり": {
+    "reading": "",
+    "uz": "faktlarga ko'ra",
+    "en": "as per the facts"
+  },
+  "事実のまま": {
+    "reading": "じじつ",
+    "uz": "haqiqat bo'lib qolsin",
+    "en": "remain true"
+  },
+  "二部こる": {
+    "reading": "こる",
+    "uz": "2-qism yomon",
+    "en": "Part 2 is bad"
+  },
+  "井目": {
+    "reading": "せいもく",
+    "uz": "Ime",
+    "en": "Ime"
+  },
+  "亡くなった": {
+    "reading": "なくなる",
+    "uz": "vafot etdi",
+    "en": "passed away"
+  },
+  "人の意見を尊重し": {
+    "reading": "ひと",
+    "uz": "odamlarning fikrini hurmat qiling",
+    "en": "respect people's opinions"
+  },
+  "人の魚を救う": {
+    "reading": "ひと",
+    "uz": "odamlarning baliqlarini saqlang",
+    "en": "save people's fish"
+  },
+  "今日はしつど": {
+    "reading": "きょう",
+    "uz": "Bugun men buni qilaman",
+    "en": "Today I will do it"
+  },
+  "今日豆": {
+    "reading": "きょう",
+    "uz": "Bugungi loviya",
+    "en": "Today's beans"
+  },
+  "今納得がいか": {
+    "reading": "が",
+    "uz": "Endi qoniqdingizmi?",
+    "en": "Are you satisfied now?"
+  },
+  "今要": {
+    "reading": "いま",
+    "uz": "Kaname hozir",
+    "en": "Kaname now"
+  },
+  "仕事": {
+    "reading": "しごと",
+    "uz": "ish",
+    "en": "work"
+  },
+  "仕事がすごく": {
+    "reading": "しごと",
+    "uz": "Mening juda ko'p ishlarim bor",
+    "en": "I have a lot of work to do"
+  },
+  "仕事が私": {
+    "reading": "しごと",
+    "uz": "ish men",
+    "en": "work is me"
+  },
+  "仕事ぶり": {
+    "reading": "しごとぶり",
+    "uz": "Ish samaradorligi",
+    "en": "Work performance"
+  },
+  "他的漫画": {
+    "reading": "まんが",
+    "uz": "boshqa manga",
+    "en": "other manga"
+  },
+  "以上": {
+    "reading": "いじょう",
+    "uz": "Hammasi shu",
+    "en": "That's all"
+  },
+  "仮名": {
+    "reading": "かな",
+    "uz": "Kana",
+    "en": "Kana"
+  },
+  "仮店": {
+    "reading": "かりてんぽ",
+    "uz": "Vaqtinchalik do'kon",
+    "en": "Temporary store"
+  },
+  "仮認": {
+    "reading": "かり",
+    "uz": "vaqtinchalik tan olish",
+    "en": "provisional recognition"
+  },
+  "企業が増えてきた": {
+    "reading": "きぎょう",
+    "uz": "Kompaniyalar soni ortdi",
+    "en": "The number of companies has increased"
+  },
+  "企画": {
+    "reading": "きかく",
+    "uz": "Rejalashtirish",
+    "en": "Planning"
+  },
+  "会対": {
+    "reading": "かい",
+    "uz": "uchrashuv",
+    "en": "meeting"
+  },
+  "会社": {
+    "reading": "かいしゃ",
+    "uz": "kompaniya",
+    "en": "company"
+  },
+  "会社を辞めたい": {
+    "reading": "かいしゃ",
+    "uz": "Men ishimni tashlamoqchiman",
+    "en": "I want to quit my job"
+  },
+  "伯父の家には本": {
+    "reading": "おじ",
+    "uz": "Amakimning uyida kitoblar bor.",
+    "en": "There are books at my uncle's house."
+  },
+  "估分": {
+    "reading": "",
+    "uz": "bo'linish",
+    "en": "division"
+  },
+  "但是": {
+    "reading": "ただ",
+    "uz": "Biroq, shunday",
+    "en": "However, it is"
+  },
+  "低下する": {
+    "reading": "ていか",
+    "uz": "pasayish",
+    "en": "decline"
+  },
+  "何と": {
+    "reading": "なんと",
+    "uz": "Nima",
+    "en": "What"
+  },
+  "何とかなら": {
+    "reading": "なんとか",
+    "uz": "Agar bu qandaydir tarzda mumkin bo'lsa",
+    "en": "If it's somehow possible"
+  },
+  "作った料理": {
+    "reading": "つくる",
+    "uz": "siz qilgan taom",
+    "en": "the dish you made"
+  },
+  "修理する": {
+    "reading": "しゅうりするけんり",
+    "uz": "ta'mirlash",
+    "en": "repair"
+  },
+  "修理するくら": {
+    "reading": "しゅうり",
+    "uz": "Qancha ta'mirlash kerak",
+    "en": "How much to repair"
+  },
+  "個おせしい": {
+    "reading": "こ",
+    "uz": "Bir parcha",
+    "en": "One piece"
+  },
+  "値引き": {
+    "reading": "ねびき",
+    "uz": "chegirma",
+    "en": "discount"
+  },
+  "値引きする": {
+    "reading": "ねびき",
+    "uz": "chegirma",
+    "en": "discount"
+  },
+  "値打ち": {
+    "reading": "ねうち",
+    "uz": "bunga arziydi",
+    "en": "worth it"
+  },
+  "偏差": {
+    "reading": "へんさ",
+    "uz": "og'ish",
+    "en": "deviation"
+  },
+  "健康態は鳥好です": {
+    "reading": "けんこう",
+    "uz": "Qushning salomatligi yaxshi.",
+    "en": "The bird is in good health."
+  },
+  "健康状態": {
+    "reading": "けんこうじょうたい",
+    "uz": "salomatlik holati",
+    "en": "health condition"
+  },
+  "偶然": {
+    "reading": "ぐうぜん",
+    "uz": "tasodif",
+    "en": "coincidence"
+  },
+  "催す": {
+    "reading": "もよおす",
+    "uz": "mezbon",
+    "en": "host"
+  },
+  "像": {
+    "reading": "ぞう",
+    "uz": "haykal",
+    "en": "statue"
+  },
+  "兄または姉": {
+    "reading": "あに",
+    "uz": "uka yoki opa",
+    "en": "brother or sister"
+  },
+  "先にしまし": {
+    "reading": "さき",
+    "uz": "Men birinchi bo'lib qilaman",
+    "en": "I'll do it first"
+  },
+  "先程": {
+    "reading": "さきほど",
+    "uz": "Avvalroq",
+    "en": "Earlier"
+  },
+  "先輩": {
+    "reading": "せんぱい",
+    "uz": "katta",
+    "en": "senior"
+  },
+  "光熱費": {
+    "reading": "こうねつひ",
+    "uz": "Kommunal xarajatlar",
+    "en": "Utility expenses"
+  },
+  "入れ": {
+    "reading": "いれ",
+    "uz": "Uni qo'ying",
+    "en": "Put it in"
+  },
+  "入場": {
+    "reading": "にゅうじょう",
+    "uz": "Qabul",
+    "en": "Admission"
+  },
+  "入学料": {
+    "reading": "いり",
+    "uz": "Kirish to'lovi",
+    "en": "Admission fee"
+  },
+  "入学費": {
+    "reading": "",
+    "uz": "Kirish to'lovi",
+    "en": "Admission fee"
+  },
+  "入学賃": {
+    "reading": "",
+    "uz": "Kirish to'lovi",
+    "en": "Admission fee"
+  },
+  "入学金": {
+    "reading": "にゅうがくきん",
+    "uz": "Kirish to'lovi",
+    "en": "Admission fee"
+  },
+  "八場": {
+    "reading": "",
+    "uz": "Yaba",
+    "en": "Yaba"
+  },
+  "公感": {
+    "reading": "",
+    "uz": "ommaviy tuyg'u",
+    "en": "public feeling"
+  },
+  "内臓": {
+    "reading": "ないぞう",
+    "uz": "ichki organlar",
+    "en": "internal organs"
+  },
+  "内臓の働きがよく": {
+    "reading": "ないぞう",
+    "uz": "Ichki organlar yaxshi ishlaydi",
+    "en": "Internal organs work well"
+  },
+  "出して": {
+    "reading": "だしてくれる",
+    "uz": "Uni olib tashlang",
+    "en": "Take it out"
+  },
+  "出合利目": {
+    "reading": "であい",
+    "uz": "Deai foyda",
+    "en": "Deai profit"
+  },
+  "出張するんだ": {
+    "reading": "しゅっちょう",
+    "uz": "Men xizmat safariga ketyapman",
+    "en": "I'm going on a business trip"
+  },
+  "出来": {
+    "reading": "でき",
+    "uz": "Bajarildi",
+    "en": "Done"
+  },
+  "分しかない": {
+    "reading": "ぶん",
+    "uz": "Faqat daqiqalar bor",
+    "en": "There are only minutes"
+  },
+  "分別": {
+    "reading": "ふんべつ",
+    "uz": "saralash",
+    "en": "sorting"
+  },
+  "分別に悩まされて": {
+    "reading": "ふんべつ",
+    "uz": "tuyg'u bilan bezovta",
+    "en": "troubled by sense"
+  },
+  "別入口": {
+    "reading": "べつ",
+    "uz": "Alohida kirish",
+    "en": "Separate entrance"
+  },
+  "削減できた": {
+    "reading": "さくげん",
+    "uz": "kamaytirishga muvaffaq bo'ldi",
+    "en": "was able to reduce"
+  },
+  "助かってい": {
+    "reading": "たすかる",
+    "uz": "Men najot topdim",
+    "en": "I'm saved"
+  },
+  "動画": {
+    "reading": "どうが",
+    "uz": "Video",
+    "en": "Video"
+  },
+  "化粧水": {
+    "reading": "けしょうすい",
+    "uz": "loson",
+    "en": "lotion"
+  },
+  "午前中はこうぎ": {
+    "reading": "ごぜんちゅう",
+    "uz": "Kogi ertalab",
+    "en": "Kogi in the morning"
+  },
+  "午後": {
+    "reading": "ごご",
+    "uz": "Peshindan keyin",
+    "en": "Afternoon"
+  },
+  "午煎由は講義": {
+    "reading": "ひる",
+    "uz": "Peshindan keyin ma'ruza",
+    "en": "Afternoon is a lecture"
+  },
+  "単独": {
+    "reading": "たんどく",
+    "uz": "Yolg'iz",
+    "en": "Alone"
+  },
+  "単純な手続き": {
+    "reading": "たんじゅん",
+    "uz": "oddiy protsedura",
+    "en": "simple procedure"
+  },
+  "博土": {
+    "reading": "",
+    "uz": "Xiroto",
+    "en": "Hiroto"
+  },
+  "博士はすばら": {
+    "reading": "はかせ",
+    "uz": "Doktor ajoyib",
+    "en": "Doctor is amazing"
+  },
+  "友生争": {
+    "reading": "",
+    "uz": "do'stona to'qnashuv",
+    "en": "friendly conflict"
+  },
+  "友達": {
+    "reading": "ともだち",
+    "uz": "do'stlar",
+    "en": "friends"
+  },
+  "双ふた": {
+    "reading": "そう",
+    "uz": "egizak qopqoqlar",
+    "en": "twin lids"
+  },
+  "双子": {
+    "reading": "ふたご",
+    "uz": "egizaklar",
+    "en": "twins"
+  },
+  "収来": {
+    "reading": "しゅうにゅう",
+    "uz": "o'rim-yig'im",
+    "en": "harvest"
+  },
+  "叔母": {
+    "reading": "おば",
+    "uz": "xola",
+    "en": "aunt"
+  },
+  "取り上げた": {
+    "reading": "とりあげる",
+    "uz": "oldi",
+    "en": "picked up"
+  },
+  "取り上げる": {
+    "reading": "とりあげる",
+    "uz": "olish",
+    "en": "take up"
+  },
+  "取り入れた": {
+    "reading": "とりいれる",
+    "uz": "Kiritilgan",
+    "en": "Incorporated"
+  },
+  "取り入れたこと": {
+    "reading": "とりいれる",
+    "uz": "Men olgan narsam",
+    "en": "What I took in"
+  },
+  "取り入れる": {
+    "reading": "とりいれる",
+    "uz": "kiritish",
+    "en": "incorporate"
+  },
+  "取り戻す": {
+    "reading": "とりもどす",
+    "uz": "qaytarib olish",
+    "en": "take back"
+  },
+  "取り組む": {
+    "reading": "とりくむ",
+    "uz": "hal qilish",
+    "en": "tackle"
+  },
+  "取り組んだ": {
+    "reading": "とりくむ",
+    "uz": "ustida ishlagan",
+    "en": "worked on"
+  },
+  "取り込む": {
+    "reading": "とりこむ",
+    "uz": "qabul qilish",
+    "en": "take in"
+  },
+  "取り込んだ": {
+    "reading": "とりこむ",
+    "uz": "Kiritilgan",
+    "en": "Incorporated"
+  },
+  "受けられ": {
+    "reading": "うける",
+    "uz": "qabul qilingan",
+    "en": "accepted"
+  },
+  "受け入れるべき": {
+    "reading": "うけいれる",
+    "uz": "qabul qilinishi kerak",
+    "en": "should be accepted"
+  },
+  "受够了": {
+    "reading": "りょう",
+    "uz": "Qabul qilish tugallandi",
+    "en": "Acceptance completed"
+  },
+  "古い車": {
+    "reading": "ふるい",
+    "uz": "eski mashina",
+    "en": "old car"
+  },
+  "召开": {
+    "reading": "",
+    "uz": "Ochilish",
+    "en": "Opening"
+  },
+  "可是": {
+    "reading": "か",
+    "uz": "Mumkin",
+    "en": "Possible"
+  },
+  "可能性は低い": {
+    "reading": "かのうせい",
+    "uz": "dargumon",
+    "en": "unlikely"
+  },
+  "台湾からきま": {
+    "reading": "たいわん",
+    "uz": "Tayvan Karakima",
+    "en": "Taiwan Karakima"
+  },
+  "号る": {
+    "reading": "ごうする",
+    "uz": "masala",
+    "en": "issue"
+  },
+  "吃葯也没用": {
+    "reading": "チー",
+    "uz": "língíní",
+    "en": "吃萯也用"
+  },
+  "合のやるこ": {
+    "reading": "ごう",
+    "uz": "Go-no-Yaruko",
+    "en": "Go-no-Yaruko"
+  },
+  "吉義": {
+    "reading": "",
+    "uz": "Yoshiyoshi",
+    "en": "Yoshiyoshi"
+  },
+  "同じ失敗はしなく": {
+    "reading": "おなじ",
+    "uz": "Xuddi shunday xatoga yo'l qo'ymang",
+    "en": "Don't make the same mistake"
+  },
+  "同情": {
+    "reading": "どうじょう",
+    "uz": "hamdardlik",
+    "en": "sympathy"
+  },
+  "同様": {
+    "reading": "どうよう",
+    "uz": "o'xshash",
+    "en": "similar"
+  },
+  "向往": {
+    "reading": "むこう",
+    "uz": "Ketish va qaytish",
+    "en": "Going to and from"
+  },
+  "君ならでき": {
+    "reading": "きみ",
+    "uz": "Siz qila olasiz",
+    "en": "You can do it"
+  },
+  "君はもっ": {
+    "reading": "きみ",
+    "uz": "Siz ham",
+    "en": "You are too"
+  },
+  "呼呆": {
+    "reading": "こきゅう",
+    "uz": "xirillash",
+    "en": "hoarseness"
+  },
+  "哲る": {
+    "reading": "てつ",
+    "uz": "o'ylab ko'ring",
+    "en": "think"
+  },
+  "問題ができる": {
+    "reading": "もんだい",
+    "uz": "muammolarga olib kelishi mumkin",
+    "en": "can cause problems"
+  },
+  "喜ぶ": {
+    "reading": "よろこぶ",
+    "uz": "quvonmoq",
+    "en": "rejoice"
+  },
+  "因此": {
+    "reading": "もと",
+    "uz": "Inko",
+    "en": "Inko"
+  },
+  "因比": {
+    "reading": "",
+    "uz": "nisbat",
+    "en": "ratio"
+  },
+  "困るよ": {
+    "reading": "こまる",
+    "uz": "Men muammoga duch keldim",
+    "en": "I'm in trouble"
+  },
+  "国に帰ること": {
+    "reading": "くに",
+    "uz": "o'z mamlakatiga qaytish",
+    "en": "to return to one's country"
+  },
+  "国頭が痛かった": {
+    "reading": "",
+    "uz": "Kunining boshi og'riyapti",
+    "en": "Kuni's head hurt"
+  },
+  "地域": {
+    "reading": "ちいき",
+    "uz": "mintaqa",
+    "en": "region"
+  },
+  "地面を掘ったら": {
+    "reading": "じめん",
+    "uz": "Agar siz yer qazsangiz",
+    "en": "If you dig the ground"
+  },
+  "地面を撮ったら": {
+    "reading": "じめん",
+    "uz": "Agar siz yerni suratga olsangiz",
+    "en": "If you take a picture of the ground"
+  },
+  "塔": {
+    "reading": "とう",
+    "uz": "minora",
+    "en": "tower"
+  },
+  "塗りたて": {
+    "reading": "ぬりたて",
+    "uz": "Yangi bo'yalgan",
+    "en": "Freshly painted"
+  },
+  "塾付": {
+    "reading": "",
+    "uz": "Cram maktabi bilan",
+    "en": "With cram school"
+  },
+  "塾談": {
+    "reading": "",
+    "uz": "Maktab suhbati",
+    "en": "School talk"
+  },
+  "壁りたて": {
+    "reading": "かべ",
+    "uz": "yangi qurilgan devor",
+    "en": "freshly built wall"
+  },
+  "壱書する": {
+    "reading": "いち",
+    "uz": "bitta xat yozing",
+    "en": "write one letter"
+  },
+  "変わってい": {
+    "reading": "かわっている",
+    "uz": "Bu boshqacha",
+    "en": "It's different"
+  },
+  "夏する": {
+    "reading": "なつ",
+    "uz": "yoz",
+    "en": "summer"
+  },
+  "夏志": {
+    "reading": "なつ",
+    "uz": "Natsushi",
+    "en": "Natsushi"
+  },
+  "夏様": {
+    "reading": "なつ",
+    "uz": "Yoz",
+    "en": "Summer"
+  },
+  "多台": {
+    "reading": "た",
+    "uz": "Ko'p birlik",
+    "en": "Multiple units"
+  },
+  "多銭修逐不如": {
+    "reading": "たせん",
+    "uz": "Ko'p pul bunga loyiq emas",
+    "en": "A lot of money is not worth it"
+  },
+  "夢敵する": {
+    "reading": "ゆめ",
+    "uz": "orzu raqib",
+    "en": "dream rival"
+  },
+  "大会は寒かった": {
+    "reading": "たいかい",
+    "uz": "Turnir sovuq edi",
+    "en": "The tournament was cold"
+  },
+  "大変だった": {
+    "reading": "たいへん",
+    "uz": "Bu qiyin edi",
+    "en": "It was difficult"
+  },
+  "大幅度削減了表": {
+    "reading": "さくげん",
+    "uz": "Muhim qisqartirishni yakunlash jadvali",
+    "en": "Significant reduction completion table"
+  },
+  "天然": {
+    "reading": "てんねん",
+    "uz": "tabiiy",
+    "en": "natural"
+  },
+  "失度": {
+    "reading": "",
+    "uz": "qo'pol xato",
+    "en": "blunder"
+  },
+  "失礼だとされ": {
+    "reading": "しつれい",
+    "uz": "qo'pol deb hisoblanadi",
+    "en": "considered rude"
+  },
+  "好で行かない": {
+    "reading": "こう",
+    "uz": "Men ketishni xohlamayman",
+    "en": "I don't want to go"
+  },
+  "嫌われてい": {
+    "reading": "きらう",
+    "uz": "nafratlangan",
+    "en": "hated"
+  },
+  "子のどちら": {
+    "reading": "こ",
+    "uz": "qaysi bola",
+    "en": "which child"
+  },
+  "学費": {
+    "reading": "がくひ",
+    "uz": "O'qish to'lovi",
+    "en": "Tuition fee"
+  },
+  "安慰": {
+    "reading": "あんい",
+    "uz": "qulaylik",
+    "en": "comfort"
+  },
+  "安非": {
+    "reading": "やす",
+    "uz": "Anhi",
+    "en": "Anhi"
+  },
+  "定義": {
+    "reading": "ていぎ",
+    "uz": "ta'rifi",
+    "en": "definition"
+  },
+  "実費": {
+    "reading": "じっぴ",
+    "uz": "haqiqiy xarajat",
+    "en": "actual cost"
+  },
+  "客感": {
+    "reading": "",
+    "uz": "mijoz hissi",
+    "en": "customer feeling"
+  },
+  "室度": {
+    "reading": "",
+    "uz": "xona darajasi",
+    "en": "room degree"
+  },
+  "害着": {
+    "reading": "",
+    "uz": "Zararli kiyimlar",
+    "en": "Harmful clothes"
+  },
+  "家にいたほ": {
+    "reading": "いえ",
+    "uz": "Men uyda edim",
+    "en": "I was at home"
+  },
+  "家にこもる": {
+    "reading": "いえ",
+    "uz": "uyda qoling",
+    "en": "stay at home"
+  },
+  "家事": {
+    "reading": "かじ",
+    "uz": "uy ishlari",
+    "en": "housework"
+  },
+  "容する": {
+    "reading": "よういにする",
+    "uz": "chidash",
+    "en": "tolerate"
+  },
+  "容量を早": {
+    "reading": "ようりょう",
+    "uz": "qobiliyatini tezlashtirish",
+    "en": "speed up capacity"
+  },
+  "富むとみ": {
+    "reading": "とむ",
+    "uz": "Tomi Tomi",
+    "en": "Tomi Tomi"
+  },
+  "富子": {
+    "reading": "",
+    "uz": "Tomiko",
+    "en": "Tomiko"
+  },
+  "少し横": {
+    "reading": "すこし",
+    "uz": "bir oz yon tomonga",
+    "en": "a little sideways"
+  },
+  "就想起去世了的母": {
+    "reading": "そうき",
+    "uz": "O'tgan hayotimdan keyin yodimga kelgan onam",
+    "en": "My mother who came to mind after my past life"
+  },
+  "就没": {
+    "reading": "",
+    "uz": "tug'ilish va o'lim",
+    "en": "birth and death"
+  },
+  "居眠り": {
+    "reading": "いねむり",
+    "uz": "Uyqusizlik",
+    "en": "Dozing off"
+  },
+  "居間": {
+    "reading": "いま",
+    "uz": "yashash xonasi",
+    "en": "living room"
+  },
+  "岡不出": {
+    "reading": "おか",
+    "uz": "Okabude",
+    "en": "Okabude"
+  },
+  "岩中": {
+    "reading": "",
+    "uz": "Ivanaka",
+    "en": "Iwanaka"
+  },
+  "岩然": {
+    "reading": "いわ",
+    "uz": "Ivazen",
+    "en": "Iwazen"
+  },
+  "川品": {
+    "reading": "",
+    "uz": "Kavashina",
+    "en": "Kawashina"
+  },
+  "工量": {
+    "reading": "",
+    "uz": "harakat",
+    "en": "effort"
+  },
+  "巻熱費が本幅": {
+    "reading": "が",
+    "uz": "Isitish narxi asosiy diapazondir.",
+    "en": "The heating cost is the main range."
+  },
+  "帯来": {
+    "reading": "",
+    "uz": "Obirai",
+    "en": "Obirai"
+  },
+  "帰ること": {
+    "reading": "かえる",
+    "uz": "uyga borish",
+    "en": "to go home"
+  },
+  "平らなとこ": {
+    "reading": "たいら",
+    "uz": "tekis joy",
+    "en": "flat place"
+  },
+  "平厉地提醒你的": {
+    "reading": "ひら",
+    "uz": "Tekisliklardan uyg'onish",
+    "en": "Awakening from the plains"
+  },
+  "平均": {
+    "reading": "へいきん",
+    "uz": "o'rtacha",
+    "en": "average"
+  },
+  "平均的な数値": {
+    "reading": "へいきんてき",
+    "uz": "o'rtacha raqam",
+    "en": "average number"
+  },
+  "平約": {
+    "reading": "ひら",
+    "uz": "tinchlik shartnomasi",
+    "en": "peace agreement"
+  },
+  "年代": {
+    "reading": "ねんだい",
+    "uz": "davr",
+    "en": "era"
+  },
+  "年数": {
+    "reading": "ねんすう",
+    "uz": "yillar",
+    "en": "years"
+  },
+  "年月": {
+    "reading": "としつき",
+    "uz": "yil va oy",
+    "en": "year and month"
+  },
+  "年齢は何歳です": {
+    "reading": "ねんれい",
+    "uz": "necha yoshdasiz",
+    "en": "how old are you"
+  },
+  "床について": {
+    "reading": "ゆか",
+    "uz": "Zamin haqida",
+    "en": "About the floor"
+  },
+  "店の拡張工事": {
+    "reading": "みせ",
+    "uz": "Do'konni kengaytirish qurilishi",
+    "en": "Store expansion construction"
+  },
+  "店の熱器工事": {
+    "reading": "みせ",
+    "uz": "Do'kon isitish uskunalari qurilishi",
+    "en": "Store heating equipment construction"
+  },
+  "度の割合": {
+    "reading": "たび",
+    "uz": "daraja foizi",
+    "en": "degree percentage"
+  },
+  "引口": {
+    "reading": "ひきぐち",
+    "uz": "eshikni yopish",
+    "en": "closing door"
+  },
+  "弥傲": {
+    "reading": "いや",
+    "uz": "Mening takabburligim",
+    "en": "My arrogance"
+  },
+  "強調を蒸す": {
+    "reading": "きょうちょう",
+    "uz": "urg'uni bug'lang",
+    "en": "steam the emphasis"
+  },
+  "当に必要なこと": {
+    "reading": "まさに",
+    "uz": "haqiqatan ham kerak bo'lgan narsa",
+    "en": "what is really necessary"
+  },
+  "当口": {
+    "reading": "はた",
+    "uz": "Navbatda",
+    "en": "On duty"
+  },
+  "当止如此": {
+    "reading": "はた",
+    "uz": "Bu erda to'xtash uchun",
+    "en": "To stop here"
+  },
+  "当沢工あて": {
+    "reading": "",
+    "uz": "Tozawa Tech kompaniyasiga murojaat qilgan.",
+    "en": "Addressed to Tozawa Tech."
+  },
+  "当然だ": {
+    "reading": "とうぜん",
+    "uz": "Albatta",
+    "en": "Of course"
+  },
+  "当計": {
+    "reading": "はた",
+    "uz": "Joriy byudjet",
+    "en": "Current budget"
+  },
+  "彼が会社": {
+    "reading": "かれ",
+    "uz": "u kompaniya",
+    "en": "he is the company"
+  },
+  "彼ぐらい": {
+    "reading": "かれ",
+    "uz": "U haqida",
+    "en": "About him"
+  },
+  "彼の作品は面白い": {
+    "reading": "あの",
+    "uz": "uning ishi qiziq",
+    "en": "his work is interesting"
+  },
+  "彼の漫画": {
+    "reading": "あの",
+    "uz": "uning mangasi",
+    "en": "his manga"
+  },
+  "彼女": {
+    "reading": "かのじょ",
+    "uz": "u",
+    "en": "she"
+  },
+  "彼女は美人だ": {
+    "reading": "かのじょ",
+    "uz": "u go'zal",
+    "en": "she is beautiful"
+  },
+  "従って": {
+    "reading": "したがって",
+    "uz": "Shuning uchun",
+    "en": "Therefore"
+  },
+  "得なく": {
+    "reading": "える",
+    "uz": "Foydasi yo'q",
+    "en": "No benefit"
+  },
+  "得然": {
+    "reading": "とく",
+    "uz": "Tabiiyki",
+    "en": "Naturally"
+  },
+  "得通": {
+    "reading": "",
+    "uz": "Tokutsu",
+    "en": "Tokutsu"
+  },
+  "徳客は表んだ": {
+    "reading": "とく",
+    "uz": "Yaxshi mijoz paydo bo'ldi",
+    "en": "The virtuous customer appeared"
+  },
+  "心をこめて": {
+    "reading": "こころをこめて",
+    "uz": "Butun qalbim bilan",
+    "en": "With all my heart"
+  },
+  "心做": {
+    "reading": "こころなし",
+    "uz": "samimiy",
+    "en": "heartfelt"
+  },
+  "必然": {
+    "reading": "ひつぜん",
+    "uz": "muqarrar",
+    "en": "inevitable"
+  },
+  "忘え": {
+    "reading": "え",
+    "uz": "unut",
+    "en": "forget"
+  },
+  "忘り": {
+    "reading": "わすれられるけんり",
+    "uz": "unut",
+    "en": "forget"
+  },
+  "忙しくて": {
+    "reading": "いそがしい",
+    "uz": "Men bandman",
+    "en": "I'm busy"
+  },
+  "思いき": {
+    "reading": "おもいきって",
+    "uz": "Fikrlar",
+    "en": "Thoughts"
+  },
+  "思いやって": {
+    "reading": "おもいやる",
+    "uz": "e'tiborli bo'ling",
+    "en": "be considerate"
+  },
+  "思いやる": {
+    "reading": "おもいやる",
+    "uz": "e'tiborli",
+    "en": "considerate"
+  },
+  "思い出される": {
+    "reading": "おもいだす",
+    "uz": "eslab qolish",
+    "en": "be remembered"
+  },
+  "思い出すまい": {
+    "reading": "おもいだす",
+    "uz": "Esimda yo‘q",
+    "en": "I don't remember"
+  },
+  "思い出すものだ": {
+    "reading": "おもいだす",
+    "uz": "Bu menga eslatadi",
+    "en": "It reminds me"
+  },
+  "思い出す限りだ": {
+    "reading": "おもいだす",
+    "uz": "Esimda qolganicha",
+    "en": "As far as I can remember"
+  },
+  "思うばかり": {
+    "reading": "おもう",
+    "uz": "Shunchaki o'ylab",
+    "en": "Just thinking about it"
+  },
+  "思えばこそ": {
+    "reading": "おもう",
+    "uz": "Agar o'ylab ko'rsangiz",
+    "en": "If you think about it"
+  },
+  "思えばさえ": {
+    "reading": "おもう",
+    "uz": "Men bu haqda o'ylasam ham",
+    "en": "Even if I think about it"
+  },
+  "思ってさえ": {
+    "reading": "おもう",
+    "uz": "Hatto bu haqda o'ylash",
+    "en": "Even thinking about it"
+  },
+  "思わされて": {
+    "reading": "",
+    "uz": "meni o'ylashga majbur qildi",
+    "en": "made me think"
+  },
+  "怠え很豆眼": {
+    "reading": "だるい",
+    "uz": "Dangasa kichkina yigit",
+    "en": "Lazy little guy"
+  },
+  "恋し機のほう": {
+    "reading": "こいしい",
+    "uz": "Koishiki tomoni",
+    "en": "Koishiki side"
+  },
+  "恥じらう": {
+    "reading": "はじらう",
+    "uz": "uyalmoq",
+    "en": "be ashamed"
+  },
+  "恥じる": {
+    "reading": "はじる",
+    "uz": "uyalmoq",
+    "en": "be ashamed"
+  },
+  "恥ずかしい": {
+    "reading": "はずかしい",
+    "uz": "uyatli",
+    "en": "embarrassing"
+  },
+  "恥ずかしく": {
+    "reading": "はずかし・い",
+    "uz": "uyatli",
+    "en": "embarrassing"
+  },
+  "恥をかく": {
+    "reading": "はじをかく",
+    "uz": "sharmanda qilish",
+    "en": "embarrass"
+  },
+  "恵す": {
+    "reading": "えびす",
+    "uz": "baraka ber",
+    "en": "bless"
+  },
+  "患者": {
+    "reading": "かんじゃ",
+    "uz": "sabr",
+    "en": "patient"
+  },
+  "悩まされて": {
+    "reading": "なやます",
+    "uz": "bezovta",
+    "en": "troubled"
+  },
+  "悩まれてい": {
+    "reading": "なやむ",
+    "uz": "Men xavotirdaman",
+    "en": "I'm worried"
+  },
+  "悩みにほ": {
+    "reading": "なやみ",
+    "uz": "Qiyinchilikda",
+    "en": "In trouble"
+  },
+  "悩むよりほ": {
+    "reading": "なやむ",
+    "uz": "Bu tashvishlanishdan yaxshiroqdir",
+    "en": "It's better than worrying"
+  },
+  "悪いやり": {
+    "reading": "わるい",
+    "uz": "omadsizlik",
+    "en": "bad luck"
+  },
+  "悪いる": {
+    "reading": "わるい",
+    "uz": "Bu yomon",
+    "en": "It's bad"
+  },
+  "悪真に言って": {
+    "reading": "あく",
+    "uz": "rostini aytsam",
+    "en": "honestly say"
+  },
+  "悪習": {
+    "reading": "あくしゅう",
+    "uz": "yomon odatlar",
+    "en": "bad habits"
+  },
+  "想止你来西帯回来": {
+    "reading": "",
+    "uz": "G'arbiy kamarga fikrlar keladi",
+    "en": "Thoughts are coming to the west belt"
+  },
+  "意をし": {
+    "reading": "い",
+    "uz": "ehtiyot bo'ling",
+    "en": "be careful"
+  },
+  "意志": {
+    "reading": "いし",
+    "uz": "bo'ladi",
+    "en": "will"
+  },
+  "感器": {
+    "reading": "",
+    "uz": "sensor",
+    "en": "sensor"
+  },
+  "感心": {
+    "reading": "かんしん",
+    "uz": "taassurot qoldirdi",
+    "en": "impressed"
+  },
+  "慰める": {
+    "reading": "なぐさめる",
+    "uz": "qulaylik",
+    "en": "comfort"
+  },
+  "憎む": {
+    "reading": "にくむ",
+    "uz": "nafrat",
+    "en": "hate"
+  },
+  "憎悪": {
+    "reading": "ぞうお",
+    "uz": "nafrat",
+    "en": "hatred"
+  },
+  "憎感": {
+    "reading": "",
+    "uz": "nafrat",
+    "en": "hatred"
+  },
+  "憧道理": {
+    "reading": "りょうり",
+    "uz": "sog'inish printsipi",
+    "en": "longing principle"
+  },
+  "成功": {
+    "reading": "せいこう",
+    "uz": "muvaffaqiyat",
+    "en": "success"
+  },
+  "成績だった": {
+    "reading": "せいせき",
+    "uz": "Bu baholar edi",
+    "en": "It was the grades"
+  },
+  "我正是你着想": {
+    "reading": "われ",
+    "uz": "Men haqman va siz bu fikrni o'ylab topdingiz.",
+    "en": "I am right and you came up with this idea."
+  },
+  "所以": {
+    "reading": "ゆえん",
+    "uz": "Sabab",
+    "en": "Reason"
+  },
+  "手がなくて": {
+    "reading": "て",
+    "uz": "Mening qo'llarim yo'q",
+    "en": "I don't have any hands"
+  },
+  "手を抜いて": {
+    "reading": "て",
+    "uz": "kesilgan burchaklar",
+    "en": "cut corners"
+  },
+  "手入れ": {
+    "reading": "ていれ",
+    "uz": "g'amxo'rlik",
+    "en": "care"
+  },
+  "手当て": {
+    "reading": "てあて",
+    "uz": "davolash",
+    "en": "treatment"
+  },
+  "手数": {
+    "reading": "てすう",
+    "uz": "qadamlar soni",
+    "en": "number of steps"
+  },
+  "手配": {
+    "reading": "てはい",
+    "uz": "tartibga solish",
+    "en": "arrangement"
+  },
+  "手順": {
+    "reading": "てじゅん",
+    "uz": "tartib",
+    "en": "procedure"
+  },
+  "打折": {
+    "reading": "",
+    "uz": "Buzilish",
+    "en": "Breakdown"
+  },
+  "承ください": {
+    "reading": "しょう",
+    "uz": "Iltimos, qabul qiling",
+    "en": "Please accept"
+  },
+  "招かれた": {
+    "reading": "まねく",
+    "uz": "taklif qilingan",
+    "en": "invited"
+  },
+  "招く": {
+    "reading": "まねく",
+    "uz": "taklif qiling",
+    "en": "invite"
+  },
+  "招待": {
+    "reading": "しょうたい",
+    "uz": "taklifnoma",
+    "en": "invitation"
+  },
+  "招致": {
+    "reading": "しょうち",
+    "uz": "taklifnoma",
+    "en": "invitation"
+  },
+  "振る舞う": {
+    "reading": "ふるまう",
+    "uz": "o'zini tutish",
+    "en": "behave"
+  },
+  "採掘する": {
+    "reading": "さいくつ",
+    "uz": "meniki",
+    "en": "mine"
+  },
+  "提出": {
+    "reading": "ていしゅつ",
+    "uz": "topshirish",
+    "en": "submission"
+  },
+  "換えたほう": {
+    "reading": "かえる",
+    "uz": "Men uni o'zgartirishim kerak",
+    "en": "I should change it"
+  },
+  "携断する": {
+    "reading": "する",
+    "uz": "amalga oshirish",
+    "en": "to carry out"
+  },
+  "摂入": {
+    "reading": "とる",
+    "uz": "qabul qilish",
+    "en": "intake"
+  },
+  "改対": {
+    "reading": "かい",
+    "uz": "qayta ko'rib chiqish",
+    "en": "revision"
+  },
+  "教えてくだ": {
+    "reading": "おしえる",
+    "uz": "Iltimos, ayting",
+    "en": "Please tell me"
+  },
+  "数人的性命": {
+    "reading": "いのち",
+    "uz": "bir nechta jinsiy hayot",
+    "en": "several sexual lives"
+  },
+  "敷なやわい": {
+    "reading": "",
+    "uz": "Yumshoq va yumshoq",
+    "en": "Soft and soft"
+  },
+  "料速": {
+    "reading": "",
+    "uz": "Yuk tashish tezligi",
+    "en": "Shipping speed"
+  },
+  "新しい": {
+    "reading": "あたらし・い",
+    "uz": "yangi",
+    "en": "new"
+  },
+  "新しい裏を買った": {
+    "reading": "",
+    "uz": "Men yangi orqa sotib oldim",
+    "en": "I bought a new back"
+  },
+  "新しい車を買った": {
+    "reading": "",
+    "uz": "yangi mashina sotib oldi",
+    "en": "bought a new car"
+  },
+  "新しく省": {
+    "reading": "",
+    "uz": "yangi vazirlik",
+    "en": "new ministry"
+  },
+  "新しく鶯": {
+    "reading": "",
+    "uz": "Yangi bulbul",
+    "en": "New nightingale"
+  },
+  "新的": {
+    "reading": "",
+    "uz": "yangi",
+    "en": "new"
+  },
+  "新的省能源的系統": {
+    "reading": "",
+    "uz": "Yangi energiya tejash tizimi",
+    "en": "New energy saving system"
+  },
+  "无起": {
+    "reading": "",
+    "uz": "Voqea yo'q",
+    "en": "No occurrence"
+  },
+  "日刊印": {
+    "reading": "",
+    "uz": "kundalik muhr",
+    "en": "daily seal"
+  },
+  "日台": {
+    "reading": "",
+    "uz": "Yaponiya - Tayvan",
+    "en": "Japan-Taiwan"
+  },
+  "日日": {
+    "reading": "にちにち",
+    "uz": "Kun kuni",
+    "en": "Day day"
+  },
+  "日目": {
+    "reading": "",
+    "uz": "kun",
+    "en": "day"
+  },
+  "日程表によれば": {
+    "reading": "",
+    "uz": "Marshrutga ko'ra",
+    "en": "According to the itinerary"
+  },
+  "映画": {
+    "reading": "えいが",
+    "uz": "kino",
+    "en": "movie"
+  },
+  "昨日": {
+    "reading": "きそ",
+    "uz": "kecha",
+    "en": "yesterday"
+  },
+  "時計": {
+    "reading": "とけい",
+    "uz": "soat",
+    "en": "clock"
+  },
+  "時間がたっぷ": {
+    "reading": "",
+    "uz": "Ko'p vaqt",
+    "en": "Lots of time"
+  },
+  "時間のずれ": {
+    "reading": "",
+    "uz": "vaqt kechikishi",
+    "en": "time lag"
+  },
+  "時間のむだだ": {
+    "reading": "",
+    "uz": "Bu vaqtni behuda sarflash",
+    "en": "It's a waste of time"
+  },
+  "普及によって": {
+    "reading": "",
+    "uz": "ommalashtirish orqali",
+    "en": "by popularization"
+  },
+  "暴る": {
+    "reading": "あば・る",
+    "uz": "fosh qilish",
+    "en": "expose"
+  },
+  "更冷了": {
+    "reading": "",
+    "uz": "Sovutish tugallandi",
+    "en": "Cooling completed"
+  },
+  "書ができた": {
+    "reading": "",
+    "uz": "Xattotlik tugallandi",
+    "en": "The calligraphy was completed"
+  },
+  "書類": {
+    "reading": "しょるい",
+    "uz": "hujjatlar",
+    "en": "documents"
+  },
+  "最浜の蓋煮": {
+    "reading": "",
+    "uz": "Saihama go'shti",
+    "en": "Saihama stew"
+  },
+  "最近の若者": {
+    "reading": "",
+    "uz": "hozirgi yoshlar",
+    "en": "young people these days"
+  },
+  "有値": {
+    "reading": "",
+    "uz": "qimmatli",
+    "en": "valuable"
+  },
+  "有意必": {
+    "reading": "",
+    "uz": "Sezilarli darajada zarur",
+    "en": "Significantly necessary"
+  },
+  "望は番口": {
+    "reading": "",
+    "uz": "Istak - bu eshik",
+    "en": "Desire is the gate"
+  },
+  "本をすくう": {
+    "reading": "",
+    "uz": "kitob toping",
+    "en": "scoop a book"
+  },
+  "本当は忠出身です": {
+    "reading": "",
+    "uz": "Men aslida Tadashidanman",
+    "en": "I'm actually from Tadashi"
+  },
+  "来月": {
+    "reading": "らいげつ",
+    "uz": "keyingi oy",
+    "en": "next month"
+  },
+  "来週": {
+    "reading": "らいしゅう",
+    "uz": "keyingi hafta",
+    "en": "next week"
+  },
+  "枚まとめて": {
+    "reading": "",
+    "uz": "hammasi birga",
+    "en": "all together"
+  },
+  "枚分": {
+    "reading": "",
+    "uz": "dona",
+    "en": "pieces"
+  },
+  "枚分まけてく": {
+    "reading": "",
+    "uz": "Men buni siz bilan baham ko'raman.",
+    "en": "I'll share it with you."
+  },
+  "柔軟": {
+    "reading": "じゅうなん",
+    "uz": "moslashuvchan",
+    "en": "flexible"
+  },
+  "検査項目はすべて": {
+    "reading": "",
+    "uz": "Barcha tekshiruv elementlari",
+    "en": "All inspection items"
+  },
+  "検査項貝はすべて": {
+    "reading": "",
+    "uz": "Barcha tekshirilgan mollyuskalar",
+    "en": "All inspected shellfish"
+  },
+  "構義": {
+    "reading": "",
+    "uz": "ma'nosi",
+    "en": "meaning"
+  },
+  "構議": {
+    "reading": "",
+    "uz": "taklif",
+    "en": "proposal"
+  },
+  "横切る": {
+    "reading": "よこぎ・る",
+    "uz": "xoch",
+    "en": "cross"
+  },
+  "横断歩導よこ": {
+    "reading": "",
+    "uz": "piyodalar o'tish bo'yicha qo'llanma",
+    "en": "crosswalk guide"
+  },
+  "機器": {
+    "reading": "きき",
+    "uz": "uskunalar",
+    "en": "equipment"
+  },
+  "櫻母": {
+    "reading": "",
+    "uz": "Sakuramo",
+    "en": "Sakuramo"
+  },
+  "歌を聴く": {
+    "reading": "",
+    "uz": "qo'shiqlar tinglash",
+    "en": "listen to songs"
+  },
+  "歌を職く": {
+    "reading": "",
+    "uz": "qo'shiqchi bo'lib ishlash",
+    "en": "work as a singer"
+  },
+  "止です": {
+    "reading": "",
+    "uz": "To'xtatildi",
+    "en": "It's stopped"
+  },
+  "正義": {
+    "reading": "せいぎ",
+    "uz": "adolat",
+    "en": "justice"
+  },
+  "歯舞するのぼ": {
+    "reading": "",
+    "uz": "Tishlarini raqsga tushiradigan Nobo",
+    "en": "Nobo who dances his teeth"
+  },
+  "母のこと": {
+    "reading": "",
+    "uz": "Onam haqida",
+    "en": "About my mother"
+  },
+  "母は僕の顔": {
+    "reading": "",
+    "uz": "onam mening yuzim",
+    "en": "mother is my face"
+  },
+  "気にしない": {
+    "reading": "",
+    "uz": "Menga baribir",
+    "en": "I don't care"
+  },
+  "気分が思い": {
+    "reading": "",
+    "uz": "Men buni his qilyapman",
+    "en": "I feel like it"
+  },
+  "気持ち": {
+    "reading": "きもち",
+    "uz": "tuyg'ular",
+    "en": "feelings"
+  },
+  "水食": {
+    "reading": "すいしょく",
+    "uz": "suvli ovqat",
+    "en": "water food"
+  },
+  "池添": {
+    "reading": "",
+    "uz": "Ikezoe",
+    "en": "Ikezoe"
+  },
+  "決められ": {
+    "reading": "",
+    "uz": "belgilangan",
+    "en": "determined"
+  },
+  "決められる": {
+    "reading": "き・める",
+    "uz": "qaror qabul qilish mumkin",
+    "en": "can be decided"
+  },
+  "没有抗疾病": {
+    "reading": "",
+    "uz": "kasallikning yo'qolishi",
+    "en": "loss of disease"
+  },
+  "治ったから": {
+    "reading": "",
+    "uz": "Chunki u tuzalib ketgan",
+    "en": "Because it's healed"
+  },
+  "法了": {
+    "reading": "",
+    "uz": "qonun",
+    "en": "law"
+  },
+  "泣き始めた": {
+    "reading": "",
+    "uz": "yig'lay boshladi",
+    "en": "started crying"
+  },
+  "注ぐ": {
+    "reading": "そそ・ぐ",
+    "uz": "quying",
+    "en": "pour"
+  },
+  "注入": {
+    "reading": "ちゅうにゅう",
+    "uz": "in'ektsiya",
+    "en": "injection"
+  },
+  "注意している": {
+    "reading": "",
+    "uz": "Men ehtiyotkorman",
+    "en": "I'm careful"
+  },
+  "活説": {
+    "reading": "",
+    "uz": "faol nazariya",
+    "en": "active theory"
+  },
+  "流入": {
+    "reading": "りゅうにゅう",
+    "uz": "kirib kelishi",
+    "en": "inflow"
+  },
+  "海る": {
+    "reading": "",
+    "uz": "dengiz",
+    "en": "sea"
+  },
+  "海度": {
+    "reading": "",
+    "uz": "dengiz darajasi",
+    "en": "sea degree"
+  },
+  "淡要": {
+    "reading": "",
+    "uz": "Oddiy ma'lumot",
+    "en": "Plain information"
+  },
+  "添付して送れる": {
+    "reading": "",
+    "uz": "Qo'shimcha sifatida yuborilishi mumkin",
+    "en": "Can be sent as an attachment"
+  },
+  "済み": {
+    "reading": "すみ",
+    "uz": "Bajarildi",
+    "en": "Done"
+  },
+  "済む": {
+    "reading": "す・む",
+    "uz": "Tugallandi",
+    "en": "Finished"
+  },
+  "済んでいる": {
+    "reading": "す・む",
+    "uz": "Allaqachon tayyor",
+    "en": "Already done"
+  },
+  "温度": {
+    "reading": "おんど",
+    "uz": "harorat",
+    "en": "temperature"
+  },
+  "温泉が出てきたそ": {
+    "reading": "",
+    "uz": "Issiq buloq chiqdi",
+    "en": "The hot spring came out"
+  },
+  "湿度": {
+    "reading": "しつど",
+    "uz": "namlik",
+    "en": "humidity"
+  },
+  "湿気しめ": {
+    "reading": "",
+    "uz": "namlik damperi",
+    "en": "moisture damper"
+  },
+  "満満的": {
+    "reading": "",
+    "uz": "Qoniqarli",
+    "en": "Satisfied"
+  },
+  "漏らす": {
+    "reading": "もら・す",
+    "uz": "oqish",
+    "en": "leak"
+  },
+  "漏掉": {
+    "reading": "",
+    "uz": "oqish",
+    "en": "leakage"
+  },
+  "漫画": {
+    "reading": "まんが",
+    "uz": "multfilm",
+    "en": "cartoon"
+  },
+  "漬純": {
+    "reading": "",
+    "uz": "Tuzlangan toza",
+    "en": "Pickled pure"
+  },
+  "災害": {
+    "reading": "さいがい",
+    "uz": "falokat",
+    "en": "disaster"
+  },
+  "災害が起こった時": {
+    "reading": "",
+    "uz": "falokat sodir bo'lganda",
+    "en": "when a disaster occurs"
+  },
+  "無い": {
+    "reading": "な・い",
+    "uz": "Yo'q",
+    "en": "None"
+  },
+  "無いな無い": {
+    "reading": "",
+    "uz": "Yo'q, yo'q, yo'q",
+    "en": "No, no, no"
+  },
+  "無がてきた": {
+    "reading": "",
+    "uz": "U ketdi",
+    "en": "It's gone"
+  },
+  "無る": {
+    "reading": "",
+    "uz": "yo'q",
+    "en": "There is no"
+  },
+  "無境": {
+    "reading": "",
+    "uz": "Cheksiz",
+    "en": "Boundless"
+  },
+  "無然": {
+    "reading": "",
+    "uz": "Begunoh",
+    "en": "Innocent"
+  },
+  "無粋": {
+    "reading": "ぶすい",
+    "uz": "Sinfsiz",
+    "en": "Unclassy"
+  },
+  "焦る": {
+    "reading": "あせ・る",
+    "uz": "sabr qil",
+    "en": "be impatient"
+  },
+  "焦屋": {
+    "reading": "",
+    "uz": "Jiaoya",
+    "en": "Jiaoya"
+  },
+  "煮えさせら": {
+    "reading": "",
+    "uz": "Keling, qaynatamiz",
+    "en": "Let's boil it"
+  },
+  "煮える": {
+    "reading": "に・える",
+    "uz": "Qaynatib oling",
+    "en": "Boil"
+  },
+  "煮癒する": {
+    "reading": "",
+    "uz": "qaynatib oling va davolang",
+    "en": "boil and heal"
+  },
+  "熊事": {
+    "reading": "",
+    "uz": "Ayiq narsa",
+    "en": "Bear thing"
+  },
+  "熟料品ふだ": {
+    "reading": "",
+    "uz": "Pishgan oziq-ovqat chiqindilari",
+    "en": "Ripe food waste"
+  },
+  "熱する": {
+    "reading": "ねっ・する",
+    "uz": "qizdiring",
+    "en": "heat up"
+  },
+  "熱は会がいい": {
+    "reading": "",
+    "uz": "Issiqlik yaxshi",
+    "en": "The heat is good"
+  },
+  "熱感": {
+    "reading": "ねつかん",
+    "uz": "issiqlik hissi",
+    "en": "heat sensation"
+  },
+  "父が亡くなった": {
+    "reading": "",
+    "uz": "otam vafot etdi",
+    "en": "my father died"
+  },
+  "父を尊敬している": {
+    "reading": "",
+    "uz": "otamni hurmat qil",
+    "en": "respect my father"
+  },
+  "独臭し": {
+    "reading": "",
+    "uz": "Undan yolg'izlik hidi keladi",
+    "en": "It smells solitary"
+  },
+  "率直に言って": {
+    "reading": "",
+    "uz": "ochiqchasiga",
+    "en": "frankly"
+  },
+  "玉社": {
+    "reading": "",
+    "uz": "Tamasha",
+    "en": "Tamasha"
+  },
+  "環境を守るため": {
+    "reading": "",
+    "uz": "atrof-muhitni muhofaza qilish",
+    "en": "to protect the environment"
+  },
+  "環境問題": {
+    "reading": "",
+    "uz": "ekologik muammolar",
+    "en": "environmental issues"
+  },
+  "環業料": {
+    "reading": "",
+    "uz": "ekologik to'lovlar",
+    "en": "environmental fees"
+  },
+  "生きがい": {
+    "reading": "いきがい",
+    "uz": "hayot maqsadi",
+    "en": "purpose of life"
+  },
+  "生きがし": {
+    "reading": "",
+    "uz": "hayot maqsadi",
+    "en": "purpose of life"
+  },
+  "生じられた": {
+    "reading": "しょう・じる",
+    "uz": "paydo bo'ldi",
+    "en": "arose"
+  },
+  "生じる": {
+    "reading": "しょう・じる",
+    "uz": "paydo bo'ladi",
+    "en": "arise"
+  },
+  "生まれた順": {
+    "reading": "",
+    "uz": "tug'ilish tartibi",
+    "en": "birth order"
+  },
+  "生地な手": {
+    "reading": "",
+    "uz": "xamirli qo'llar",
+    "en": "doughy hands"
+  },
+  "生存的値": {
+    "reading": "",
+    "uz": "omon qolish qiymati",
+    "en": "survival value"
+  },
+  "用旧物銭換新物": {
+    "reading": "",
+    "uz": "eski narsalarni yangisini almashtirish",
+    "en": "old item exchange new item"
+  },
+  "田中さん": {
+    "reading": "",
+    "uz": "Janob Tanaka",
+    "en": "Mr. Tanaka"
+  },
+  "由引入": {
+    "reading": "",
+    "uz": "Chiqib ketish sababi",
+    "en": "Reason for withdrawal"
+  },
+  "申し訳": {
+    "reading": "もうしわけ",
+    "uz": "Kechirasiz",
+    "en": "I'm sorry"
+  },
+  "男外": {
+    "reading": "",
+    "uz": "erkak bo'lmagan",
+    "en": "non-male"
+  },
+  "画家": {
+    "reading": "がか",
+    "uz": "rassom",
+    "en": "painter"
+  },
+  "番目": {
+    "reading": "つがいめ",
+    "uz": "th",
+    "en": "th"
+  },
+  "疼得厉害": {
+    "reading": "",
+    "uz": "og'riq va zarar",
+    "en": "pain and harm"
+  },
+  "病気に何がある": {
+    "reading": "",
+    "uz": "kasallik nima",
+    "en": "what is the disease"
+  },
+  "病院": {
+    "reading": "びょういん",
+    "uz": "kasalxona",
+    "en": "hospital"
+  },
+  "痛みがなく": {
+    "reading": "",
+    "uz": "og'riqsiz",
+    "en": "pain free"
+  },
+  "癒気にける": {
+    "reading": "",
+    "uz": "shifobaxsh energiya bering",
+    "en": "give healing energy"
+  },
+  "発掘する": {
+    "reading": "はっくつ",
+    "uz": "qazish",
+    "en": "excavate"
+  },
+  "目標": {
+    "reading": "めじるし",
+    "uz": "maqsad",
+    "en": "goal"
+  },
+  "目標表によれば": {
+    "reading": "",
+    "uz": "Maqsadli jadvalga muvofiq",
+    "en": "According to the target table"
+  },
+  "目立っていた": {
+    "reading": "",
+    "uz": "Bu sezilarli edi",
+    "en": "It was noticeable"
+  },
+  "直せない": {
+    "reading": "なお・す",
+    "uz": "Buni tuzatib bo‘lmaydi",
+    "en": "Can't fix it"
+  },
+  "着急": {
+    "reading": "",
+    "uz": "Shoshilinch yetib keling",
+    "en": "Arrive urgently"
+  },
+  "確率": {
+    "reading": "かくりつ",
+    "uz": "ehtimollik",
+    "en": "probability"
+  },
+  "確立": {
+    "reading": "かくりつ",
+    "uz": "tashkil etish",
+    "en": "establishment"
+  },
+  "票います": {
+    "reading": "",
+    "uz": "Men ovoz beraman",
+    "en": "I'll vote"
+  },
+  "禁太する": {
+    "reading": "",
+    "uz": "Taqiqlangan",
+    "en": "Forbidden"
+  },
+  "私からする": {
+    "reading": "",
+    "uz": "mendan qiling",
+    "en": "do it from me"
+  },
+  "私たち": {
+    "reading": "わたしたち",
+    "uz": "biz",
+    "en": "us"
+  },
+  "私たちが買える": {
+    "reading": "",
+    "uz": "sotib olamiz",
+    "en": "we can buy"
+  },
+  "私なり": {
+    "reading": "",
+    "uz": "men",
+    "en": "me"
+  },
+  "私のことだ": {
+    "reading": "",
+    "uz": "Bu men haqimda",
+    "en": "It's about me"
+  },
+  "私らしく": {
+    "reading": "",
+    "uz": "Xuddi men kabi",
+    "en": "Just like me"
+  },
+  "程度": {
+    "reading": "ていど",
+    "uz": "daraja",
+    "en": "degree"
+  },
+  "立っていた": {
+    "reading": "",
+    "uz": "turgan edi",
+    "en": "was standing"
+  },
+  "立て替え": {
+    "reading": "たてかえ",
+    "uz": "O'zgartirish",
+    "en": "Replacement"
+  },
+  "立て替えて": {
+    "reading": "たてか・える",
+    "uz": "Uni almashtiring",
+    "en": "Replace it"
+  },
+  "競馬する": {
+    "reading": "",
+    "uz": "ot poygasi",
+    "en": "race a horse"
+  },
+  "答え": {
+    "reading": "いらえ",
+    "uz": "javob",
+    "en": "answer"
+  },
+  "範囲": {
+    "reading": "はんい",
+    "uz": "diapazon",
+    "en": "range"
+  },
+  "粟年数": {
+    "reading": "",
+    "uz": "tariq yoshi",
+    "en": "millet age"
+  },
+  "納合された": {
+    "reading": "",
+    "uz": "kelishilgan",
+    "en": "agreed"
+  },
+  "納得": {
+    "reading": "なっとく",
+    "uz": "Qoniqarli",
+    "en": "Satisfied"
+  },
+  "納得がいく": {
+    "reading": "",
+    "uz": "Mantiqiy",
+    "en": "Makes sense"
+  },
+  "素導": {
+    "reading": "",
+    "uz": "Sodo",
+    "en": "Sodo"
+  },
+  "素敷に受け入れ": {
+    "reading": "",
+    "uz": "Ikkilanmasdan qabul qilinadi",
+    "en": "Accepted without hesitation"
+  },
+  "素軟": {
+    "reading": "",
+    "uz": "Yumshoq",
+    "en": "Soft"
+  },
+  "紫的": {
+    "reading": "",
+    "uz": "binafsha",
+    "en": "purple"
+  },
+  "経不住誘惑": {
+    "reading": "",
+    "uz": "Ishsiz qolish vasvasasi",
+    "en": "Temptation to become unemployed"
+  },
+  "絡しいあい": {
+    "reading": "",
+    "uz": "o'zaro bog'langan",
+    "en": "intertwined"
+  },
+  "絵をひねる": {
+    "reading": "",
+    "uz": "rasmni aylantiring",
+    "en": "twist the picture"
+  },
+  "総選": {
+    "reading": "",
+    "uz": "umumiy saylov",
+    "en": "general election"
+  },
+  "編み物": {
+    "reading": "あみもの",
+    "uz": "trikotaj",
+    "en": "knitting"
+  },
+  "編む": {
+    "reading": "あ・む",
+    "uz": "trikotaj",
+    "en": "knit"
+  },
+  "編集": {
+    "reading": "へんしゅう",
+    "uz": "Tahrirlash",
+    "en": "Edit"
+  },
+  "練の漫画": {
+    "reading": "",
+    "uz": "Ren manga",
+    "en": "Ren's manga"
+  },
+  "義務": {
+    "reading": "ぎむ",
+    "uz": "burch",
+    "en": "duty"
+  },
+  "義理": {
+    "reading": "ぎり",
+    "uz": "majburiyat",
+    "en": "obligation"
+  },
+  "聞いたとこ": {
+    "reading": "",
+    "uz": "Men eshitgan narsam",
+    "en": "What I heard"
+  },
+  "肌": {
+    "reading": "き",
+    "uz": "teri",
+    "en": "skin"
+  },
+  "肖然": {
+    "reading": "",
+    "uz": "oddiy",
+    "en": "simple"
+  },
+  "胃に管を通す": {
+    "reading": "",
+    "uz": "oshqozonga naycha o'tkazing",
+    "en": "pass a tube into the stomach"
+  },
+  "能理解": {
+    "reading": "",
+    "uz": "Tushunish yo'q",
+    "en": "Noh understanding"
+  },
+  "腹題": {
+    "reading": "",
+    "uz": "uy vazifasi",
+    "en": "homework"
+  },
+  "膩頃": {
+    "reading": "",
+    "uz": "Vaqt atrofida",
+    "en": "Around the time"
+  },
+  "自の累身形": {
+    "reading": "",
+    "uz": "o'z tana shakli",
+    "en": "own body shape"
+  },
+  "自敷公とう": {
+    "reading": "",
+    "uz": "Xususiy turar joy",
+    "en": "Private residence"
+  },
+  "自然": {
+    "reading": "しぜん",
+    "uz": "tabiat",
+    "en": "nature"
+  },
+  "自負": {
+    "reading": "じふ",
+    "uz": "g'urur",
+    "en": "pride"
+  },
+  "致力": {
+    "reading": "",
+    "uz": "kuch",
+    "en": "power"
+  },
+  "舞う": {
+    "reading": "ま・う",
+    "uz": "raqsga tushish",
+    "en": "dance"
+  },
+  "舞台でるなん": {
+    "reading": "",
+    "uz": "Men sahnadaman",
+    "en": "I'm on stage"
+  },
+  "舞台で踊るなんて": {
+    "reading": "",
+    "uz": "Sahnada raqsga tushish uchun",
+    "en": "To dance on stage"
+  },
+  "舞台衣装を着る": {
+    "reading": "",
+    "uz": "sahna liboslarini kiyish",
+    "en": "wear stage costumes"
+  },
+  "舞食": {
+    "reading": "",
+    "uz": "Mayshoku",
+    "en": "Maishoku"
+  },
+  "良い": {
+    "reading": "い・い",
+    "uz": "yaxshi",
+    "en": "good"
+  },
+  "良いところ": {
+    "reading": "",
+    "uz": "yaxshi nuqtalar",
+    "en": "good points"
+  },
+  "良き": {
+    "reading": "よき",
+    "uz": "yaxshi",
+    "en": "good"
+  },
+  "良好です": {
+    "reading": "りょうこう",
+    "uz": "Yaxshi",
+    "en": "Good"
+  },
+  "良質": {
+    "reading": "りょうしつ",
+    "uz": "yaxshi sifat",
+    "en": "good quality"
+  },
+  "色々考えた結果": {
+    "reading": "",
+    "uz": "Turli fikrlar natijasida",
+    "en": "As a result of various thoughts"
+  },
+  "芝説的活": {
+    "reading": "",
+    "uz": "Shiba nazariyasi hayot",
+    "en": "Shiba theory life"
+  },
+  "花送": {
+    "reading": "",
+    "uz": "Gullarni yetkazib berish",
+    "en": "Flower delivery"
+  },
+  "若いころ": {
+    "reading": "",
+    "uz": "yoshligimda",
+    "en": "when I was young"
+  },
+  "荒らす": {
+    "reading": "あら・す",
+    "uz": "vandal qilish",
+    "en": "vandalize"
+  },
+  "荒れた肌がすべす": {
+    "reading": "",
+    "uz": "Qo'pol terini tekislaydi",
+    "en": "Smoothes rough skin"
+  },
+  "荒れた駅がすべす": {
+    "reading": "",
+    "uz": "Dag'al stantsiya silliq",
+    "en": "The rough station is smooth"
+  },
+  "荒れる": {
+    "reading": "あ・れる",
+    "uz": "qo'pol bo'lish",
+    "en": "become rough"
+  },
+  "落ちゃん": {
+    "reading": "",
+    "uz": "Fall-chan",
+    "en": "Fall-chan"
+  },
+  "蒸い": {
+    "reading": "",
+    "uz": "Bug'li",
+    "en": "Steamy"
+  },
+  "蒸し": {
+    "reading": "むし",
+    "uz": "bug'langan",
+    "en": "steamed"
+  },
+  "蒸らかい": {
+    "reading": "",
+    "uz": "Bug'li",
+    "en": "Steamy"
+  },
+  "薬も効かない": {
+    "reading": "",
+    "uz": "Dori ham ishlamaydi",
+    "en": "Medicine doesn't work either"
+  },
+  "薬を飲んだ": {
+    "reading": "",
+    "uz": "dori oldi",
+    "en": "took medicine"
+  },
+  "薬張する": {
+    "reading": "",
+    "uz": "dorivor",
+    "en": "medicinal"
+  },
+  "行かずに済ん": {
+    "reading": "",
+    "uz": "Men borishim shart emas edi",
+    "en": "I didn't have to go"
+  },
+  "行く": {
+    "reading": "い・く",
+    "uz": "ket",
+    "en": "go"
+  },
+  "行くぐらい": {
+    "reading": "",
+    "uz": "Ketish arafasida",
+    "en": "About to go"
+  },
+  "行けない": {
+    "reading": "い・く",
+    "uz": "Men bora olmayman",
+    "en": "I can't go"
+  },
+  "行っ": {
+    "reading": "おこな・う",
+    "uz": "ket",
+    "en": "go"
+  },
+  "行ったかい": {
+    "reading": "",
+    "uz": "Bordingmi?",
+    "en": "Did you go?"
+  },
+  "行って": {
+    "reading": "おこな・う",
+    "uz": "ket",
+    "en": "go"
+  },
+  "表のすぐそ": {
+    "reading": "",
+    "uz": "stol yonida",
+    "en": "right next to the table"
+  },
+  "表参": {
+    "reading": "",
+    "uz": "jadvalga havola",
+    "en": "table reference"
+  },
+  "袋愕": {
+    "reading": "",
+    "uz": "Dahshatli",
+    "en": "Shocking"
+  },
+  "袋素が起こった時": {
+    "reading": "",
+    "uz": "Xalta materiali paydo bo'lganda",
+    "en": "When bag material occurred"
+  },
+  "製像": {
+    "reading": "",
+    "uz": "haykal yasash",
+    "en": "statue making"
+  },
+  "製品を作りたい": {
+    "reading": "",
+    "uz": "Men mahsulot yaratmoqchiman",
+    "en": "I want to make a product"
+  },
+  "要する": {
+    "reading": "よう・する",
+    "uz": "Bu oladi",
+    "en": "It takes"
+  },
+  "見たなり": {
+    "reading": "",
+    "uz": "Men ko'rgan zahoti",
+    "en": "As soon as I saw it"
+  },
+  "見る": {
+    "reading": "みる",
+    "uz": "qarang",
+    "en": "see"
+  },
+  "見るなり": {
+    "reading": "",
+    "uz": "Men buni ko'rishim bilanoq",
+    "en": "As soon as I see it"
+  },
+  "見舞い": {
+    "reading": "みまい",
+    "uz": "Tashrif",
+    "en": "Visitation"
+  },
+  "見舞う": {
+    "reading": "みま・う",
+    "uz": "tashrif buyuring",
+    "en": "visit"
+  },
+  "言える": {
+    "reading": "い・える",
+    "uz": "Aytishim mumkin",
+    "en": "I can say it"
+  },
+  "言えるが": {
+    "reading": "",
+    "uz": "Men shuni aytishim mumkin",
+    "en": "I can say that"
+  },
+  "言われて": {
+    "reading": "い・う",
+    "uz": "aytilmoqda",
+    "en": "being told"
+  },
+  "言われる": {
+    "reading": "い・う",
+    "uz": "aytilsin",
+    "en": "be told"
+  },
+  "言度恥をかけば": {
+    "reading": "",
+    "uz": "Agar so'zlaringizdan uyalsangiz",
+    "en": "If you are ashamed of your words"
+  },
+  "計画": {
+    "reading": "けいかく",
+    "uz": "reja",
+    "en": "plan"
+  },
+  "訳ありませ": {
+    "reading": "",
+    "uz": "Hech qanday sabab yo'q",
+    "en": "There's no reason"
+  },
+  "診惑に負ける": {
+    "reading": "",
+    "uz": "tashxisga berilish",
+    "en": "succumb to diagnosis"
+  },
+  "試験": {
+    "reading": "しけん",
+    "uz": "imtihon",
+    "en": "exam"
+  },
+  "詰まってい": {
+    "reading": "",
+    "uz": "tiqilib qolgan",
+    "en": "clogged"
+  },
+  "話がつか": {
+    "reading": "",
+    "uz": "Men aytadigan gapim bor",
+    "en": "I have something to say"
+  },
+  "話がつく": {
+    "reading": "はなし",
+    "uz": "Men gaplasha olaman",
+    "en": "I can talk"
+  },
+  "話がわから": {
+    "reading": "",
+    "uz": "Men hikoyani tushunmayapman",
+    "en": "I don't understand the story"
+  },
+  "話がわかる": {
+    "reading": "話が分か・る",
+    "uz": "Men hikoyani tushunaman",
+    "en": "I understand the story"
+  },
+  "話が事素だとすれ": {
+    "reading": "",
+    "uz": "Agar voqea voqea bo'lsa",
+    "en": "If the story is the matter"
+  },
+  "話になら": {
+    "reading": "",
+    "uz": "Bu haqda gapirish",
+    "en": "Talking about it"
+  },
+  "話にのら": {
+    "reading": "",
+    "uz": "Hikoyaga kiring",
+    "en": "Get into the story"
+  },
+  "話に乗る": {
+    "reading": "はなし",
+    "uz": "suhbatga kirish",
+    "en": "get into the conversation"
+  },
+  "課程": {
+    "reading": "かてい",
+    "uz": "kurs",
+    "en": "course"
+  },
+  "講義": {
+    "reading": "こうぎ",
+    "uz": "ma'ruza",
+    "en": "lecture"
+  },
+  "講議": {
+    "reading": "",
+    "uz": "ma'ruza",
+    "en": "lecture"
+  },
+  "貝標が高ければこ": {
+    "reading": "",
+    "uz": "Agar qobiq belgisi baland bo'lsa, unda",
+    "en": "If the shell mark is high, then"
+  },
+  "負けてしま": {
+    "reading": "",
+    "uz": "yutqazdim",
+    "en": "I lost"
+  },
+  "財布を忘れた": {
+    "reading": "",
+    "uz": "Men hamyonimni unutibman",
+    "en": "I forgot my wallet"
+  },
+  "財産の相続で兄弟": {
+    "reading": "",
+    "uz": "Mulkni meros qilib olgan birodarlar",
+    "en": "Siblings inheriting property"
+  },
+  "買い": {
+    "reading": "かい",
+    "uz": "Sotib olish",
+    "en": "Buy"
+  },
+  "買いに行った": {
+    "reading": "",
+    "uz": "xarid qildi",
+    "en": "went shopping"
+  },
+  "買い人のやるこ": {
+    "reading": "",
+    "uz": "Xaridorning harakati",
+    "en": "Buyer's action"
+  },
+  "買い換えたほう": {
+    "reading": "",
+    "uz": "Yangisini sotib olish yaxshiroqdir",
+    "en": "Better buy a new one"
+  },
+  "買ったら": {
+    "reading": "か・う",
+    "uz": "Agar siz sotib olsangiz",
+    "en": "If you buy it"
+  },
+  "買ってきて": {
+    "reading": "",
+    "uz": "sotib oling",
+    "en": "buy it"
+  },
+  "貸しみ": {
+    "reading": "",
+    "uz": "qarz",
+    "en": "loan"
+  },
+  "貸む": {
+    "reading": "",
+    "uz": "qarz berish",
+    "en": "lend"
+  },
+  "貸らしい": {
+    "reading": "",
+    "uz": "Ijaraga olinganga o'xshaydi",
+    "en": "It seems to be rented"
+  },
+  "資料は悪港せ": {
+    "reading": "",
+    "uz": "Materiallar yomon portlardir.",
+    "en": "The materials are bad ports."
+  },
+  "資料は郵送": {
+    "reading": "",
+    "uz": "Materiallar pochta orqali yuboriladi",
+    "en": "Materials will be sent by mail"
+  },
+  "質度": {
+    "reading": "",
+    "uz": "sifat",
+    "en": "quality"
+  },
+  "贈品": {
+    "reading": "",
+    "uz": "sovg'a",
+    "en": "gift"
+  },
+  "赤ん坊": {
+    "reading": "あかんぼう",
+    "uz": "chaqaloq",
+    "en": "baby"
+  },
+  "赤ん等": {
+    "reading": "",
+    "uz": "Chaqaloqlar va boshqalar.",
+    "en": "Babies etc."
+  },
+  "赤ん落": {
+    "reading": "",
+    "uz": "chaqaloq tushishi",
+    "en": "baby drop"
+  },
+  "足または姉": {
+    "reading": "",
+    "uz": "oyoqlari yoki katta opasi",
+    "en": "legs or older sister"
+  },
+  "足球排成一排": {
+    "reading": "",
+    "uz": "Eksklyuziv futbol",
+    "en": "Football exclusive"
+  },
+  "転居する": {
+    "reading": "てんきょ",
+    "uz": "harakat",
+    "en": "move"
+  },
+  "辛口": {
+    "reading": "からくち",
+    "uz": "Quruq",
+    "en": "Dry"
+  },
+  "辞めたい": {
+    "reading": "や・める",
+    "uz": "Men tark etmoqchiman",
+    "en": "I want to quit"
+  },
+  "返還しません": {
+    "reading": "",
+    "uz": "qaytarilmaydi",
+    "en": "will not be returned"
+  },
+  "途中から雨": {
+    "reading": "",
+    "uz": "O‘rtada yomg‘ir yog‘a boshladi",
+    "en": "It started raining in the middle"
+  },
+  "連絡してくだ": {
+    "reading": "",
+    "uz": "Iltimos, men bilan bog'laning",
+    "en": "Please contact me"
+  },
+  "週間家": {
+    "reading": "",
+    "uz": "haftalik uy",
+    "en": "weekly house"
+  },
+  "遊く": {
+    "reading": "",
+    "uz": "o'ynash",
+    "en": "play"
+  },
+  "遊んでいる": {
+    "reading": "あす・ぶ",
+    "uz": "o'ynamoqda",
+    "en": "playing"
+  },
+  "過ごした": {
+    "reading": "すご・す",
+    "uz": "sarflangan",
+    "en": "spent"
+  },
+  "過程": {
+    "reading": "かてい",
+    "uz": "jarayon",
+    "en": "process"
+  },
+  "過程を表したもの": {
+    "reading": "",
+    "uz": "jarayonni ifodalovchi narsa",
+    "en": "something that represents a process"
+  },
+  "道番にくにい": {
+    "reading": "",
+    "uz": "Doban Nikuniy",
+    "en": "Doban Nikunii"
+  },
+  "達成感も増す": {
+    "reading": "",
+    "uz": "Muvaffaqiyat tuyg'usining kuchayishi",
+    "en": "Increased sense of accomplishment"
+  },
+  "違い": {
+    "reading": "たがい",
+    "uz": "farq",
+    "en": "difference"
+  },
+  "選まがずら": {
+    "reading": "",
+    "uz": "tanlash",
+    "en": "choice"
+  },
+  "選手": {
+    "reading": "せんしゅ",
+    "uz": "futbolchi",
+    "en": "player"
+  },
+  "部品": {
+    "reading": "ぶひん",
+    "uz": "qismlar",
+    "en": "parts"
+  },
+  "配得者": {
+    "reading": "",
+    "uz": "distribyutor",
+    "en": "distributor"
+  },
+  "酒ができた": {
+    "reading": "",
+    "uz": "Spirtli ichimliklar tayyor",
+    "en": "Alcohol is ready"
+  },
+  "酒をしなけ": {
+    "reading": "",
+    "uz": "spirtli ichimlik ichmang",
+    "en": "don't drink alcohol"
+  },
+  "醤富": {
+    "reading": "",
+    "uz": "Shotomi",
+    "en": "Shotomi"
+  },
+  "醤魔する": {
+    "reading": "",
+    "uz": "soyaga",
+    "en": "to soybean"
+  },
+  "金": {
+    "reading": "かね",
+    "uz": "oltin",
+    "en": "gold"
+  },
+  "金の気持ちに関し": {
+    "reading": "",
+    "uz": "Pulga nisbatan his-tuyg'ular haqida",
+    "en": "Regarding feelings about money"
+  },
+  "釜が亡くなった": {
+    "reading": "",
+    "uz": "qozon o'ldi",
+    "en": "the pot died"
+  },
+  "鈍い": {
+    "reading": "おそ・い",
+    "uz": "zerikarli",
+    "en": "dull"
+  },
+  "鈍感": {
+    "reading": "どんかん",
+    "uz": "befarqlik",
+    "en": "insensitivity"
+  },
+  "鈍感だ": {
+    "reading": "どんかん",
+    "uz": "Bu befarq",
+    "en": "It's insensitive"
+  },
+  "銅感": {
+    "reading": "",
+    "uz": "Mis hissi",
+    "en": "Copper feeling"
+  },
+  "鋭い": {
+    "reading": "すすど・い",
+    "uz": "keskin",
+    "en": "sharp"
+  },
+  "鋭するど": {
+    "reading": "",
+    "uz": "keskin o'tkir",
+    "en": "sharp sharp"
+  },
+  "鋭感": {
+    "reading": "えいかん",
+    "uz": "keskin tuyg'u",
+    "en": "keen sense"
+  },
+  "錯位": {
+    "reading": "",
+    "uz": "chalkashlik",
+    "en": "confusion"
+  },
+  "長い": {
+    "reading": "なが・い",
+    "uz": "uzoq",
+    "en": "long"
+  },
+  "長編分短編": {
+    "reading": "",
+    "uz": "uzun uzun qisqa hikoya",
+    "en": "long length short story"
+  },
+  "間に合いかねる": {
+    "reading": "",
+    "uz": "Men buni vaqtida uddalay olmayman",
+    "en": "I can't make it in time"
+  },
+  "間に合いがたい": {
+    "reading": "",
+    "uz": "Buni o'z vaqtida qilish qiyin",
+    "en": "It's hard to make it in time"
+  },
+  "間に合いそう": {
+    "reading": "まにあ・う",
+    "uz": "O'z vaqtida bo'ladiganga o'xshaydi",
+    "en": "Looks like it'll be on time"
+  },
+  "間に合うわけ": {
+    "reading": "",
+    "uz": "Men buni vaqtida bajaraman",
+    "en": "I'll make it in time"
+  },
+  "関し": {
+    "reading": "かん・する",
+    "uz": "Sekisei",
+    "en": "Sekisei"
+  },
+  "降ってきて": {
+    "reading": "",
+    "uz": "Pastga tush",
+    "en": "Come down"
+  },
+  "集す": {
+    "reading": "",
+    "uz": "yig'ish",
+    "en": "collect"
+  },
+  "雨の降るかくり": {
+    "reading": "",
+    "uz": "Yomg'ir yog'moqda",
+    "en": "The rain is falling"
+  },
+  "雨季の場合は出": {
+    "reading": "",
+    "uz": "Yomg'irli mavsumda",
+    "en": "In the rainy season"
+  },
+  "雲敷する": {
+    "reading": "",
+    "uz": "bulutlarni qoplaydi",
+    "en": "cover the clouds"
+  },
+  "電事雲": {
+    "reading": "",
+    "uz": "elektr buluti",
+    "en": "electric cloud"
+  },
+  "電子": {
+    "reading": "でんし",
+    "uz": "elektron",
+    "en": "electronic"
+  },
+  "電話": {
+    "reading": "でんわ",
+    "uz": "telefon",
+    "en": "telephone"
+  },
+  "霧多": {
+    "reading": "",
+    "uz": "Kirita",
+    "en": "Kirita"
+  },
+  "青島": {
+    "reading": "あおしま",
+    "uz": "Qingdao",
+    "en": "Qingdao"
+  },
+  "順序": {
+    "reading": "じゅんじょ",
+    "uz": "buyurtma",
+    "en": "order"
+  },
+  "順番": {
+    "reading": "じゅんばん",
+    "uz": "buyurtma",
+    "en": "order"
+  },
+  "頭が痛かった": {
+    "reading": "",
+    "uz": "Boshim og'riyapti",
+    "en": "My head hurt"
+  },
+  "頭は当分やみそう": {
+    "reading": "",
+    "uz": "Boshim bir muncha vaqt ketayotganga o'xshaydi.",
+    "en": "My head seems to be going away for a while."
+  },
+  "頭り": {
+    "reading": "",
+    "uz": "bosh og'rig'i",
+    "en": "headache"
+  },
+  "頭る": {
+    "reading": "",
+    "uz": "bosh ko'taring",
+    "en": "head up"
+  },
+  "頭痛がひどい": {
+    "reading": "",
+    "uz": "Menda dahshatli bosh og'rig'i bor",
+    "en": "I have a terrible headache"
+  },
+  "頭脳を持っている": {
+    "reading": "",
+    "uz": "miyaga ega",
+    "en": "have a brain"
+  },
+  "頭贈": {
+    "reading": "",
+    "uz": "bosh sovg'asi",
+    "en": "gift of head"
+  },
+  "食に対して": {
+    "reading": "",
+    "uz": "oziq-ovqat uchun",
+    "en": "for food"
+  },
+  "食べっぷり": {
+    "reading": "",
+    "uz": "ko'p ovqat",
+    "en": "plenty to eat"
+  },
+  "食をけなし": {
+    "reading": "",
+    "uz": "Oziq-ovqatlarni yomonlash",
+    "en": "Disparage food"
+  },
+  "食事するなら": {
+    "reading": "",
+    "uz": "Agar siz ovqatlanmoqchi bo'lsangiz",
+    "en": "If you want to eat"
+  },
+  "食要": {
+    "reading": "",
+    "uz": "Ovqatlanish talablari",
+    "en": "Meal requirements"
+  },
+  "養護師": {
+    "reading": "",
+    "uz": "Hamshira",
+    "en": "Nurse"
+  },
+  "首付": {
+    "reading": "",
+    "uz": "Bo'yin bilan",
+    "en": "With neck"
+  },
+  "駅着": {
+    "reading": "",
+    "uz": "Stansiyaga yetib kelish",
+    "en": "Arrive at station"
+  },
+  "高い": {
+    "reading": "たか・い",
+    "uz": "qimmat",
+    "en": "expensive"
+  },
+  "高いお金をかけて": {
+    "reading": "",
+    "uz": "ko'p pul sarflash",
+    "en": "spend a lot of money"
+  },
+  "高婆代がかなり": {
+    "reading": "",
+    "uz": "Takabaday juda katta",
+    "en": "Takabadai is quite large"
+  },
+  "髪と寒くなる": {
+    "reading": "",
+    "uz": "sochlar va sovuq",
+    "en": "hair and getting cold"
+  },
+  "鬱営": {
+    "reading": "",
+    "uz": "depressiya",
+    "en": "depression"
+  },
+  "魚た": {
+    "reading": "",
+    "uz": "Baliq",
+    "en": "Fish"
+  },
+  "魚といい形といい": {
+    "reading": "",
+    "uz": "Baliq va yaxshi shakl va yaxshi",
+    "en": "Fish and good shape and good"
+  },
+  "鳴子": {
+    "reading": "なるこ",
+    "uz": "Naruko",
+    "en": "Naruko"
+  },
+  "黒い": {
+    "reading": "くろ・い",
+    "uz": "qora",
+    "en": "black"
+  },
+  "黒する": {
+    "reading": "",
+    "uz": "qora rangga aylanadi",
+    "en": "turn black"
+  },
+  "黒で行くとすれ": {
+    "reading": "",
+    "uz": "Men qora rangda bo'lardim",
+    "en": "I'd go with black"
+  },
+  "黒熱な手動き": {
+    "reading": "",
+    "uz": "qorong'u qo'l harakatlari",
+    "en": "dark hand movements"
+  },
+  "黒金": {
+    "reading": "",
+    "uz": "qora oltin",
+    "en": "black gold"
+  }
+}
