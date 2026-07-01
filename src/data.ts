@@ -679,60 +679,12 @@ export const flashcards: Card[] = [
 export const deckGroups: DeckGroup[] = [
   {
     id: "Set-1",
-    title: "Vocabulary 1-100",
+    title: "Vocabulary 1-673",
     level: "JLPT N3/N2",
     startIndex: 1,
-    endIndex: 100,
-    cardCount: 100
-  },
-  {
-    id: "Set-2",
-    title: "Vocabulary 101-200",
-    level: "JLPT N3/N2",
-    startIndex: 101,
-    endIndex: 200,
-    cardCount: 100
-  },
-  {
-    id: "Set-3",
-    title: "Vocabulary 201-300",
-    level: "JLPT N3/N2",
-    startIndex: 201,
-    endIndex: 300,
-    cardCount: 100
-  },
-  {
-    id: "Set-4",
-    title: "Vocabulary 301-400",
-    level: "JLPT N3/N2",
-    startIndex: 301,
-    endIndex: 400,
-    cardCount: 100
-  },
-  {
-    id: "Set-5",
-    title: "Vocabulary 401-500",
-    level: "JLPT N3/N2",
-    startIndex: 401,
-    endIndex: 500,
-    cardCount: 100
-  },
-  {
-    id: "Set-6",
-    title: "Vocabulary 501-600",
-    level: "JLPT N3/N2",
-    startIndex: 501,
-    endIndex: 600,
-    cardCount: 100
-  },
-  {
-    id: "Set-7",
-    title: "Vocabulary 601-673",
-    level: "JLPT N3/N2",
-    startIndex: 601,
     endIndex: 673,
-    cardCount: 73
-  },
+    cardCount: 673
+  }
 ];
 
 export function getCardsForGroup(groupId: string): Card[] {
