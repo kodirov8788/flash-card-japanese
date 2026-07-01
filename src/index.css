@@ -101,7 +101,19 @@ body {
 
 @media (max-width: 900px) {
   .main-grid {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .flashcard-area {
+    order: 1;
+    width: 100%;
+  }
+  
+  .sidebar {
+    order: 2;
+    width: 100%;
   }
 }
 
