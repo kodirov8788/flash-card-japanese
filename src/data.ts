@@ -1,839 +1,686 @@
 import type { Card, DeckGroup } from './types';
 
-const rawData = `
-1. **Front:** 判断
-**Back:** はんだん (handan) — qaror chiqarish / judgment
-2. **Front:** 影響
-**Back:** えいきょう (eikyō) — ta'sir / influence
-3. **Front:** 状況
-**Back:** じょうきょう (jōkyō) — vaziyat, holat / situation
-4. **Front:** 解決
-**Back:** かいけつ (kaiketsu) — hal qilish / resolution
-5. **Front:** 確認
-**Back:** かくにん (kakunin) — tasdiqlash, tekshirish / confirmation
-6. **Front:** 経験
-**Back:** けいけん (keiken) — tajriba / experience
-7. **Front:** 成長
-**Back:** せいちょう (seichō) — o'sish, rivojlanish / growth
-8. **Front:** 努力
-**Back:** どりょく (doryoku) — harakat, tirishish / effort
-9. **Front:** 競争
-**Back:** きょうそう (kyōso) — raqobat / competition
-10. **Front:** 目標
-**Back:** もくひょう (mokuhyō) — maqsad / goal/target
-11. **Front:** 重要
-**Back:** じゅうよう (jūyō) — muhim, zaruriy / important
-12. **Front:** 支援
-**Back:** しえん (shien) — yordam, qo'llab-quvvatlash / support
-13. **Front:** 決定
-**Back:** けってい (kettei) — qaror, hal / decision
-14. **Front:** 改善
-**Back:** かいぜん (kaizen) — yaxshilash, tuzatish / improvement
-15. **Front:** 段階
-**Back:** だんかい (dankai) — bosqich, dar'aja / stage
-16. **Front:** 活動
-**Back:** かつどう (katsudō) — faoliyat, harakat / activity
-17. **Front:** 基本
-**Back:** きほん (kihon) — asos, negiz / basics
-18. **Front:** 方法
-**Back:** ほうほう (hōhō) — usul, yo'l / method
-19. **Front:** 関係
-**Back:** かんけい (kankei) — bog'lanish, munosabat / relationship
-20. **Front:** 現実
-**Back:** げんじつ (genjitsu) — haqiqat, voqelik / reality
-21. **Front:** 利益
-**Back:** りえき (rieki) — foyda, manfaat / profit
-22. **Front:** 危険
-**Back:** きけん (kiken) — xavf, xطرnaк / danger
-23. **Front:** 継続
-**Back:** けいぞく (keizoku) — davom etish / continuation
-24. **Front:** 調査
-**Back:** ちょうさ (chōsa) — tadqiqot, tekshirish / investigation
-25. **Front:** 資料
-**Back:** しりょう (shiryō) — material, hujjat / material
-26. **Front:** 担当
-**Back:** たんとう (tantō) — mas'ul, javobgar / in charge
-27. **Front:** 予算
-**Back:** よさん (yosan) — byudjet, taqqoslash / budget
-28. **Front:** 管理
-**Back:** かんり (kanri) — boshqarish, nazorat / management
-29. **Front:** 要求
-**Back:** ようきゅう (yōkyゅう) — talab, arzu / demand
-30. **Front:** 対象
-**Back:** たいしょう (taishō) — maqsam, ob'ekt / target
-31. **Front:** 組織
-**Back:** そしき (soshiki) — tashkilot, tuzilma / organization
-32. **Front:** 制度
-**Back:** せいど (seido) — sistema, tartib / system
-33. **Front:** 原因
-**Back:** げんいん (gen'in) — sabab, manba / cause
-34. **Front:** 結果
-**Back:** けっか (kekka) — natija, natijaviy / result
-35. **Front:** 問題
-**Back:** もんだい (mondai) — muammo, savollar / problem
-36. **Front:** 対応
-**Back:** たいおう (taiō) — javob, munosabat / response
-37. **Front:** 報告
-**Back:** ほうこく (hōkoku) — xabar, ma'lumot / report
-38. **Front:** 適切
-**Back:** てきせつ (tekisetsu) — mos, to'g'ri / appropriate
-39. **Front:** 従事
-**Back:** じゅうじ (jūji) — ishlash, mashg'ulot / engage
-40. **Front:** 効果
-**Back:** こうか (kōka) — ta'sir, natija / effect
-41. **Front:** 選択
-**Back:** せんたく (sentaku) — tanlash, tanlov / selection
-42. **Front:** 能力
-**Back:** のうりょく (nōryoku) — qobiliyat, salohiyat / ability
-43. **Front:** 機会
-**Back:** きかい (kikai) — imkoniyat, fursat / opportunity
-44. **Front:** 技術
-**Back:** ぎじゅつ (gijutsu) — texnika, usul / technique
-45. **Front:** 知識
-**Back:** ちしき (chishiki) — bilim, ma'lumot / knowledge
-46. **Front:** 最初
-**Back:** さいしょ (saisho) — boshlanish, avvali / beginning
-47. **Front:** 最後
-**Back:** さいご (saigo) — oxiri, so'ngi / end
-48. **Front:** 変化
-**Back:** へんか (henka) — o'zgarish, tathir / change
-49. **Front:** 進行
-**Back:** しんこう (shinkō) — davom, progres / progress
-50. **Front:** 達成
-**Back:** たっせい (tassei) — erisish, amalga oshirish / achievement
-51. **Front:** 関心
-**Back:** かんしん (kanshin) — qiziqish, e'tibor / interest
-52. **Front:** 承認
-**Back:** しょうにん (shōnin) — tasdiq, ruxsat / approval
-53. **Front:** 提案
-**Back:** ていあん (ていあん) — taklif, shuvorish / proposal
-54. **Front:** 実施
-**Back:** じっし (jisshi) — amalga oshirish, bajarilish / implementation
-55. **Front:** 評価
-**Back:** ひょうか (hyōka) — baholash, qiymat / evaluation
-56. **Front:** 構成
-**Back:** こうせい (kōsei) — tuzilma, o'rganish / composition
-57. **Front:** 投資
-**Back:** とうし (tōshi) — sarmoya qo'yish / investment
-58. **Front:** 収入
-**Back:** しゅうにゅう (shūnyū) — daromad, kelim / income
-59. **Front:** 費用
-**Back:** ひよう (hiyō) — xarajat, pul / expense
-60. **Front:** 環境
-**Back:** かんきょう (kankyō) — muhit, atrof / environment
-61. **Front:** 製品
-**Back:** せいひん (seihin) — mahsulot, toza'la / product
-62. **Front:** 品質
-**Back:** ひんしつ (hinshitsu) — sifat, xususiyat / quality
-63. **Front:** 販売
-**Back:** はんばい (hanbai) — sotish, tijorat / sales
-64. **Front:** 顧客
-**Back:** こきゃく (kokyaku) — mijoz, xaridor / customer
-65. **Front:** 市場
-**Back:** しじょう (shijō) — bozor, savdo / market
-66. **Front:** 需要
-**Back:** じゅよう (juyō) — talab, talabchanlik / demand
-67. **Front:** 供給
-**Back:** きょうきゅう (kyōkyū) — ta'minot, berish / supply
-68. **Front:** 価格
-**Back:** かかく (kakaku) — narx, qiymat / price
-69. **Front:** 取引
-**Back:** とりひき (torihiki) — savdo, muomala / transaction
-70. **Front:** 契約
-**Back:** けいやく (keiyaku) — shartnoma, shartlov / contract
-71. **Front:** 協力
-**Back:** きょうりょく (kyōryoku) — hamkorlik, birgalikda / cooperation
-72. **Front:** 調整
-**Back:** ちょうせい (chōsei) — moslashtirish, tartibga / adjustment
-73. **Front:** 確保
-**Back:** かくほ (kakuho) — ta'minlash, saqlab qolish / securing
-74. **Front:** 維持
-**Back:** いじ (iji) — saqlash, davom ettirlish / maintenance
-75. **Front:** 強化
-**Back:** きょうか (kyōka) — mustahkamlash, kuchayish / strengthening
-76. **Front:** 削減
-**Back:** さくげん (sakugen) — kamaytirish, qisqartirish / reduction
-77. **Front:** 展開
-**Back:** てんかい (tenkai) — yoyilma, tasvir / deployment
-78. **Front:** 統合
-**Back:** とうごう (tōgō) — birlashish, uyg'unlash / integration
-79. **Front:** 分析
-**Back:** ぶんせき (bunseki) — tahlil, o'rganish / analysis
-80. **Front:** 戦略
-**Back:** せんりゃく (senryaku) — strategiya, reja / strategy
-81. **Front:** 課題
-**Back:** かだい (kadai) — masala, topshiriq / issue
-82. **Front:** 解釈
-**Back:** かいしゃく (kaishaku) — talqin, tushuntirish / interpretation
-83. **Front:** 仮説
-**Back:** かせつ (kasetsu) — gipoteza, taxmin / hypothesis
-84. **Front:** 検証
-**Back:** けんしょう (kenshō) — tekshirish, isbotlash / verification
-85. **Front:** 根拠
-**Back:** こんきょ (konkyo) — asoslanish, dalil / basis
-86. **Front:** 論証
-**Back:** ろんしょう (ronshō) — dalildan berish / argumentation
-87. **Front:** 矛盾
-**Back:** むじゅん (mujun) — ziddiyat, qarama-qarshi / contradiction
-88. **Front:** 一貫
-**Back:** いっかん (ikkan) — izchil, birga / consistency
-89. **Front:** 整合
-**Back:** せいごう (seigō) — uyg'unlash, moslik / consistency
-90. **Front:** 妥当
-**Back:** だとう (datō) — muvozanat, to'g'ri / reasonableness
-91. **Front:** 優先
-**Back:** ゆうせん (yūsen) — ustunlik, birinchi / priority
-92. **Front:** 厳密
-**Back:** げんみつ (genmitsu) — qat'iy, aniq / strict
-93. **Front:** 柔軟
-**Back:** じゅうなん (jūnan) — moslashuvchan, yumshoq / flexible
-94. **Front:** 効率
-**Back:** こうりつ (kōritsu) — samaradorlik, unumlilik / efficiency
-95. **Front:** 実績
-**Back:** じっせき (jisseki) — natija, oqibat / performance
-96. **Front:** 信頼
-**Back:** しんらい (shinrai) — ishonch, etibor / trust
-97. **Front:** 誠実
-**Back:** せいじつ (seijitsu) — halollik, sadoqat / sincerity
-98. **Front:** 責任
-**Back:** せきにん (sekinin) — mas'uliyat, javobgarlik / responsibility
-99. **Front:** 義務
-**Back:** ぎむ (gimu) — majburiyat, vazifa / obligation
-100. **Front:** 権利
-**Back:** けんり (kenri) — huquq, ruxsat / right
-101. **Front:** 利害
-**Back:** りがい (rigai) — manfaat va zarar / interests
-102. **Front:** 利益者
-**Back:** りえきしゃ (riekisha) — foyda ko'ruvchi / beneficiary
-103. **Front:** 被害
-**Back:** ひがい (higai) — zarar, shikost / damage
-104. **Front:** 補償
-**Back:** ほしょう (hoshō) — kompensatsiya, qoplash / compensation
-105. **Front:** 救済
-**Back:** きゅうさい (kyūsai) — qutqarish, yordam / relief
-106. **Front:** 保護
-**Back:** ほご (hogo) — himoya, qo'llab-quvvatlash / protection
-107. **Front:** 規制
-**Back:** きせい (kisei) — nazorat, cheklash / regulation
-108. **Front:** 違反
-**Back:** いはん (ihan) — buzish, nosoz qilish / violation
-109. **Front:** 罰
-**Back:** ばつ (batsu) — jazo, chuqur / punishment
-110. **Front:** 免除
-**Back:** めんじょ (menjo) — ozod qilish, bekor qilish / exemption
-111. **Front:** 申請
-**Back:** しんせい (shinsei) — ariza berish, talab / application
-112. **Front:** 許可
-**Back:** きょか (kyoka) — ruxsat, ijozat / permission
-113. **Front:** 承知
-**Back:** しょうち (shōchi) — tushunish, ma'lumot / acknowledgment
-114. **Front:** 同意
-**Back:** どうい (dōi) — rozilik, kelishuv / consent
-115. **Front:** 異議
-**Back:** いぎ (igi) — e'tiroz, qarama-qariliq / objection
-116. **Front:** 抗議
-**Back:** こうぎ (kōgi) — norozilik, e'tiroz / protest
-117. **Front:** 苦情
-**Back:** くじょう (kujō) — shikoyat, norozilik / complaint
-118. **Front:** 謝罪
-**Back:** しゃざい (shazai) — uzur so'rash, amalatash / apology
-119. **Front:** 赦免
-**Back:** しゃめん (shamen) — bekor qilish, ozod / pardon
-120. **Front:** 和解
-**Back:** わかい (wakai) — yarashish, tinchlik / reconciliation
-121. **Front:** 仲介
-**Back:** ちゅうかい (chūkai) — vositachilik, oraliq / mediation
-122. **Front:** 仲裁
-**Back:** ちゅうさい (chūsai) — hakamlik, qaror / arbitration
-123. **Front:** 調停
-**Back:** ちょうてい (chōtei) — tinchlik, shartlash / conciliation
-124. **Front:** 交渉
-**Back:** こうしょう (kōshō) — muloqot, muomala / negotiation
-125. **Front:** 合意
-**Back:** ごうい (gōi) — kelishuv, rozilik / agreement
-126. **Front:** 契約書
-**Back:** けいやくしょ (keiyakusho) — shartnoma qog'ozi / contract document
-127. **Front:** 条件
-**Back:** じょうけん (jōken) — shart, talablar / condition
-128. **Front:** 特例
-**Back:** とくれい (tokurei) — istisno, alohida holat / exception
-129. **Front:** 規則
-**Back:** きそく (kisoku) — qoida, tartibi / rule
-130. **Front:** 慣例
-**Back:** かんれい (kanrei) — odatiy holat, urf / custom
-131. **Front:** 伝統
-**Back:** でんとう (dentō) — an'ana, urf-odat / tradition
-132. **Front:** 文化
-**Back:** ぶんか (bunka) — madaniyat, bunkashunoslik / culture
-133. **Front:** 価値観
-**Back:** かちかん (kachikan) — qadr-qimmatlar, e'tiqodlar / values
-134. **Front:** 信仰
-**Back:** しんこう (shinkō) — din, e'tiqod / faith
-135. **Front:** 思想
-**Back:** しそう (shisō) — fikr, mafkura / ideology
-136. **Front:** 哲学
-**Back:** てつがく (tetsugaku) — falsafa, hikmat / philosophy
-137. **Front:** 原理
-**Back:** げんり (genri) — printsip, asos / principle
-138. **Front:** 論理
-**Back:** ろんり (ronri) — mantiq, fikrlash / logic
-139. **Front:** 理性
-**Back:** りせい (risei) — aql, oqillik / reason
-140. **Front:** 感情
-**Back:** かんじょう (kanjō) — his-tuyg'u, xulq / emotion
-141. **Front:** 欲望
-**Back:** よくぼう (yokubō) — shahvat, istak / desire
-142. **Front:** 野心
-**Back:** やしん (yashin) — ambitsiya, orzu / ambition
-143. **Front:** 執着
-**Back:** しゅうちゃく (shūchaku) — qo'zg'oqlik, qo'zg'otilish / attachment
-144. **Front:** 執念
-**Back:** しゅうねん (shūnen) — istalik, qattiq istak / obsession
-145. **Front:** 信念
-**Back:** しんねん (shinnen) — e'tiqod, ishonch / belief
-146. **Front:** 確信
-**Back:** かくしん (kakushin) — aniq ishonch / conviction
-147. **Front:** 疑い
-**Back:** うたがい (utagai) — shubha, guman / doubt
-148. **Front:** 迷い
-**Back:** まよい (mayoi) — adashish, mushkubiy / confusion
-149. **Front:** 恐怖
-**Back:** きょうふ (kyōfu) — qo'rquv, xavf / fear
-150. **Front:** 不安
-**Back:** ふあん (fuan) — xalvotirchilik, bechinnlik / anxiety
-151. **Front:** 焦燥
-**Back:** しょうそう (shōsō) — shoshqaloqlik, sabrang / impatience
-152. **Front:** 沈静
-**Back:** ちんせい (chinsei) — tinchlik, xotirjamlik / calmness
-153. **Front:** 平静
-**Back:** へいせい (heisei) — barqararilik, osoyishta / serenity
-154. **Front:** 安定
-**Back:** あんてい (antei) — barqarorlik, mustahkamlik / stability
-155. **Front:** 動揺
-**Back:** どうよう (dōyō) — o'zgarish, tebranish / fluctuation
-156. **Front:** 混乱
-**Back:** こんらん (konran) — tartibsizlik, begona / chaos
-157. **Front:** 秩序
-**Back:** つつじょ (chitsujo) — tartib, nizam / order
-158. **Front:** 統制
-**Back:** とうせい (tōsei) — nazorat, boshqaruv / control
-159. **Front:** 自由
-**Back:** じゆう (jiyū) — ozodlik, erkinlik / freedom
-160. **Front:** 束縛
-**Back:** そくばく (sokubaku) — chegaralash, mahkam qilish / constraint
-161. **Front:** 解放
-**Back:** かいほう (kaihō) — ozod qilish, erkinlashtirish / liberation
-162. **Front:** 独立
-**Back:** どくりつ (dokuritsu) — mustaqillik, o'zod / independence
-163. **Front:** 従属
-**Back:** じゅうぞく (jūzoku) — tavsif, qo'lliqga / subordination
-164. **Front:** 支配
-**Back:** しはい (shihai) — hukmronlik, boshqaruv / dominance
-165. **Front:** 隷属
-**Back:** れいぞく (reizoku) — qullik, tavsif / servitude
-166. **Front:** 奴隷
-**Back:** どれい (dorei) — qul, gadoyi / slavery
-167. **Front:** 解奴
-**Back:** かいど (kaido) — qullikdan ozod / emancipation
-168. **Front:** 主権
-**Back:** しゅけん (shuken) — suverenitet, hokimiyat / sovereignty
-169. **Front:** 権力
-**Back:** けんりょく (kenryoku) — hokimiyat, qudrat / power
-170. **Front:** 影響力
-**Back:** えいきょうりょく (eikyōryoku) — ta'sir qilish quvvati / influence
-171. **Front:** 支持
-**Back:** しじ (shiji) — qo'llab-quvvatlash / support
-172. **Front:** 反対
-**Back:** はんたい (hantai) — qarama-qariliq / opposition
-173. **Front:** 賛成
-**Back:** さんせい (sansei) — rozilik, kelishuv / approval
-174. **Front:** 批判
-**Back:** ひはん (hihan) — tanqid, e'tiroz / criticism
-175. **Front:** 擁護
-**Back:** ようご (yōgo) — himoya qilish / defense
-176. **Front:** 非難
-**Back:** ひなん (hinan) — tanqid, malamat / blame
-177. **Front:** 中傷
-**Back:** ちゅうしょう (chūshō) — resiqa, suhbat / slander
-178. **Front:** 名誉
-**Back:** めいよ (meiyo) — sharaf, faxri / honor
-179. **Front:** 恥辱
-**Back:** ちじょく (chijoku) — sharmanda, bejamol / disgrace
-180. **Front:** 基礎
-**Back:** きそ (kiso) — poydevor, asos / foundation
-181. **Front:** 核心
-**Back:** かくしん (kakushin) — mag'iz, tub ma'no / core
-182. **Front:** 契機
-**Back:** けいき (keiki) — imkoniyat, turtki / opportunity, turning point
-183. **Front:** 由来
-**Back:** ゆらい (yurai) — kelib chiqishi, tarixi / origin
-184. **Front:** 経過
-**Back:** けいか (keika) — o'tishi, jarayon / passage, progress
-185. **Front:** 終了
-**Back:** しゅうりょう (shūryō) — yakun, tugash / end, close
-186. **Front:** 役割
-**Back:** やくわり (yakuwari) — rol, vazifa / role
-187. **Front:** 負担
-**Back:** ふたん (futan) — yuk, mas'uliyat xarajati / burden, load
-188. **Front:** 効率的
-**Back:** こうりつてき (kōritsuteki) — samarali / efficient
-189. **Front:** 適切
-**Back:** てきせつ (tekisetsu) — muvofiq, loyiq / appropriate
-190. **Front:** 慎重
-**Back:** しんちょう (shinchō) — vazmin, ehtiyotkor / cautious
-191. **Front:** 迅速
-**Back:** じんそく (jinsoku) — tezkor, chaqqon / prompt, rapid
-192. **Front:** 正確
-**Back:** せいかく (seikaku) — aniq, to'g'ri / accurate
-193. **Front:** 密接
-**Back:** みっせつ (missetsu) — chambarchas, yaqin / close, intimate
-194. **Front:** 過剰
-**Back:** かじょう (kajō) — ortiqcha, me'yoridan ko'p / excess
-195. **Front:** 頻繁
-**Back:** ひんぱん (hinpan) — tez-tez, surunkali / frequent
-196. **Front:** 貴重
-**Back:** きちょう (kichō) — nodir, qadrli / precious, valuable
-197. **Front:** 深刻
-**Back:** しんこく (shinkoku) — jiddiy, og'ir / serious, grave
-198. **Front:** 膨大
-**Back:** ぼうだい (bōdai) — ulkan, juda ko'p / huge, vast
-199. **Front:** 莫大
-**Back:** ばくだい (bakudai) — ulkan xarajat/zarar / enormous, vast
-200. **Front:** 独自
-**Back:** どくじ (dokuji) — xususiy, o'ziga xos / original, unique
-201. **Front:** 祖先
-**Back:** そせん (sosen) — ajdodlar / ancestors
-202. **Front:** 子孫
-**Back:** しそん (shison) — avlodlar / descendants
-203. **Front:** 祖父母
-**Back:** そふぼ (sofubo) — buva va buvi / grandparents
-204. **Front:** 孫
-**Back:** まご (mago) — nevara / grandchild
-205. **Front:** 三世代
-**Back:** さんせだい (sansedai) — uch avlod / three generations
-206. **Front:** 一家
-**Back:** いっか (ikka) — butun oila / a family, a household
-207. **Front:** 親類
-**Back:** しんるい (shinrui) — qarindoshlar / relatives
-208. **Front:** 親孝行
-**Back:** おやこうこう (oyakōkō) — ota-onaga g'amxo'rlik / filial piety
-209. **Front:** 実家
-**Back:** じっか (jikka) — ota-onaning uyi / one's parents' home
-210. **Front:** 末っ子
-**Back:** すえっこ (suekko) — oilaning eng kichigi / youngest child
-211. **Front:** 一人っ子
-**Back:** ひとりっこ (hitorikko) — yolg'iz farzand / only child
-212. **Front:** 双子
-**Back:** ふたご (futago) — egizaklar / twins
-213. **Front:** 仲良し
-**Back:** なかよし (nakayoshi) — yaqin do'st / close friends
-214. **Front:** 工作仲間
-**Back:** こうさくなかま (kōsakunakama) — ishxonadagi sherik / work colleague
-215. **Front:** 知り合い
-**Back:** しりあい (shiriai) — tanish odam / acquaintance
-216. **Front:** 奥様
-**Back:** おくさま (okusama) — rafiqa (birovning) / someone's wife
-217. **Front:** ご主人
-**Back:** ごしゅじん (goshujin) — xo'jayin (birovning eri) / someone's husband
-218. **Front:** お母様
-**Back:** おかあさま (okāsama) — ona (birovning) / someone's mother
-219. **Front:** お父様
-**Back:** おとうさま (otōsama) — ota (birovning) / someone's father
-220. **Front:** お嬢ちゃん
-**Back:** おじょうちゃん (ojōchan) — qizaloq (birovning) / someone's daughter (young)
-221. **Front:** お坊ちゃん
-**Back:** おぼっちゃん (obotchan) — o'g'il bola (birovning) / someone's son (young)
-222. **Front:** 夫妻
-**Back:** ふさい (fusai) — er-xotin / married couple
-223. **Front:** 夫人
-**Back:** ふじん (fujin) — xonim, xanim / Mrs., Madame
-224. **Front:** 職場
-**Back:** しょくば (shokuba) — ish joyi / workplace
-225. **Front:** 上司
-**Back:** じょうし (jōshi) — boshliq, rahbar / boss, superior
-226. **Front:** 部下
-**Back:** ぶか (buka) — qo'l ostidagi ishchi / subordinate
-227. **Front:** 先輩
-**Back:** せんぱい (senpai) — katta tajribali xodim/o'quvchi / senior
-228. **Front:** 後輩
-**Back:** こうはい (kōhai) — kichik tajribali xodim/o'quvchi / junior
-229. **Front:** 目上
-**Back:** めうえ (meue) — yoshi yoki martabasi katta / superior, elder
-230. **Front:** 目下
-**Back:** めした (meshita) — yoshi yoki martabasi kichik / subordinate, junior
-231. **Front:** 年上
-**Back:** としうえ (toshiue) — yoshi katta / older
-232. **Front:** 年下
-**Back:** としした (toshishita) — yoshi kichik / younger
-233. **Front:** 同い年
-**Back:** おないどし (onaidoshi) — tengdosh / same age
-234. **Front:** 周囲
-**Back:** しゅうい (shūi) — atrof, tevarak / surroundings
-235. **Front:** 付き合い
-**Back:** つきあい (tsukiai) — muloqot, aloqa / association, socializing
-236. **Front:** コミュニケーション
-**Back:** こみゅにけーしょん (komyunikēshon) — muloqot / communication
-237. **Front:** 約束
-**Back:** やくそく (yakusoku) — va'da, uchrashuv / promise, appointment
-238. **Front:** 丁寧
-**Back:** ていねい (teinei) — xushmuomala, muloyim / polite
-239. **Front:** 握手
-**Back:** あくしゅ (akushu) — qo'l berib ko'rishish / handshake
-240. **Front:** お辞儀
-**Back:** おじぎ (ojigi) — ta'zim qilish / bow
-241. **Front:** 仲間
-**Back:** なかま (nakama) — guruh, o'rtoqlar / companion, circle
-242. **Front:** 知人
-**Back:** ちじん (chijin) — tanish inson / acquaintance
-243. **Front:** 遣い
-**Back:** づかい (dzukai) — foydalanish, ishlatish / usage, spending
-244. **Front:** 親しい
-**Back:** したしい (shitashii) — yaqin, qalin / close, intimate
-245. **Front:** 長年
-**Back:** ながねん (naganen) — ko'p yillar / long time, many years
-246. **Front:** たとえ
-**Back:** たとえ (tatoe) — hatto, agarda... ham / even if
-247. **Front:** まるで
-**Back:** まるで (marude) — xuddi, go'yo / just like
-248. **Front:** 性格
-**Back:** せいかく (seikaku) — xarakter, xulq-atvor / personality
-249. **Front:** 長所
-**Back:** ちょうしょ (chōsho) — kuchli tomon, yutuq / strong point, merit
-250. **Front:** 短所
-**Back:** たんしょ (tansho) — zaif tomon, kamchilik / weak point
-251. **Front:** 積極的
-**Back:** せっきょくてき (sekkyokuteki) — faol, aktiv / active, positive
-252. **Front:** 消極的
-**Back:** しょうきょくてき (shōkyokuteki) — sust, passiv / passive
-253. **Front:** おとなしい
-**Back:** おとなしい (otonashii) — yosh yuvosh, tinch / quiet, gentle
-254. **Front:** やかましい
-**Back:** やかましい (yakamashii) — shovqinli, tinmaydigan / noisy, fussy
-255. **Front:** 慎重
-**Back:** しんちょう (shinchō) — ehtiyotkor / cautious
-256. **Front:** そそっかしい
-**Back:** そそっかしい (sosokkashii) — shoshqaloq, palapartish / careless, hasty
-257. **Front:** 器用
-**Back:** きよう (kiyou) — epchil, usta (qo'li gul) / adroit, skillful
-258. **Front:** 不器用
-**Back:** ぶきよう (bukiyou) — noepchil, qo'lidan ish kelmaydigan / clumsy
-259. **Front:** 要領
-**Back:** ようりょう (yōryō) — ishning ko'zi, usuli / knack, tact
-260. **Front:** 謙虚
-**Back:** けんきょ (kenkyo) — kamtarin / humble, modest
-261. **Front:** 生意気
-**Back:** なまいき (namaiki) — tirantak, haddidan oshgan / impudent, cheeky
-262. **Front:** 勘
-**Back:** かん (kan) — sezgi, ichki sezgi / intuition, sixth sense
-263. **Front:** 鈍い
-**Back:** にぶい (nibui) — o'tmas, sekin, lanj / dull, blunt, slow
-264. **Front:** 弱気
-**Back:** よわき (yowaki) — qo'rqoq, jur'atsiz / timid, weak-kneed
-265. **Front:** 強気
-**Back:** つよき (tsuyoki) — qat'iy, o'ziga ishongan / confident, firm
-266. **Front:** 頼もしい
-**Back:** たのもしい (tanomashii) — suyansa bo'ladigan, ishonchli / reliable, trustworthy
-267. **Front:** 礼儀正しい
-**Back:** れいぎただしい (reigitadashii) — odobli, tarbiyali / well-mannered
-268. **Front:** 冷静
-**Back:** れいせい (reisei) — xotirjam, sovuqqon / calm, composed
-269. **Front:** 陽気
-**Back:** ようき (yōki) — quvnoq, xushchaqchaq / cheerful
-270. **Front:** ユーモア
-**Back:** ゆーもあ (yūmoa) — yumor, hazil / humor
-271. **Front:** はきはき
-**Back:** はきはき (hakihaki) — aniq, dadil / briskly, clearly
-272. **Front:** 純粋
-**Back:** じゅんすい (junsui) — sof, begubor / pure
-273. **Front:** 穏やか
-**Back:** おだやか (odayaka) — tinch, muloyim / gentle, calm
-274. **Front:** わがまま
-**Back:** わがまま (wagamama) — xudbin, o'zbilarmon / selfish
-275. **Front:** 強引
-**Back:** ごういん (gōin) — majburlab, zo'rlab / pushy, forceful
-276. **Front:** 厚かましい
-**Back:** あつかましい (atsukamashii) — betgachop, uyatsiz / impudent, brazen
-277. **Front:** ずうずうしい
-**Back:** ずうずうしい (zūzūshii) — surbet, beti qalin / cheeky, shameless
-278. **Front:** けちな
-**Back:** けちな (kechi na) — xasis / stingy, miserly
-279. **Front:** 乱暴
-**Back:** らんぼう (ranbō) — qo'pol, zo'ravon / rough, violent
-280. **Front:** 気が荒い
-**Back:** きがあらい (ki ga arai) — jahldor, tajovuzkor / bad-tempered
-281. **Front:** ひきょうな
-**Back:** ひきょうな (hikyō na) — nomard, qo'rqoq / unfair, cowardly
-282. **Front:** 裏切る
-**Back:** うらぎる (uragiru) — xiyonat qilish / betray
-283. **Front:** 威張る
-**Back:** いばる (ibaru) — maqtanmoq, o'zini yuqori tutmoq / boast, swagger
-284. **Front:** ふざける
-**Back:** ふざける (fuzakeru) — hazillashmoq, masxaralashmoq / play around, joke
-285. **Front:** 飽きる
-**Back:** あきる (akiru) — bezor bo'lmoq, zerikmoq / get tired of, lose interest
-286. **Front:** 慌てる
-**Back:** あわてる (awateru) — shoshilib qolmoq, sarosimaga tushmoq / panic, fluster
-287. **Front:** のん気
-**Back:** のんき (nonki) — xotirjam, beparvo / easygoing
-288. **Front:** 率直
-**Back:** そっちょく (sotchoku) — ochiqchasiga, samimiy / frank, candid
-289. **Front:** 心理
-**Back:** しんり (shinri) — ruhiyat, psixologiya / psychology, mentality
-290. **Front:** 緊張
-**Back:** きんちょう (kinchō) — hayajonlanmoq / get nervous
-291. **Front:** いらいら
-**Back:** いらいら (iraira) — g'ash kelish / irritated
-292. **Front:** 気楽
-**Back:** きらく (kiraku) — bemalol, erkin / carefree, comfortable
-293. **Front:** 機嫌
-**Back:** きげん (kigen) — kayfiyat / mood, humor
-294. **Front:** 清潔
-**Back:** せいけつ (seiketsu) — toza, ozoda / clean, hygienic
-295. **Front:** 見かけ
-**Back:** みかけ (mikake) — tashqi ko'rinish / appearance
-296. **Front:** 派手
-**Back:** はぜ (hade) — dabdabali, yorqin / flashy, gaudy
-297. **Front:** 地味
-**Back:** じみ (jimi) — oddiy, kamtarona / plain, sober
-298. **Front:** 心理的
-**Back:** しんりてき (shinriteki) — psixologik / psychological
-299. **Front:** 不器用
-**Back:** ぶきよう (bukiyou) — uquvsiz, qo'pol / clumsy
-300. **Front:** 不真面目
-**Back:** ふまじめ (fumajime) — mas'uliyatsiz / insincere, unserious
-301. **Front:** 正しい
-**Back:** ただしい (tadashii) — to'g'ri / correct
-302. **Front:** 規則正しい
-**Back:** きそくただしい (kisokutadashii) — tartibli, muntazam / regular
-303. **Front:** 飽きっぽい
-**Back:** あきっぽい (akippoi) — tez zerikadigan / fickle, quick to tire of
-304. **Front:** 怒りっぽい
-**Back:** おこりっぽい (okorippoi) — jahli tez, jizzaki / hot-tempered
-305. **Front:** 忘れっぽい
-**Back:** わすれっぽい (wasureppoi) — unutiluvchan / forgetful
-306. **Front:** わざと
-**Back:** わざと (wazato) — ataylab, qasddan / on purpose, intentionally
-307. **Front:** めっきり
-**Back:** めっきり (mekkiri) — sezilarli darajada / remarkably, noticeably
-308. **Front:** 相変わらず
-**Back:** あいかわらず (aikawarazu) — odatdagidek / as usual, as ever
-309. **Front:** 一切
-**Back:** いっさい (issai) — umuman, aslo / completely, (not) at all
-310. **Front:** 陽気
-**Back:** ようき (yōki) — quvnoq fe'l-atvor / cheerful nature
-311. **Front:** 穏やか
-**Back:** おだやか (odayaka) — sokinlik, yumshoqlik / calm manner
-312. **Front:** 感情
-**Back:** かんじょう (kanjō) — his-tuyg'u / emotion, feeling
-313. **Front:** うらやむ
-**Back:** うらやむ (urayamu) — havas qilmoq, hasad qilmoq / envy
-314. **Front:** 尊敬
-**Back:** そんけい (sonkei) — hurmat qilmoq / respect
-315. **Front:** 敬う
-**Back:** うやまう (uyamau) — ulug'lamoq, hurmat ko'rsatmoq / honor, revere
-316. **Front:** 疑う
-**Back:** うたがう (utagau) — shubha qilmoq / doubt, suspect
-317. **Front:** 恐れる
-**Back:** おそれる (osoreru) — qo'rqmoq / fear
-318. **Front:** 憎む
-**Back:** にくむ (nikumu) — nafratlanmoq / hate, detest
-319. **Front:** 恨む
-**Back:** うらむ (uramu) — gina qilmoq / resent, bear a grudge
-320. **Front:** 嫌がる
-**Back:** いやがる (iyagaru) — yoqtirmasligini ko'rsatmoq / dislike, show dislike
-321. **Front:** 敬意
-**Back:** けいい (keii) — hurmat (tuyg'usi) / respect, homage
-322. **Front:** あこがれる
-**Back:** あこがれる (akogarel) — havas qilmoq, intilmoq / long for, admire
-323. **Front:** 恩
-**Back:** おん (on) — yaxshilik, minnatdorlik qarzi / favor, obligation
-324. **Front:** 失望
-**Back:** しつぼう (shitsubō) — umidsizlik / disappointment
-325. **Front:** うらやましい
-**Back:** うらやましい (urayamashii) — havasingni keltiradigan / envious, jealous
-326. **Front:** 憎らしい
-**Back:** にくらしい (nikurashii) — nafratli / hateful, detestable
-327. **Front:** 哀れ
-**Back:** あわれ (aware) — rahmdillikni keltiradigan, bechora / pitiful, miserable
-328. **Front:** 申し訳ない
-**Back:** もうしわけない (mōshiwakenai) — uzrli / inexcusable, sorry
-329. **Front:** ありがたい
-**Back:** ありがたい (arigatai) — minnatdor / grateful, thankful
-330. **Front:** 行動
-**Back:** こう行動 (kōdō) — harakat, faoliyat / action, behavior
-331. **Front:** 慰める
-**Back:** なぐさめる (nagusameru) — yupatmoq, tasalli bermoq / comfort, console
-332. **Front:** けなす
-**Back:** けなす (kenasu) — kamsitmoq, yomonlamoq / speak ill of, disparage
-333. **Front:** ののしる
-**Back:** ののしる (nonoshiru) — so'kmoq, haqoratlamoq / abuse, scold loudly
-334. **Front:** にらむ
-**Back:** にらむ (niramu) — tikilib qaramoq (g'azab bilan) / glare at, stare down
-335. **Front:** 避ける
-**Back:** さける (sakeru) — qochmoq, chetlab o'tmoq / avoid
-336. **Front:** 助言
-**Back:** じょげん (jogen) — maslahat, yo'l-yo'riq / advice, suggestion
-337. **Front:** 言いつける
-**Back:** いいつける (iitsukeru) — chaqimchilik qilmoq, buyurmoq / tell on, order
-338. **Front:** 皮肉
-**Back:** ひにく (hiniku) — kesatiq, qochiriq gap / irony, sarcasm
-339. **Front:** 不平
-**Back:** ふへい (fuhei) — norozilik, shikoyat / complaint, dissatisfaction
-340. **Front:** 自慢
-**Back:** じまん (jiman) — faxrlanish, maqtanchoqlik / boasting, pride
-341. **Front:** 怒鳴る
-**Back:** どなる (donaru) — baqirmoq / shout, yell
-342. **Front:** 秘密
-**Back:** ひみつ (himitsu) — sir / secret
-343. **Front:** うわさ
-**Back:** うわさ (uwasa) — mish-mish / rumor
-344. **Front:** 誤解
-**Back:** ごかい (gokai) — noto'g'ri tushunish / misunderstanding
-345. **Front:** 仲直り
-**Back:** なかなおり (nakanaori) — yarashib olmoq / reconciliation
-346. **Front:** 礼儀
-**Back:** れいぎ (reigi) — odob, etiket / manners, etiquette
-347. **Front:** 敬語
-**Back:** けいご (keigo) — hurmat formasi (til) / honorific language
-348. **Front:** 反抗的
-**Back:** はんこうてき (hankōteki) — isyonkor, qarshi chiquvchi / rebellious
-349. **Front:** 道徳
-**Back:** どうとく (dōtoku) — axloq, ma'naviyat / morals, morality
-350. **Front:** 姿勢
-**Back:** しぜい (shisei) — qomat, yondashuv / posture, attitude
-351. **Front:** みっともない
-**Back:** みっともない (mittomonai) — uyatli, odobsiz / disgraceful, shameful
-352. **Front:** 恋愛
-**Back:** れんあい (ren'ai) — sevgi, muhabbat / love, romance
-353. **Front:** もてる
-**Back:** もてる (moteru) — mashhur bo'lmoq / be popular (with)
-354. **Front:** 理想
-**Back:** りそう (risō) — ideal / ideal
-355. **Front:** 偶然
-**Back:** ぐうぜん (gūzen) — tasodifan / by chance, coincidentally
-356. **Front:** 冷める
-**Back:** さめる (sameru) — sovimoq (tuyg'ular) / cool down (feelings)
-357. **Front:** 振る
-**Back:** ふる (furu) — rad etmoq (sevgini), silkitmoq / dump (a lover), shake
-358. **Front:** 失恋
-**Back:** しつれん (shitsuren) — sevgida omadsizlik / broken heart, unrequited love
-359. **Front:** 寒がる
-**Back:** さむがる (samugaru) — sovqotayotganini ko'rsatmoq / feel the cold
-360. **Front:** 欲しがる
-**Back:** ほしがる (hoshigaru) — xohlamoq (birov) / desire, want
-361. **Front:** 可愛らしい
-**Back:** かわいらしい (kawairashii) — yoqimtoy, shirin / lovely, sweet
-362. **Front:** 結びつける
-**Back:** むすびつける (musubitsukeru) — bog'lamoq / connect, tie together
-363. **Front:** 広める
-**Back:** ひろめる (hiromeru) — kengaytirmoq, tarqatmoq / spread, popularize
-364. **Front:** 強める
-**Back:** つよめる (tsuyomeru) — kuchaytirmoq / strengthen
-365. **Front:** 高める
-**Back:** たかめる (takameru) — oshirmoq, ko'tarmoq / heighten, raise
-366. **Front:** 思い切って
-**Back:** おもいきって (omoikitte) — dadillik bilan / resolutely, boldly
-367. **Front:** ようやく
-**Back:** ようやく (yōyaku) — nihoyat, oxiri / finally, at last
-368. **Front:** いつ（の）間にか
-**Back:** いつのまにか (itsunomanika) — qachonligini bilmay / before one knows it
-369. **Front:** 食生活
-**Back:** しょくせいかつ (shokuseikatsu) — ovqatlanish odati / eating habits
-370. **Front:** 食う
-**Back:** くう (kū) — yemoq / eat (informal)
-371. **Front:** かじる
-**Back:** かじる (kajiru) — tishlamoq, ozroq tushunmoq / gnaw, nibble, dabble in
-372. **Front:** 含む
-**Back:** ふくむ (fukumu) — o'z ichiga olmoq / include, contain
-373. **Front:** しゃぶる
-**Back:** しゃぶる (shaburu) — shimmoq / suck
-374. **Front:** 味わう
-**Back:** あじわう (ajiwau) — tatib ko'rmoq / taste, savor
-375. **Front:** 香り
-**Back:** かおり (kaori) — xushbuy hid / aroma, fragrance
-376. **Front:** 食欲
-**Back:** しょくよく (shokuyoku) — ishtaha / appetite
-377. **Front:** 湯読み
-**Back:** ゆのみ (yunomi) — choy piyola / teacup (Japanese style)
-378. **Front:** お盆
-**Back:** おぼん (obon) — patnis / tray
-379. **Front:** 栄養
-**Back:** えいよう (eiyō) — ozuqa, vitamin / nutrition
-380. **Front:** 消化
-**Back:** しょうか (shōka) — hazm qilish / digestion
-381. **Front:** もたれる
-**Back:** もたれる (motarelu) — og'irlik qilmoq / feel heavy (stomach)
-382. **Front:** 宴会
-**Back:** えんかい (enkai) — ziyofat, bazm / banquet, party
-383. **Front:** つぐ
-**Back:** つぐ (tsugu) — quymoq (ichimlik) / pour (a drink)
-384. **Front:** 勧める
-**Back:** すすめる (susumeru) — taklif qilmoq / recommend, urge
-385. **Front:** 冷やす
-**Back:** ひやす (hiyasu) — sovutmoq / cool, chill
-386. **Front:** 温める
-**Back:** あたためる (atatameru) — isitmoq / warm up, heat up
-387. **Front:** 酔う
-**Back:** よう (you) — mast bo'lmoq / get drunk
-388. **Front:** 頭痛
-**Back:** ずつう (zutsū) — bosh og'rig'i / headache
-389. **Front:** 吐き気
-**Back:** はきけ (hakike) — ko'ngil aynishi / nausea
-390. **Front:** めまい
-**Back:** めまい (memai) — bosh aylanishi / dizziness
-391. **Front:** 意識
-**Back:** いしき (ishiki) — hush, ong / consciousness
-392. **Front:** 酔い
-**Back:** よい (yoi) — mastlik holati / drunkenness
-393. **Front:** 刺身
-**Back:** さしみ (sashimi) — xom baliq bo'laklari / sashimi
-394. **Front:** 贅沢
-**Back:** ぜいたく (zeitaku) — dabdabali, hashamatli / luxurious
-395. **Front:** 粗末
-**Back:** そまつ (somatsu) — oddiy, arzon / poor, shabby, crude
-396. **Front:** 貴重
-**Back:** きちょう (kichō) — qadrli, qimmatbaho / precious, valuable
-397. **Front:** 新鮮
-**Back:** しんせん (shinsen) — yangi, barra / fresh
-398. **Front:** 天然
-**Back:** てんねん (tennen) — tabiiy / natural
-399. **Front:** 調味料
-**Back:** ちょうみりょう (chōmiryō) — ziravorlar / seasoning, condiment
-400. **Front:** 塩辛い
-**Back:** しおからい (shiokarai) — sho'r / salty
-`;
-
-export const flashcards: Card[] = [];
-
-const lines = rawData.trim().split('\n');
-for (let i = 0; i < lines.length; i++) {
-  if (lines[i].includes('**Front:**')) {
-    const idMatch = lines[i].match(/^(\d+)\./);
-    const frontText = lines[i].split('**Front:**')[1]?.trim();
-    
-    // Look at next line for back
-    const backLine = lines[i + 1];
-    let backText = '';
-    if (backLine && backLine.includes('**Back:**')) {
-      backText = backLine.split('**Back:**')[1]?.trim();
-      i++; // Skip the back line since we consumed it
-    }
-
-    if (idMatch && frontText && backText) {
-      flashcards.push({
-        id: parseInt(idMatch[1], 10),
-        front: frontText,
-        back: backText,
-      });
-    }
-  }
-}
+export const flashcards: Card[] = [
+  { id: 1, front: "お供しいとこ", back: "お — tail (of an animal), cauda" },
+  { id: 2, front: "お卵", back: "おとしたまご — poached egg" },
+  { id: 3, front: "お口", back: "おおぐち — big mouth, mouth opened wide" },
+  { id: 4, front: "お名前", back: "おなまえ — name" },
+  { id: 5, front: "お問", back: "おといあわせばんごう — reference number, order number, tracking number" },
+  { id: 6, front: "お忙しいとこ", back: "と — door (esp. Japanese-style)" },
+  { id: 7, front: "お手数をおかけ", back: "おてすうをおかけいたします — to be a burden, to make trouble for someone" },
+  { id: 8, front: "お皿", back: "おさら — plate, dish" },
+  { id: 9, front: "お金など", back: "おかね — money" },
+  { id: 10, front: "お願いがあ", back: "おねがい — request, favour (to ask), wish" },
+  { id: 11, front: "お願いがある", back: "おねがい — request, favour (to ask), wish" },
+  { id: 12, front: "ご了承ください", back: "ごりょうしょうください — please be aware (that ...), please note (that ...), please understand (that ...)" },
+  { id: 13, front: "ご型", back: "ごぶんけい — the five basic sentence structures of English (SV, SVC, SVO, SVOO, SVOC)" },
+  { id: 14, front: "一です", back: "です — be, is" },
+  { id: 15, front: "一位", back: "いちい — first place, first rank" },
+  { id: 16, front: "一度恥", back: "いちど — once, one time, on one occasion" },
+  { id: 17, front: "一段", back: "いちだん — even more, still more, much more, further" },
+  { id: 18, front: "一等", back: "いっとう — first class, first rank, first grade, first place, first prize" },
+  { id: 19, front: "一緒に行った", back: "いっしょに — together (with)" },
+  { id: 20, front: "一首歌", back: "Meaning not found" },
+  { id: 21, front: "上司にきずら", back: "じょうし — (one's) superior, (one's) boss, the higher-ups" },
+  { id: 22, front: "上型", back: "Meaning not found" },
+  { id: 23, front: "下取り", back: "したどり — trade-in, part exchange" },
+  { id: 24, front: "下取りして", back: "したどり — trade-in, part exchange" },
+  { id: 25, front: "不成体統", back: "とういつ — unity, consolidation, uniformity, unification, compatible" },
+  { id: 26, front: "世紀", back: "せいき — century" },
+  { id: 27, front: "世紀に完成した", back: "せいき — century" },
+  { id: 28, front: "丘口", back: "Meaning not found" },
+  { id: 29, front: "両子", back: "Meaning not found" },
+  { id: 30, front: "両目", back: "りょうめ — both eyes" },
+  { id: 31, front: "並み性", back: "Meaning not found" },
+  { id: 32, front: "並んでいる", back: "ならんで — alongside, side-by-side, abreast" },
+  { id: 33, front: "中の仏像", back: "ちゅう — medium (size), average (grade, level, etc.), middle" },
+  { id: 34, front: "中の企像", back: "ちゅう — medium (size), average (grade, level, etc.), middle" },
+  { id: 35, front: "中三口", back: "ちゅう — medium (size), average (grade, level, etc.), middle" },
+  { id: 36, front: "中央改札", back: "ちゅうおう — centre, center, middle, heart" },
+  { id: 37, front: "乍一看", back: "みる — to look after (often medically), to take care of" },
+  { id: 38, front: "予定がきっし", back: "よてい — plans, arrangement, schedule, program, programme, expectation, estimate" },
+  { id: 39, front: "事務", back: "じむ — office work, clerical work, administration, business, affairs" },
+  { id: 40, front: "事務職", back: "じむしょく — office job, clerical work" },
+  { id: 41, front: "事実だけあっ", back: "じじつ — fact, truth, reality" },
+  { id: 42, front: "事実だとすれ", back: "じじつ — fact, truth, reality" },
+  { id: 43, front: "事実どおり", back: "Meaning not found" },
+  { id: 44, front: "事実のまま", back: "じじつ — fact, truth, reality" },
+  { id: 45, front: "二部こる", back: "こる — to become stiff (of muscles)" },
+  { id: 46, front: "井目", back: "せいもく — the nine principal points (on a go board), star points" },
+  { id: 47, front: "亡くなった", back: "なくなる — to die, to pass away" },
+  { id: 48, front: "人の意見を尊重し", back: "ひと — person, someone, somebody" },
+  { id: 49, front: "人の魚を救う", back: "ひと — person, someone, somebody" },
+  { id: 50, front: "今日はしつど", back: "きょう — today, this day" },
+  { id: 51, front: "今日豆", back: "きょう — today, this day" },
+  { id: 52, front: "今納得がいか", back: "が — indicates the subject of a sentence" },
+  { id: 53, front: "今要", back: "いま — now, the present time, just now, soon, immediately" },
+  { id: 54, front: "仕事", back: "しごと — work, job, labor, labour, business, task, assignment, occupation, employment" },
+  { id: 55, front: "仕事がすごく", back: "しごと — work, job, labor, labour, business, task, assignment, occupation, employment" },
+  { id: 56, front: "仕事が私", back: "しごと — work, job, labor, labour, business, task, assignment, occupation, employment" },
+  { id: 57, front: "仕事ぶり", back: "しごとぶり — the way one works, one's working manner" },
+  { id: 58, front: "他的漫画", back: "まんが — cartoon, comic, comic strip, manga" },
+  { id: 59, front: "以上", back: "いじょう — not less than ..., ... and over, ... and above, ... and upwards, ... or more" },
+  { id: 60, front: "仮名", back: "かな — kana, Japanese syllabaries (i.e. hiragana and katakana)" },
+  { id: 61, front: "仮店", back: "かりてんぽ — temporary store, temporary premises" },
+  { id: 62, front: "仮認", back: "かり — temporary, provisional, interim, tentative" },
+  { id: 63, front: "企業が増えてきた", back: "きぎょう — enterprise, business, company, corporation" },
+  { id: 64, front: "企画", back: "きかく — planning, plan, project, arrangements" },
+  { id: 65, front: "会対", back: "かい — meeting, assembly, party, gathering, conference, athletic meet" },
+  { id: 66, front: "会社", back: "かいしゃ — company, corporation, firm" },
+  { id: 67, front: "会社を辞めたい", back: "かいしゃ — company, corporation, firm" },
+  { id: 68, front: "伯父の家には本", back: "おじ — uncle" },
+  { id: 69, front: "估分", back: "Meaning not found" },
+  { id: 70, front: "但是", back: "ただ — ordinary, common, usual" },
+  { id: 71, front: "低下する", back: "ていか — fall, decline, lowering, deterioration, degradation" },
+  { id: 72, front: "何と", back: "なんと — what, how" },
+  { id: 73, front: "何とかなら", back: "なんとか — something, something or other, so-and-so" },
+  { id: 74, front: "作った料理", back: "つくる — to make, to produce, to manufacture, to build, to construct" },
+  { id: 75, front: "修理する", back: "しゅうりするけんり — right to repair" },
+  { id: 76, front: "修理するくら", back: "しゅうり — repair, mending, fixing, servicing" },
+  { id: 77, front: "個おせしい", back: "こ — counter for (small) things or pieces" },
+  { id: 78, front: "値引き", back: "ねびき — price reduction, discount" },
+  { id: 79, front: "値引きする", back: "ねびき — price reduction, discount" },
+  { id: 80, front: "値打ち", back: "ねうち — value, worth, merit" },
+  { id: 81, front: "偏差", back: "へんさ — deflection, deviation, variation, declination, drift" },
+  { id: 82, front: "健康態は鳥好です", back: "けんこう — health" },
+  { id: 83, front: "健康状態", back: "けんこうじょうたい — (the condition of) one's health" },
+  { id: 84, front: "偶然", back: "ぐうぜん — coincidence, chance, accident, fortuity" },
+  { id: 85, front: "催す", back: "もよおす — to hold (an event), to give (a dinner, party, etc.)" },
+  { id: 86, front: "像", back: "ぞう — image, figure, statue, picture, portrait" },
+  { id: 87, front: "兄または姉", back: "あに — older brother, elder brother" },
+  { id: 88, front: "先にしまし", back: "さき — point, tip, end, nozzle" },
+  { id: 89, front: "先程", back: "さきほど — a short while ago, a moment ago, just now, some time ago" },
+  { id: 90, front: "先輩", back: "せんぱい — senior (at school, work, etc.), superior, elder, older person, predecessor" },
+  { id: 91, front: "光熱費", back: "こうねつひ — cost of fuel and lighting, cost of heat and electricity, energy bill, utility cost" },
+  { id: 92, front: "入れ", back: "いれ — container, receptacle, case, bag, pouch, box, holder" },
+  { id: 93, front: "入場", back: "にゅうじょう — entrance, entering, admission, admittance" },
+  { id: 94, front: "入学料", back: "いり — entering, entrance, entry" },
+  { id: 95, front: "入学費", back: "Meaning not found" },
+  { id: 96, front: "入学賃", back: "Meaning not found" },
+  { id: 97, front: "入学金", back: "にゅうがくきん — matriculation fee" },
+  { id: 98, front: "八場", back: "Meaning not found" },
+  { id: 99, front: "公感", back: "Meaning not found" },
+  { id: 100, front: "内臓", back: "ないぞう — internal organs, viscera" },
+  { id: 101, front: "内臓の働きがよく", back: "ないぞう — internal organs, viscera" },
+  { id: 102, front: "出して", back: "だしてくれる — to take out (e.g. garbage), to put out (e.g. dishes on table), to serve (e.g. meal), to get out (e.g. food from cupboard), to submit (e.g. ideas, opinions), to provide for, to pay for, to foot the bill" },
+  { id: 103, front: "出合利目", back: "であい — meeting, rendezvous, encounter" },
+  { id: 104, front: "出張するんだ", back: "しゅっちょう — business trip, official trip" },
+  { id: 105, front: "出来", back: "でき — workmanship, craftsmanship, execution, finish" },
+  { id: 106, front: "分しかない", back: "ぶん — part, portion, share" },
+  { id: 107, front: "分別", back: "ふんべつ — discretion, prudence, good sense, judgement, judgment, wisdom, discernment" },
+  { id: 108, front: "分別に悩まされて", back: "ふんべつ — discretion, prudence, good sense, judgement, judgment, wisdom, discernment" },
+  { id: 109, front: "別入口", back: "べつ — distinction, difference, discrimination" },
+  { id: 110, front: "削減できた", back: "さくげん — cut, reduction, curtailment" },
+  { id: 111, front: "助かってい", back: "たすかる — to be saved, to be rescued, to survive" },
+  { id: 112, front: "動画", back: "どうが — video (esp. digital), video clip, clip" },
+  { id: 113, front: "化粧水", back: "けしょうすい — skin lotion, face lotion" },
+  { id: 114, front: "午前中はこうぎ", back: "ごぜんちゅう — in the morning, during the morning" },
+  { id: 115, front: "午後", back: "ごご — afternoon, p.m." },
+  { id: 116, front: "午煎由は講義", back: "ひる — noon, midday" },
+  { id: 117, front: "単独", back: "たんどく — sole, single, solo" },
+  { id: 118, front: "単純な手続き", back: "たんじゅん — simple, plain, uncomplicated, straightforward, simple-minded, naive" },
+  { id: 119, front: "博土", back: "Meaning not found" },
+  { id: 120, front: "博士はすばら", back: "はかせ — expert, learned person" },
+  { id: 121, front: "友生争", back: "Meaning not found" },
+  { id: 122, front: "友達", back: "ともだち — friend, companion" },
+  { id: 123, front: "双ふた", back: "そう — pair" },
+  { id: 124, front: "双子", back: "ふたご — twins, twin" },
+  { id: 125, front: "収来", back: "しゅうにゅう — income, earnings, revenue, proceeds, takings, receipts" },
+  { id: 126, front: "叔母", back: "おば — aunt" },
+  { id: 127, front: "取り上げた", back: "とりあげる — to pick up" },
+  { id: 128, front: "取り上げる", back: "とりあげる — to pick up" },
+  { id: 129, front: "取り入れた", back: "とりいれる — to take in, to gather in" },
+  { id: 130, front: "取り入れたこと", back: "とりいれる — to take in, to gather in" },
+  { id: 131, front: "取り入れる", back: "とりいれる — to take in, to gather in" },
+  { id: 132, front: "取り戻す", back: "とりもどす — to take back, to get back, to regain, to recover, to restore, to recoup" },
+  { id: 133, front: "取り組む", back: "とりくむ — to grapple with, to wrestle with, to engage in a bout, to be matched against" },
+  { id: 134, front: "取り組んだ", back: "とりくむ — to grapple with, to wrestle with, to engage in a bout, to be matched against" },
+  { id: 135, front: "取り込む", back: "とりこむ — to take in, to bring in, to adopt (e.g. behaviour), to introduce" },
+  { id: 136, front: "取り込んだ", back: "とりこむ — to take in, to bring in, to adopt (e.g. behaviour), to introduce" },
+  { id: 137, front: "受けられ", back: "うける — to receive, to get" },
+  { id: 138, front: "受け入れるべき", back: "うけいれる — to accept, to receive, to agree" },
+  { id: 139, front: "受够了", back: "りょう — finish, completion, the end" },
+  { id: 140, front: "古い車", back: "ふるい — old, aged, ancient, antiquated, antique, timeworn" },
+  { id: 141, front: "召开", back: "Meaning not found" },
+  { id: 142, front: "可是", back: "か — acceptable, satisfactory, allowed, permitted" },
+  { id: 143, front: "可能性は低い", back: "かのうせい — possibility, chance, likelihood, probability" },
+  { id: 144, front: "台湾からきま", back: "たいわん — Taiwan" },
+  { id: 145, front: "号る", back: "ごうする — to name, to take a second name or alias" },
+  { id: 146, front: "吃葯也没用", back: "チー — forming a chow by picking up a tile discarded by another player" },
+  { id: 147, front: "合のやるこ", back: "ごう — gō, traditional unit of volume, approx. 180 ml" },
+  { id: 148, front: "吉義", back: "Meaning not found" },
+  { id: 149, front: "同じ失敗はしなく", back: "おなじ — same, identical, equal, alike, equivalent" },
+  { id: 150, front: "同情", back: "どうじょう — sympathy, compassion, pity" },
+  { id: 151, front: "同様", back: "どうよう — same, similar, (just) like, equal" },
+  { id: 152, front: "向往", back: "むこう — opposite side, other side" },
+  { id: 153, front: "君ならでき", back: "きみ — you, buddy, pal" },
+  { id: 154, front: "君はもっ", back: "きみ — you, buddy, pal" },
+  { id: 155, front: "呼呆", back: "こきゅう — breathing, respiration" },
+  { id: 156, front: "哲る", back: "てつ — sage, wise man, philosopher, disciple" },
+  { id: 157, front: "問題ができる", back: "もんだい — question (e.g. on a test), problem" },
+  { id: 158, front: "喜ぶ", back: "よろこぶ — to be delighted, to be glad, to be pleased, to rejoice" },
+  { id: 159, front: "因此", back: "もと — origin, source, beginning" },
+  { id: 160, front: "因比", back: "Meaning not found" },
+  { id: 161, front: "困るよ", back: "こまる — to be troubled, to have difficulty, to be in a fix, to be at a loss, to be stumped, to be embarrassed" },
+  { id: 162, front: "国に帰ること", back: "くに — country, state" },
+  { id: 163, front: "国頭が痛かった", back: "Meaning not found" },
+  { id: 164, front: "地域", back: "ちいき — area, region, district, locality" },
+  { id: 165, front: "地面を掘ったら", back: "じめん — ground, earth's surface" },
+  { id: 166, front: "地面を撮ったら", back: "じめん — ground, earth's surface" },
+  { id: 167, front: "塔", back: "とう — tower, steeple, spire" },
+  { id: 168, front: "塗りたて", back: "ぬりたて — freshly painted, freshly plastered" },
+  { id: 169, front: "塾付", back: "Meaning not found" },
+  { id: 170, front: "塾談", back: "Meaning not found" },
+  { id: 171, front: "壁りたて", back: "かべ — wall, partition" },
+  { id: 172, front: "壱書する", back: "いち — one, 1" },
+  { id: 173, front: "変わってい", back: "かわっている — to be unusual (of a person or thing), to be uncommon, to be peculiar, to be eccentric, to be different" },
+  { id: 174, front: "夏する", back: "なつ — summer" },
+  { id: 175, front: "夏志", back: "なつ — summer" },
+  { id: 176, front: "夏様", back: "なつ — summer" },
+  { id: 177, front: "多台", back: "た — multi-" },
+  { id: 178, front: "多銭修逐不如", back: "たせん — lots of money, riches, wealth" },
+  { id: 179, front: "夢敵する", back: "ゆめ — dream" },
+  { id: 180, front: "大会は寒かった", back: "たいかい — mass meeting, convention, rally, conference, assembly, gathering" },
+  { id: 181, front: "大変だった", back: "たいへん — very, greatly, terribly, awfully" },
+  { id: 182, front: "大幅度削減了表", back: "さくげん — cut, reduction, curtailment" },
+  { id: 183, front: "天然", back: "てんねん — nature, spontaneity" },
+  { id: 184, front: "失度", back: "Meaning not found" },
+  { id: 185, front: "失礼だとされ", back: "しつれい — discourtesy, impoliteness" },
+  { id: 186, front: "好で行かない", back: "こう — good" },
+  { id: 187, front: "嫌われてい", back: "きらう — to hate, to dislike, to loathe, to abhor" },
+  { id: 188, front: "子のどちら", back: "こ — child, kid, teenager, youngster, young (non-adult) person" },
+  { id: 189, front: "学費", back: "がくひ — tuition, school expenses" },
+  { id: 190, front: "安慰", back: "あんい — （名）スル 人の心をやすらかにし，なぐさめること。「三四郎は此活人画から受ける―の念を失つた」〈三四郎•漱石〉" },
+  { id: 191, front: "安非", back: "やす — cheap" },
+  { id: 192, front: "定義", back: "ていぎ — definition" },
+  { id: 193, front: "実費", back: "じっぴ — actual expenses, out-of-pocket expenses" },
+  { id: 194, front: "客感", back: "Meaning not found" },
+  { id: 195, front: "室度", back: "Meaning not found" },
+  { id: 196, front: "害着", back: "Meaning not found" },
+  { id: 197, front: "家にいたほ", back: "いえ — house, residence, dwelling, home" },
+  { id: 198, front: "家にこもる", back: "いえ — house, residence, dwelling, home" },
+  { id: 199, front: "家事", back: "かじ — housework, domestic chores" },
+  { id: 200, front: "容する", back: "よういにする — to facilitate, to make easy, to simplify" },
+  { id: 201, front: "容量を早", back: "ようりょう — capacity, volume" },
+  { id: 202, front: "富むとみ", back: "とむ — to be rich (in), to abound (in), to be abundant (in), to be full (of)" },
+  { id: 203, front: "富子", back: "Meaning not found" },
+  { id: 204, front: "少し横", back: "すこし — a little, a bit, a small amount, a few, some, slightly, somewhat" },
+  { id: 205, front: "就想起去世了的母", back: "そうき — remembering, recollection, calling to mind" },
+  { id: 206, front: "就没", back: "Meaning not found" },
+  { id: 207, front: "居眠り", back: "いねむり — nodding off (while sitting), dozing" },
+  { id: 208, front: "居間", back: "いま — living room (Western style), sitting room" },
+  { id: 209, front: "岡不出", back: "おか — hill, height, knoll, rising ground" },
+  { id: 210, front: "岩中", back: "Meaning not found" },
+  { id: 211, front: "岩然", back: "いわ — rock, boulder" },
+  { id: 212, front: "川品", back: "Meaning not found" },
+  { id: 213, front: "工量", back: "Meaning not found" },
+  { id: 214, front: "巻熱費が本幅", back: "が — indicates the subject of a sentence" },
+  { id: 215, front: "帯来", back: "Meaning not found" },
+  { id: 216, front: "帰ること", back: "かえる — to return, to come home, to go home, to go back" },
+  { id: 217, front: "平らなとこ", back: "たいら — flat, level, even, smooth" },
+  { id: 218, front: "平厉地提醒你的", back: "ひら — something broad and flat" },
+  { id: 219, front: "平均", back: "へいきん — average, mean" },
+  { id: 220, front: "平均的な数値", back: "へいきんてき — average, ordinary, normal" },
+  { id: 221, front: "平約", back: "ひら — something broad and flat" },
+  { id: 222, front: "年代", back: "ねんだい — age, era, period, date" },
+  { id: 223, front: "年数", back: "ねんすう — number of years" },
+  { id: 224, front: "年月", back: "としつき — months and years" },
+  { id: 225, front: "年齢は何歳です", back: "ねんれい — age, years" },
+  { id: 226, front: "床について", back: "ゆか — floor" },
+  { id: 227, front: "店の拡張工事", back: "みせ — store, shop, establishment, restaurant" },
+  { id: 228, front: "店の熱器工事", back: "みせ — store, shop, establishment, restaurant" },
+  { id: 229, front: "度の割合", back: "たび — time (three times, each time, etc.), times" },
+  { id: 230, front: "引口", back: "ひきぐち — にげみち。撤退する道。退路。" },
+  { id: 231, front: "弥傲", back: "いや — more and more, increasingly" },
+  { id: 232, front: "強調を蒸す", back: "きょうちょう — emphasis, stress, highlighting, underlining, underscoring" },
+  { id: 233, front: "当に必要なこと", back: "まさに — exactly, just, precisely, really, truly, surely, certainly, without doubt" },
+  { id: 234, front: "当口", back: "はた — or, otherwise" },
+  { id: 235, front: "当止如此", back: "はた — or, otherwise" },
+  { id: 236, front: "当沢工あて", back: "Meaning not found" },
+  { id: 237, front: "当然だ", back: "とうぜん — natural, right, proper, just, reasonable, appropriate, deserved" },
+  { id: 238, front: "当計", back: "はた — or, otherwise" },
+  { id: 239, front: "彼が会社", back: "かれ — he, him" },
+  { id: 240, front: "彼ぐらい", back: "かれ — he, him" },
+  { id: 241, front: "彼の作品は面白い", back: "あの — that, those, the" },
+  { id: 242, front: "彼の漫画", back: "あの — that, those, the" },
+  { id: 243, front: "彼女", back: "かのじょ — she, her" },
+  { id: 244, front: "彼女は美人だ", back: "かのじょ — she, her" },
+  { id: 245, front: "従って", back: "したがって — therefore, consequently, accordingly" },
+  { id: 246, front: "得なく", back: "える — to get, to earn, to acquire, to procure, to gain, to secure, to attain, to obtain, to win" },
+  { id: 247, front: "得然", back: "とく — profit, advantage, benefit, gain" },
+  { id: 248, front: "得通", back: "Meaning not found" },
+  { id: 249, front: "徳客は表んだ", back: "とく — virtue" },
+  { id: 250, front: "心をこめて", back: "こころをこめて — wholeheartedly, with all one's heart" },
+  { id: 251, front: "心做", back: "こころなし — somehow, somewhat, seemingly" },
+  { id: 252, front: "必然", back: "ひつぜん — inevitable, necessary, certain, sure" },
+  { id: 253, front: "忘え", back: "え — picture, drawing, painting, sketch" },
+  { id: 254, front: "忘り", back: "わすれられるけんり — right to be forgotten, right to erasure" },
+  { id: 255, front: "忙しくて", back: "いそがしい — busy, occupied, hectic" },
+  { id: 256, front: "思いき", back: "おもいきって — resolutely, boldly, decisively, daringly" },
+  { id: 257, front: "思いやって", back: "おもいやる — to sympathize with, to sympathise with, to feel for, to be considerate of, to show consideration for, to bear in mind" },
+  { id: 258, front: "思いやる", back: "おもいやる — to sympathize with, to sympathise with, to feel for, to be considerate of, to show consideration for, to bear in mind" },
+  { id: 259, front: "思い出される", back: "おもいだす — to recall, to remember, to recollect" },
+  { id: 260, front: "思い出すまい", back: "おもいだす — to recall, to remember, to recollect" },
+  { id: 261, front: "思い出すものだ", back: "おもいだす — to recall, to remember, to recollect" },
+  { id: 262, front: "思い出す限りだ", back: "おもいだす — to recall, to remember, to recollect" },
+  { id: 263, front: "思うばかり", back: "おもう — to think, to consider, to believe, to reckon" },
+  { id: 264, front: "思えばこそ", back: "おもう — to think, to consider, to believe, to reckon" },
+  { id: 265, front: "思えばさえ", back: "おもう — to think, to consider, to believe, to reckon" },
+  { id: 266, front: "思ってさえ", back: "おもう — to think, to consider, to believe, to reckon" },
+  { id: 267, front: "思わされて", back: "Meaning not found" },
+  { id: 268, front: "怠え很豆眼", back: "だるい — sluggish, languid, listless, heavy (heart, legs, etc.), dull" },
+  { id: 269, front: "恋し機のほう", back: "こいしい — yearned for, longed for, missed" },
+  { id: 270, front: "恥じらう", back: "はじらう — to feel shy, to be bashful, to blush" },
+  { id: 271, front: "恥じる", back: "はじる — to feel ashamed" },
+  { id: 272, front: "恥ずかしい", back: "はずかしい — embarrassing, embarrassed, ashamed, humiliated, shy" },
+  { id: 273, front: "恥ずかしく", back: "はずかし・い — （形）《文シク はづか・し》① （自分の欠点や失敗，あるいは良心のとがめを意識して）他人に顔向けできない気持ちだ。面目ない。「ぶざまな負け方をして―・い」「どこへ出しても..." },
+  { id: 274, front: "恥をかく", back: "はじをかく — to be embarrassed, to lose face" },
+  { id: 275, front: "恵す", back: "えびす — Ebisu, god of fishing and commerce" },
+  { id: 276, front: "患者", back: "かんじゃ — patient" },
+  { id: 277, front: "悩まされて", back: "なやます — to afflict, to torment, to harass, to molest" },
+  { id: 278, front: "悩まれてい", back: "なやむ — to be worried, to be troubled" },
+  { id: 279, front: "悩みにほ", back: "なやみ — trouble, troubles, worry, distress, sorrows, anguish, agony, problem" },
+  { id: 280, front: "悩むよりほ", back: "なやむ — to be worried, to be troubled" },
+  { id: 281, front: "悪いやり", back: "わるい — bad, poor, undesirable" },
+  { id: 282, front: "悪いる", back: "わるい — bad, poor, undesirable" },
+  { id: 283, front: "悪真に言って", back: "あく — evil, wickedness" },
+  { id: 284, front: "悪習", back: "あくしゅう — bad habit, bad custom, evil practice, vice" },
+  { id: 285, front: "想止你来西帯回来", back: "Meaning not found" },
+  { id: 286, front: "意をし", back: "い — feelings, thoughts" },
+  { id: 287, front: "意志", back: "いし — will, volition, intention, intent, determination" },
+  { id: 288, front: "感器", back: "Meaning not found" },
+  { id: 289, front: "感心", back: "かんしん — admiration, being impressed" },
+  { id: 290, front: "慰める", back: "なぐさめる — to comfort, to console, to amuse" },
+  { id: 291, front: "憎む", back: "にくむ — to hate, to detest" },
+  { id: 292, front: "憎悪", back: "ぞうお — hatred, abhorrence, loathing, detestation" },
+  { id: 293, front: "憎感", back: "Meaning not found" },
+  { id: 294, front: "憧道理", back: "りょうり — cooking, cookery, cuisine, food, dish" },
+  { id: 295, front: "成功", back: "せいこう — success, achievement" },
+  { id: 296, front: "成績だった", back: "せいせき — results, record, grades, marks" },
+  { id: 297, front: "我正是你着想", back: "われ — I, me" },
+  { id: 298, front: "所以", back: "ゆえん — reason, grounds" },
+  { id: 299, front: "手がなくて", back: "て — hand, arm" },
+  { id: 300, front: "手を抜いて", back: "て — hand, arm" },
+  { id: 301, front: "手入れ", back: "ていれ — care, looking after, repair, maintenance, tending, trimming, grooming" },
+  { id: 302, front: "手当て", back: "てあて — salary, pay, compensation, allowance (e.g. housing allowance), benefit, bonus" },
+  { id: 303, front: "手数", back: "てすう — trouble, bother" },
+  { id: 304, front: "手配", back: "てはい — arrangement, preparations" },
+  { id: 305, front: "手順", back: "てじゅん — process, procedure, sequence, protocol, instruction" },
+  { id: 306, front: "打折", back: "Meaning not found" },
+  { id: 307, front: "承ください", back: "しょう — second line of a four-line Chinese poem" },
+  { id: 308, front: "招かれた", back: "まねく — to invite, to ask" },
+  { id: 309, front: "招く", back: "まねく — to invite, to ask" },
+  { id: 310, front: "招待", back: "しょうたい — invitation" },
+  { id: 311, front: "招致", back: "しょうち — invitation, summons, bidding (e.g. to host the Olympics), calling" },
+  { id: 312, front: "振る舞う", back: "ふるまう — to behave, to conduct oneself, to act" },
+  { id: 313, front: "採掘する", back: "さいくつ — mining, digging, working (a mine)" },
+  { id: 314, front: "提出", back: "ていしゅつ — presentation (of documents), submission (of an application, report, etc.), production (e.g. of evidence), introduction (e.g. of a bill), filing, turning in" },
+  { id: 315, front: "換えたほう", back: "かえる — to replace, to convert, to change" },
+  { id: 316, front: "携断する", back: "する — to do, to carry out, to perform" },
+  { id: 317, front: "摂入", back: "とる — to have (e.g. lunch), to take (e.g. vitamins)" },
+  { id: 318, front: "改対", back: "かい — revision" },
+  { id: 319, front: "教えてくだ", back: "おしえる — to teach, to instruct" },
+  { id: 320, front: "数人的性命", back: "いのち — life, life force" },
+  { id: 321, front: "敷なやわい", back: "Meaning not found" },
+  { id: 322, front: "料速", back: "Meaning not found" },
+  { id: 323, front: "新しい", back: "あたらし・い — （形）《文シク あたら・し》〔「あらたし（新し）」の転。平安時代から現れる形〕① 今までにはなかったさまだ。初めてだ。「―・い発明」「―・い経験」② 従来のものとは違って..." },
+  { id: 324, front: "新しい裏を買った", back: "Meaning not found" },
+  { id: 325, front: "新しい車を買った", back: "Meaning not found" },
+  { id: 326, front: "新しく省", back: "Meaning not found" },
+  { id: 327, front: "新しく鶯", back: "Meaning not found" },
+  { id: 328, front: "新的", back: "Meaning not found" },
+  { id: 329, front: "新的省能源的系統", back: "Meaning not found" },
+  { id: 330, front: "无起", back: "Meaning not found" },
+  { id: 331, front: "日刊印", back: "Meaning not found" },
+  { id: 332, front: "日台", back: "Meaning not found" },
+  { id: 333, front: "日日", back: "にちにち — 毎日。ひび。副詞的にも用いる。「―のつとめ」「―人知れず腐心してゐる」〈雁•鷗外〉〈子項目〉日日花日日草日日夜夜〈句項目〉日日是好日" },
+  { id: 334, front: "日目", back: "Meaning not found" },
+  { id: 335, front: "日程表によれば", back: "Meaning not found" },
+  { id: 336, front: "映画", back: "えいが — 一秒間一六または二四こまの速度で連続的に撮影されたフィルムを，映写機によって投影し，一連の物語や映像などを写し出すもの。一九世紀末に発明されて以来，トーキー・カラー・ワイ..." },
+  { id: 337, front: "昨日", back: "きそ — 〔「きぞ」か。「そ」の清濁は確定しがたい〕① きのうの夜。昨夜。「―こそは児ろとさ寝しか」〈万葉集•3522〉② きのう。昨日。「―の夜帰りまゐりしに」〈読本・雨月物語•..." },
+  { id: 338, front: "時計", back: "とけい — 時間を計ったり，時刻を示したりする機械。錘（おもり）・ぜんまい・電気などの力で運動させて，振り子または天府の振動の等時性を利用して，歯車で指針を等時的に進ませる装置。これ..." },
+  { id: 339, front: "時間がたっぷ", back: "Meaning not found" },
+  { id: 340, front: "時間のずれ", back: "Meaning not found" },
+  { id: 341, front: "時間のむだだ", back: "Meaning not found" },
+  { id: 342, front: "普及によって", back: "Meaning not found" },
+  { id: 343, front: "暴る", back: "あば・る — （動ラ下二） →あばれる" },
+  { id: 344, front: "更冷了", back: "Meaning not found" },
+  { id: 345, front: "書ができた", back: "Meaning not found" },
+  { id: 346, front: "書類", back: "しょるい — ① 文字で書き記したもの。書き付け。文書。「重要―」「秘密―」② （現実と対比して）形式上のもの。「―上の上司」「―の上では問題ない」〈子項目〉書類送検" },
+  { id: 347, front: "最浜の蓋煮", back: "Meaning not found" },
+  { id: 348, front: "最近の若者", back: "Meaning not found" },
+  { id: 349, front: "有値", back: "Meaning not found" },
+  { id: 350, front: "有意必", back: "Meaning not found" },
+  { id: 351, front: "望は番口", back: "Meaning not found" },
+  { id: 352, front: "本をすくう", back: "Meaning not found" },
+  { id: 353, front: "本当は忠出身です", back: "Meaning not found" },
+  { id: 354, front: "来月", back: "らいげつ — 今月の次の月。" },
+  { id: 355, front: "来週", back: "らいしゅう — この次の週。" },
+  { id: 356, front: "枚まとめて", back: "Meaning not found" },
+  { id: 357, front: "枚分", back: "Meaning not found" },
+  { id: 358, front: "枚分まけてく", back: "Meaning not found" },
+  { id: 359, front: "柔軟", back: "じゅうなん — （形動）文ナリ ① やわらかく，しなやかなさま。「―な体」② 考え方に，融通性があるさま。「―な考え方」「―に対処する」派生―さ（名）〈子項目〉柔軟仕上げ柔軟性メカニズム..." },
+  { id: 360, front: "検査項目はすべて", back: "Meaning not found" },
+  { id: 361, front: "検査項貝はすべて", back: "Meaning not found" },
+  { id: 362, front: "構義", back: "Meaning not found" },
+  { id: 363, front: "構議", back: "Meaning not found" },
+  { id: 364, front: "横切る", back: "よこぎ・る — 一 （動ラ五[四]）道などを一方の側から他の側へ渡る。横に突っ切って通り過ぎる。横断する。「道を―・る」「本州を―・って日本海へ抜けた台風」可能よこぎれる二 （動ラ下二）..." },
+  { id: 365, front: "横断歩導よこ", back: "Meaning not found" },
+  { id: 366, front: "機器", back: "きき — 機械・器械・器具の総称。「教育―」" },
+  { id: 367, front: "櫻母", back: "Meaning not found" },
+  { id: 368, front: "歌を聴く", back: "Meaning not found" },
+  { id: 369, front: "歌を職く", back: "Meaning not found" },
+  { id: 370, front: "止です", back: "Meaning not found" },
+  { id: 371, front: "正義", back: "せいぎ — ① 正しい道義。人が従うべき正しい道理。「―を貫く」② 他者や人々の権利を尊重することで，各人に権利義務・報奨・制裁などを正当に割り当てること。アリストテレスによると，名..." },
+  { id: 372, front: "歯舞するのぼ", back: "Meaning not found" },
+  { id: 373, front: "母のこと", back: "Meaning not found" },
+  { id: 374, front: "母は僕の顔", back: "Meaning not found" },
+  { id: 375, front: "気にしない", back: "Meaning not found" },
+  { id: 376, front: "気分が思い", back: "Meaning not found" },
+  { id: 377, front: "気持ち", back: "きもち — ① 物事に接したときに生じる，感じや心の中の思い。「―が変わる」「私の―をくんで下さい」「彼の―が理解できない」② からだのおかれた状態に応じて起こる，快・不快などの感覚..." },
+  { id: 378, front: "水食", back: "すいしょく — （名）スル 流水・波浪・雨水などが地表を削って，破壊・浸食すること。〈子項目〉水食谷" },
+  { id: 379, front: "池添", back: "Meaning not found" },
+  { id: 380, front: "決められ", back: "Meaning not found" },
+  { id: 381, front: "決められる", back: "き・める — （動マ下一）《文マ下二 き・む》① 規則・方針などを作りあげる。定める。「ルールを―・める」「運動方針を―・める」② 自分の意志や態度をはっきりさせる。決心する。「行くこ..." },
+  { id: 382, front: "没有抗疾病", back: "Meaning not found" },
+  { id: 383, front: "治ったから", back: "Meaning not found" },
+  { id: 384, front: "法了", back: "Meaning not found" },
+  { id: 385, front: "泣き始めた", back: "Meaning not found" },
+  { id: 386, front: "注ぐ", back: "そそ・ぐ — （動ガ五[四]）〔室町頃まで「そそく」と清音〕❶ 自動詞 ① 水が流れ込む。「東京湾に―・ぐ川」② 雨・雪などが降りかかる。「竹の葉に―・ぐ雨」❷ 他動詞 ① 液体を容器..." },
+  { id: 387, front: "注入", back: "ちゅうにゅう — （名）スル ① そそぎ入れること。つぎこむこと。また，流れ入ること。「薬液を体内に―する」「早川の東流して此川に―する処までは」〈日本風景論•重昂〉② 物事をあるところに..." },
+  { id: 388, front: "注意している", back: "Meaning not found" },
+  { id: 389, front: "活説", back: "Meaning not found" },
+  { id: 390, front: "流入", back: "りゅうにゅう — （名）スル ① 水が川や海などに流れ込むこと。「工場廃液の―」② 人や物が他から入り込むこと。「人口の―」「外資が―する」 ↔流出" },
+  { id: 391, front: "海る", back: "Meaning not found" },
+  { id: 392, front: "海度", back: "Meaning not found" },
+  { id: 393, front: "淡要", back: "Meaning not found" },
+  { id: 394, front: "添付して送れる", back: "Meaning not found" },
+  { id: 395, front: "済み", back: "すみ — 物事が済むこと。「その件はもう―だ」「お代は―です」 →ずみ（済）" },
+  { id: 396, front: "済む", back: "す・む — （動マ五[四]）〔「澄む」と同源〕① 物事が終わる。終了する。「仕事が早く―・む」「宿題がまだ―・まない」「この車はまだローンが―・んでない」② 事態が解決・解消する。か..." },
+  { id: 397, front: "済んでいる", back: "す・む — （動マ五[四]）〔「澄む」と同源〕① 物事が終わる。終了する。「仕事が早く―・む」「宿題がまだ―・まない」「この車はまだローンが―・んでない」② 事態が解決・解消する。か..." },
+  { id: 398, front: "温度", back: "おんど — 暖かさ冷たさの度合を示す数値。物理的には熱平衡を特徴づけ，熱の移動する傾向を表す量。微視的には，系を構成する粒子のもつエネルギーの分布を決め，その平均値の目安となる量。 ..." },
+  { id: 399, front: "温泉が出てきたそ", back: "Meaning not found" },
+  { id: 400, front: "湿度", back: "しつど — ① 空気中に含まれている水蒸気の量。 →絶対湿度② 空気の乾湿の程度を示す目安。普通，これを湿度という。 →相対湿度〈子項目〉湿度計" },
+  { id: 401, front: "湿気しめ", back: "Meaning not found" },
+  { id: 402, front: "満満的", back: "Meaning not found" },
+  { id: 403, front: "漏らす", back: "もら・す — （動サ五[四]）① 水や光・音などをすき間などから外に出す。こぼす。「小便を―・す」「水も―・さぬ警戒網」② 秘密などをこっそりと他の人に伝える。「軍の機密を―・す」「口..." },
+  { id: 404, front: "漏掉", back: "Meaning not found" },
+  { id: 405, front: "漫画", back: "まんが — ① 大胆に省略・誇張して描き，笑いを誘いながら風刺や批評をこめた絵。戯画。 →カリカチュア② 絵または絵と台詞（せりふ）によって表現される物語。「四コマ―」「少女―」③ ..." },
+  { id: 406, front: "漬純", back: "Meaning not found" },
+  { id: 407, front: "災害", back: "さいがい — 地震・台風・洪水・津波・噴火・旱魃（かんばつ）・大火災・感染症の流行などによって引き起こされる不時のわざわい。また，それによる被害。〈子項目〉災害救助犬災害救助法災害拠点..." },
+  { id: 408, front: "災害が起こった時", back: "Meaning not found" },
+  { id: 409, front: "無い", back: "な・い — （形）《文ク な・し》① （人間や物が）存在しない。完全な非存在の場合も，ある場面に不在の場合もある。「地獄は本当にあるか―・いか」「ほめられて喜ばない人は―・い」「ここ..." },
+  { id: 410, front: "無いな無い", back: "Meaning not found" },
+  { id: 411, front: "無がてきた", back: "Meaning not found" },
+  { id: 412, front: "無る", back: "Meaning not found" },
+  { id: 413, front: "無境", back: "Meaning not found" },
+  { id: 414, front: "無然", back: "Meaning not found" },
+  { id: 415, front: "無粋", back: "ぶすい — （名•形動）文ナリ ① 人情の機微を解さないこと。特に，男女間の情愛の微妙さがわからないこと。また，そのさま。 ↔粋。「―な男」「―な質問」② 情緒のないこと。また，その..." },
+  { id: 416, front: "焦る", back: "あせ・る — （動ラ五[四]）① 早くやろう，うまくやろうと思っていらいらする。「勝ちを―・って失敗する」② 気がはやって，足をばたばたさせる。「―・る上馬（あがりうま）に乗りて」〈梁..." },
+  { id: 417, front: "焦屋", back: "Meaning not found" },
+  { id: 418, front: "煮えさせら", back: "Meaning not found" },
+  { id: 419, front: "煮える", back: "に・える — （動ア下一）《文ヤ下二 に・ゆ》① 沸き立った汁の中で物に熱が通って食べられるようになる。「芋が―・える」② 水が沸きたって熱い湯になる。「―・ゆる茶の湯は面白や」〈狂言..." },
+  { id: 420, front: "煮癒する", back: "Meaning not found" },
+  { id: 421, front: "熊事", back: "Meaning not found" },
+  { id: 422, front: "熟料品ふだ", back: "Meaning not found" },
+  { id: 423, front: "熱する", back: "ねっ・する — （動サ変）《文サ変 ねつ・す》① 熱を加える。熱くする。「金属を―・する」② 熱くなる。「まっ赤に―・した溶岩」③ 夢中になる。熱中する。「―・しやすい性質」「政治に―・..." },
+  { id: 424, front: "熱は会がいい", back: "Meaning not found" },
+  { id: 425, front: "熱感", back: "ねつかん — 熱のある感じ。" },
+  { id: 426, front: "父が亡くなった", back: "Meaning not found" },
+  { id: 427, front: "父を尊敬している", back: "Meaning not found" },
+  { id: 428, front: "独臭し", back: "Meaning not found" },
+  { id: 429, front: "率直に言って", back: "Meaning not found" },
+  { id: 430, front: "玉社", back: "Meaning not found" },
+  { id: 431, front: "環境を守るため", back: "Meaning not found" },
+  { id: 432, front: "環境問題", back: "Meaning not found" },
+  { id: 433, front: "環業料", back: "Meaning not found" },
+  { id: 434, front: "生きがい", back: "いきがい — 生きるに値するだけの価値。生きていることの喜びや幸福感。「―を見つける」" },
+  { id: 435, front: "生きがし", back: "Meaning not found" },
+  { id: 436, front: "生じられた", back: "しょう・じる — （動ザ上一）〔サ変動詞「生ずる」の上一段化〕 →生ずるに同じ。「効力が―・じる」" },
+  { id: 437, front: "生じる", back: "しょう・じる — （動ザ上一）〔サ変動詞「生ずる」の上一段化〕 →生ずるに同じ。「効力が―・じる」" },
+  { id: 438, front: "生まれた順", back: "Meaning not found" },
+  { id: 439, front: "生地な手", back: "Meaning not found" },
+  { id: 440, front: "生存的値", back: "Meaning not found" },
+  { id: 441, front: "用旧物銭換新物", back: "Meaning not found" },
+  { id: 442, front: "田中さん", back: "Meaning not found" },
+  { id: 443, front: "由引入", back: "Meaning not found" },
+  { id: 444, front: "申し訳", back: "もうしわけ — （名）スル ① 自分のとった行動について相手に理由を説明すること。言いわけ。弁解。「―をする」「―がたつ」② なんとか言いわけできる程度。ほんのわずか。実質がなくて形だけ..." },
+  { id: 445, front: "男外", back: "Meaning not found" },
+  { id: 446, front: "画家", back: "がか — 絵をかくことを職業とする人。絵かき。" },
+  { id: 447, front: "番目", back: "つがいめ — ① 二つのものが組み合わさった部分。② 関節。ヘボン〈親項目〉番" },
+  { id: 448, front: "疼得厉害", back: "Meaning not found" },
+  { id: 449, front: "病気に何がある", back: "Meaning not found" },
+  { id: 450, front: "病院", back: "びょういん — 患者を収容して診察・治療に当たる，規模の大きな医療機関。医療法では二〇人以上の患者収容設備のあるものをいう。〔一七世紀以降，中国に来たイエズス会宣教師の著書が日本に伝わり..." },
+  { id: 451, front: "痛みがなく", back: "Meaning not found" },
+  { id: 452, front: "癒気にける", back: "Meaning not found" },
+  { id: 453, front: "発掘する", back: "はっくつ — find*. ▸ 古代の都市の遺跡を発掘する excavate the ruins of an ancient city.発掘現場 〘work on〙 an excava..." },
+  { id: 454, front: "目標", back: "めじるし — 他の物と紛れないように，つけておく印。覚えのためにつけた印。「―をつける」" },
+  { id: 455, front: "目標表によれば", back: "Meaning not found" },
+  { id: 456, front: "目立っていた", back: "Meaning not found" },
+  { id: 457, front: "直せない", back: "なお・す — （動サ五[四]）〔「直（なお）」の動詞化〕① 正常な状態にする。悪くなったものをよい状態に戻す。㋐ 修理する。修繕する。「故障したテレビを―・す」㋑ 誤りを訂正する。修正..." },
+  { id: 458, front: "着急", back: "Meaning not found" },
+  { id: 459, front: "確率", back: "かくりつ — 〔probability〕一つの事象（出来事）の起こり得る確からしさ（可能性）の度合。また，その数値。数学的には 1 を超えることがなく，負にならない。確からしさ。蓋然率..." },
+  { id: 460, front: "確立", back: "かくりつ — （名）スル 物事の基礎・立場・計画・方針などをしっかりきめること。不動のものとして定めること。「外交方針を―する」「婦人の地位の―に努力する」" },
+  { id: 461, front: "票います", back: "Meaning not found" },
+  { id: 462, front: "禁太する", back: "Meaning not found" },
+  { id: 463, front: "私からする", back: "Meaning not found" },
+  { id: 464, front: "私たち", back: "わたしたち — ourselves. （⇨私 | わたし |） LEARNER CORPUSwe 過剰使用レベル★★★★★日本人学習者は1人称複数代名詞 we を極端に過剰使用しがちで,..." },
+  { id: 465, front: "私たちが買える", back: "Meaning not found" },
+  { id: 466, front: "私なり", back: "Meaning not found" },
+  { id: 467, front: "私のことだ", back: "Meaning not found" },
+  { id: 468, front: "私らしく", back: "Meaning not found" },
+  { id: 469, front: "程度", back: "ていど — ① 他の物と比べたときの高低・強弱・多少・優劣などの度合。ほどあい。「生活の―が上がる」「補償額は破損の―による」② 上に基準などを示す語を伴って，物事の段階がほぼそのあ..." },
+  { id: 470, front: "立っていた", back: "Meaning not found" },
+  { id: 471, front: "立て替え", back: "たてかえ — （名）スル 代金を立て替えること。また，その金銭。「―払い」〈子項目〉立て替え金" },
+  { id: 472, front: "立て替えて", back: "たてか・える — （動ア下一）《文ハ下二 たてか・ふ》他人に代わって，一時，代金を払っておく。用立てる。「本代を―・える」" },
+  { id: 473, front: "競馬する", back: "Meaning not found" },
+  { id: 474, front: "答え", back: "いらえ — こたえ。返事。応答。「窓の中はしづまりかへりて何の―もなし」〈即興詩人•鷗外〉" },
+  { id: 475, front: "範囲", back: "はんい — 〔溶かした金属を鋳型に流し込んで形を整えること，の意〕① 特定の領域・限度の中。「勢力―」「被害は広い―にわたる」「知っている―で答える」② きまり。規則。〈子項目〉範囲..." },
+  { id: 476, front: "粟年数", back: "Meaning not found" },
+  { id: 477, front: "納合された", back: "Meaning not found" },
+  { id: 478, front: "納得", back: "なっとく — （名）スル 他人の考え・行為を理解し，もっともだと認めること。「十分に説明して―させる」「―がいかない」〈子項目〉納得尽く" },
+  { id: 479, front: "納得がいく", back: "Meaning not found" },
+  { id: 480, front: "素導", back: "Meaning not found" },
+  { id: 481, front: "素敷に受け入れ", back: "Meaning not found" },
+  { id: 482, front: "素軟", back: "Meaning not found" },
+  { id: 483, front: "紫的", back: "Meaning not found" },
+  { id: 484, front: "経不住誘惑", back: "Meaning not found" },
+  { id: 485, front: "絡しいあい", back: "Meaning not found" },
+  { id: 486, front: "絵をひねる", back: "Meaning not found" },
+  { id: 487, front: "総選", back: "Meaning not found" },
+  { id: 488, front: "編み物", back: "あみもの — 毛糸やレース糸などを編んで，セーターなどの衣類やテーブル掛けなどの装飾品を作ること。また，編んで作ったもの。手編みと機械編みがある。" },
+  { id: 489, front: "編む", back: "あ・む — （動マ五[四]）① 糸・竹・髪の毛など細長い物を，結び合わせたりからみ合わせたりして，一つの形ある物を作り上げる。「毛糸を―・む」「竹でかごを―・む」② 文章を集めて本を..." },
+  { id: 490, front: "編集", back: "へんしゅう — （名）スル 一定の方針のもとに，いろいろな材料を集めて新聞・雑誌・書物などを作ること。また，その仕事。映画フィルム・録音テープなどを一つの作品にまとめることにもいう。「―..." },
+  { id: 491, front: "練の漫画", back: "Meaning not found" },
+  { id: 492, front: "義務", back: "ぎむ — ① 人が人として，あるいは立場上，身分上当然しなければならないこと。責務。② 〘哲・倫〙道徳的な必然性をもつ原理によって人が課せられる，ある行為をなすべし，またはなすべか..." },
+  { id: 493, front: "義理", back: "ぎり — ① 物事の正しい道筋。人間のふみおこなうべき正しい道。道理。② 対人関係や社会関係の中で，守るべき道理として意識されたもの。道義。「―を欠く」「―と人情の板挟み」「今さら..." },
+  { id: 494, front: "聞いたとこ", back: "Meaning not found" },
+  { id: 495, front: "肌", back: "き — 漢字はだ。皮膚。「肌膚」「雪肌」" },
+  { id: 496, front: "肖然", back: "Meaning not found" },
+  { id: 497, front: "胃に管を通す", back: "Meaning not found" },
+  { id: 498, front: "能理解", back: "Meaning not found" },
+  { id: 499, front: "腹題", back: "Meaning not found" },
+  { id: 500, front: "膩頃", back: "Meaning not found" },
+  { id: 501, front: "自の累身形", back: "Meaning not found" },
+  { id: 502, front: "自敷公とう", back: "Meaning not found" },
+  { id: 503, front: "自然", back: "しぜん — 一 （名）① 人為によってではなく，おのずから存在しているもの。山・川・海やそこに生きる万物。天地間の森羅万象。人間をはぐくみ恵みを与える一方，災害をもたらし，人間の介入..." },
+  { id: 504, front: "自負", back: "じふ — （名）スル 自分の才能や仕事に自信をもち，誇らしく思うこと。また，その心。「日本一の腕前だと―する」「―をもつ」「―心」" },
+  { id: 505, front: "致力", back: "Meaning not found" },
+  { id: 506, front: "舞う", back: "ま・う — （動ワ五[ハ四]）① 音楽などに合わせて，かろやかに手足を動かす。おどる。「舞を―・う」② 空を飛ぶ。空中をかろやかに動く。「木の葉が―・う」「雪が―・う」「とんびが―・..." },
+  { id: 507, front: "舞台でるなん", back: "Meaning not found" },
+  { id: 508, front: "舞台で踊るなんて", back: "Meaning not found" },
+  { id: 509, front: "舞台衣装を着る", back: "Meaning not found" },
+  { id: 510, front: "舞食", back: "Meaning not found" },
+  { id: 511, front: "良い", back: "い・い — （形）〔形容詞「よい」の終止形・連体形ヨイが近世にエイ（エエ）を経て転じたもの。現代の話し言葉では終止形・連体形にだけ用いられ，改まった場面ではヨイが用いられる。特に，俗..." },
+  { id: 512, front: "良いところ", back: "Meaning not found" },
+  { id: 513, front: "良き", back: "よき — 〔文語形容詞「よし」の連体形から〕一 （名）良いこと。良いもの。二 （連体）よい。「彼とは―ライバルだ」「きょうの―日に」〈句項目〉良きにつけ悪しきにつけ" },
+  { id: 514, front: "良好です", back: "りょうこう — （名•形動）文ナリ 状態・調子・成績などがよいこと。このましいこと。また，そのさま。「手術後の経過は―だ」「感度―」「―な成績」派生―さ（名）" },
+  { id: 515, front: "良質", back: "りょうしつ — （名•形動）文ナリ 品質がよい・こと（さま）。 ↔悪質。「―の石炭」「―な材料」" },
+  { id: 516, front: "色々考えた結果", back: "Meaning not found" },
+  { id: 517, front: "芝説的活", back: "Meaning not found" },
+  { id: 518, front: "花送", back: "Meaning not found" },
+  { id: 519, front: "若いころ", back: "Meaning not found" },
+  { id: 520, front: "荒らす", back: "あら・す — （動サ五[四]）① 整然としていたものを混乱させたり破壊したりする。「犬が庭を―・して困る」② 他人の領域を侵し乱す。「道場を―・す」「安売りで市場を―・す」③ ものが傷..." },
+  { id: 521, front: "荒れた肌がすべす", back: "Meaning not found" },
+  { id: 522, front: "荒れた駅がすべす", back: "Meaning not found" },
+  { id: 523, front: "荒れる", back: "あ・れる — （動ラ下一）《文ラ下二 あ・る》① 風雨や波が激しくなる。天候が穏やかでなくなる。「台風の影響で海も山も―・れそうだ」② 損なわれた状態になる。荒廃する。「住む人もなく，..." },
+  { id: 524, front: "落ちゃん", back: "Meaning not found" },
+  { id: 525, front: "蒸い", back: "Meaning not found" },
+  { id: 526, front: "蒸し", back: "むし — ① 蒸すこと。また，蒸したもの。② 〔女房詞〕味噌。おむし。大上﨟御名之事" },
+  { id: 527, front: "蒸らかい", back: "Meaning not found" },
+  { id: 528, front: "薬も効かない", back: "Meaning not found" },
+  { id: 529, front: "薬を飲んだ", back: "Meaning not found" },
+  { id: 530, front: "薬張する", back: "Meaning not found" },
+  { id: 531, front: "行かずに済ん", back: "Meaning not found" },
+  { id: 532, front: "行く", back: "い・く — （動カ五[四]） →ゆく（行・往）（逝）に同じ。可能いける" },
+  { id: 533, front: "行くぐらい", back: "Meaning not found" },
+  { id: 534, front: "行けない", back: "い・く — （動カ五[四]） →ゆく（行・往）（逝）に同じ。可能いける" },
+  { id: 535, front: "行っ", back: "おこな・う — （動ワ五[ハ四]）① 何らかの事柄や動作をする。多くは，一定の方式に従ってする，の意を含む。「練習を―・う」「熱心な討議が―・われる」「卒業式は三月二二日に―・われる」「..." },
+  { id: 536, front: "行ったかい", back: "Meaning not found" },
+  { id: 537, front: "行って", back: "おこな・う — （動ワ五[ハ四]）① 何らかの事柄や動作をする。多くは，一定の方式に従ってする，の意を含む。「練習を―・う」「熱心な討議が―・われる」「卒業式は三月二二日に―・われる」「..." },
+  { id: 538, front: "表のすぐそ", back: "Meaning not found" },
+  { id: 539, front: "表参", back: "Meaning not found" },
+  { id: 540, front: "袋愕", back: "Meaning not found" },
+  { id: 541, front: "袋素が起こった時", back: "Meaning not found" },
+  { id: 542, front: "製像", back: "Meaning not found" },
+  { id: 543, front: "製品を作りたい", back: "Meaning not found" },
+  { id: 544, front: "要する", back: "よう・する — （動サ変）《文サ変 えう・す》〔古くは「ようず」とも〕① 必要とする。求める。「全治一か月を―・する」「注意を―・する問題」「かぐや姫の―・じ給ふべきなりけり」〈竹取物語..." },
+  { id: 545, front: "見たなり", back: "Meaning not found" },
+  { id: 546, front: "見る", back: "みる — （動マ上一）文マ上一 ❶ ① 視覚によって，物の形・色・様子などを知覚する。「建物を正面からみる」「みたことのない鳥がいる」「不正をみてみないふりをする」「みるからに強そ..." },
+  { id: 547, front: "見るなり", back: "Meaning not found" },
+  { id: 548, front: "見舞い", back: "みまい — ① 病人や災難にあった人を訪れたり，無事かどうか手紙でたずねてなぐさめたりすること。「入院中の友達の―に行く」「―の品」「暑中―」「―客」② 見舞うために送る手紙や品物。..." },
+  { id: 549, front: "見舞う", back: "みま・う — （動ワ五[ハ四]）① 病人や災難にあった人のもとを訪れたり手紙を出したりして，様子をたずねたりなぐさめたりする。慰問する。「友人を病院に―・う」② 好ましくない物や災難が..." },
+  { id: 550, front: "言える", back: "い・える — （動ア下一）〔「言う」の可能動詞〕① 言うことができる。「英語で―・える」② （しばしば「言える，言える」「言えてる」の形で）そのとおりである，と納得できたときにいう語。..." },
+  { id: 551, front: "言えるが", back: "Meaning not found" },
+  { id: 552, front: "言われて", back: "い・う — （動ワ五[ハ四]）❶ 声を出して単語や文を発する。① 何らかの音・単語を発する。「『キャーッ』と―・って倒れた」② 事実や考えを表出する。告げる。「いくら聞いても名前を―..." },
+  { id: 553, front: "言われる", back: "い・う — （動ワ五[ハ四]）❶ 声を出して単語や文を発する。① 何らかの音・単語を発する。「『キャーッ』と―・って倒れた」② 事実や考えを表出する。告げる。「いくら聞いても名前を―..." },
+  { id: 554, front: "言度恥をかけば", back: "Meaning not found" },
+  { id: 555, front: "計画", back: "けいかく — （名）スル 事を行うにあたり，その方法や手順などをあらかじめ考えること。また，その案。もくろみ。プラン。「旅行を―する」「―を立てる」「―を練る」 →企画（補説欄）〈子項..." },
+  { id: 556, front: "訳ありませ", back: "Meaning not found" },
+  { id: 557, front: "診惑に負ける", back: "Meaning not found" },
+  { id: 558, front: "試験", back: "しけん — （名）スル ① 物事の性質・能力などを知るために，ためし調べてみること。テスト。「新車の性能を―する」「生理学が生物を―するやうに小説も事実を実験し」〈文芸上の自然主義•..." },
+  { id: 559, front: "詰まってい", back: "Meaning not found" },
+  { id: 560, front: "話がつか", back: "Meaning not found" },
+  { id: 561, front: "話がつく", back: "はなし — Our conversation became more lively.話に実が入る ▸ 彼らは話に実が入って｟熱中して｠時のたつのを忘れた They were engr..." },
+  { id: 562, front: "話がわから", back: "Meaning not found" },
+  { id: 563, front: "話がわかる", back: "話が分か・る — 世事に通じていて，物事の道理がわかる。「話のわかる人」〈親項目〉話" },
+  { id: 564, front: "話が事素だとすれ", back: "Meaning not found" },
+  { id: 565, front: "話になら", back: "Meaning not found" },
+  { id: 566, front: "話にのら", back: "Meaning not found" },
+  { id: 567, front: "話に乗る", back: "はなし — Our conversation became more lively.話に実が入る ▸ 彼らは話に実が入って｟熱中して｠時のたつのを忘れた They were engr..." },
+  { id: 568, front: "課程", back: "かてい — 学校などで，ある一定期間に配当され，修得しなくてはならない一定範囲の学習や研究などの内容・事項。コース。「教職―」「博士―」〔同音語の「過程」は物事が変化・発展していくプ..." },
+  { id: 569, front: "講義", back: "こうぎ — （名）スル ① 人々に学説・書物・物事などの意味や内容を口頭で説明すること。また，その説明の話。「社会情勢について―する」② 大学における授業。〈子項目〉講義所講義録" },
+  { id: 570, front: "講議", back: "Meaning not found" },
+  { id: 571, front: "貝標が高ければこ", back: "Meaning not found" },
+  { id: 572, front: "負けてしま", back: "Meaning not found" },
+  { id: 573, front: "財布を忘れた", back: "Meaning not found" },
+  { id: 574, front: "財産の相続で兄弟", back: "Meaning not found" },
+  { id: 575, front: "買い", back: "かい — ① 買うこと。「安物―」② 相場の値上がりを予想して買うこと。 ↔売り" },
+  { id: 576, front: "買いに行った", back: "Meaning not found" },
+  { id: 577, front: "買い人のやるこ", back: "Meaning not found" },
+  { id: 578, front: "買い換えたほう", back: "Meaning not found" },
+  { id: 579, front: "買ったら", back: "か・う — （動ワ五[ハ四]）〔「替ふ」と同源〕① （欲しいものを）代金を払って自分のものとする。購入する。 ↔売る。「本を―・う」「入場券を―・う」「権利を―・う」② 人の才能・性..." },
+  { id: 580, front: "買ってきて", back: "Meaning not found" },
+  { id: 581, front: "貸しみ", back: "Meaning not found" },
+  { id: 582, front: "貸む", back: "Meaning not found" },
+  { id: 583, front: "貸らしい", back: "Meaning not found" },
+  { id: 584, front: "資料は悪港せ", back: "Meaning not found" },
+  { id: 585, front: "資料は郵送", back: "Meaning not found" },
+  { id: 586, front: "質度", back: "Meaning not found" },
+  { id: 587, front: "贈品", back: "Meaning not found" },
+  { id: 588, front: "赤ん坊", back: "あかんぼう — 〔体が赤みがかっているからいう〕① 生まれて間もない子。あかちゃん。あかご。あかんぼ。② 経験が少なく，子供っぽい人。" },
+  { id: 589, front: "赤ん等", back: "Meaning not found" },
+  { id: 590, front: "赤ん落", back: "Meaning not found" },
+  { id: 591, front: "足または姉", back: "Meaning not found" },
+  { id: 592, front: "足球排成一排", back: "Meaning not found" },
+  { id: 593, front: "転居する", back: "てんきょ — one's new address.転居通知 a change-of-address card." },
+  { id: 594, front: "辛口", back: "からくち — ① 酒・味噌（みそ）などで，口当たりの辛いもの。 ↔甘口。「―の酒」② 辛いもの（特に酒）を好むこと。また，その人。③ 評価などが手きびしいこと。「―の批評」" },
+  { id: 595, front: "辞めたい", back: "や・める — （動マ下一）《文マ下二 や・む》〔「止（や）める」と同源〕就いていた職や地位などを退く。退職する。辞職・辞任する。「都合で会社を―・める」「責任をとって会長を―・める」" },
+  { id: 596, front: "返還しません", back: "Meaning not found" },
+  { id: 597, front: "途中から雨", back: "Meaning not found" },
+  { id: 598, front: "連絡してくだ", back: "Meaning not found" },
+  { id: 599, front: "週間家", back: "Meaning not found" },
+  { id: 600, front: "遊く", back: "Meaning not found" },
+  { id: 601, front: "遊んでいる", back: "あす・ぶ — （動バ五[四]）「あそぶ」の転。「君だつてもなにも―・んでゐて食へると云ふ身分でも有るまい」〈浮雲•四迷〉" },
+  { id: 602, front: "過ごした", back: "すご・す — （動サ五[四]）〔「すぐす」の転〕① 時間がたつのにまかせる。月日・時をおくる。くらす。「休日を家族と―・す」「楽しいひとときを―・す」「一冬―・す」② 限度をこす。特に..." },
+  { id: 603, front: "過程", back: "かてい — 物事が進行・変化・発展していく一連のみちすじ。プロセス。「生産―」「変化の―にある」 →課程（補説欄）" },
+  { id: 604, front: "過程を表したもの", back: "Meaning not found" },
+  { id: 605, front: "道番にくにい", back: "Meaning not found" },
+  { id: 606, front: "達成感も増す", back: "Meaning not found" },
+  { id: 607, front: "違い", back: "たがい — ちがい。相違。「本物に―ない」〈子項目〉違い目" },
+  { id: 608, front: "選まがずら", back: "Meaning not found" },
+  { id: 609, front: "選手", back: "せんしゅ — スポーツで選ばれて競技に出場する人。また，競技者としてスポーツを行っている人。「運動会のリレーの―」「野球―」〈子項目〉選手権選手権大会選手村" },
+  { id: 610, front: "部品", back: "ぶひん — 「部分品」の略。「ラジオの―」" },
+  { id: 611, front: "配得者", back: "Meaning not found" },
+  { id: 612, front: "酒ができた", back: "Meaning not found" },
+  { id: 613, front: "酒をしなけ", back: "Meaning not found" },
+  { id: 614, front: "醤富", back: "Meaning not found" },
+  { id: 615, front: "醤魔する", back: "Meaning not found" },
+  { id: 616, front: "金", back: "かね — ① 金属。金・銀・銅・鉄など。「―の箸」② 金銭。おかね。「―をためる」「―を貸す」〔近世，上方では主に銀貨が用いられたことから「銀」の字も用いられた〕〈句項目〉金が唸る..." },
+  { id: 617, front: "金の気持ちに関し", back: "Meaning not found" },
+  { id: 618, front: "釜が亡くなった", back: "Meaning not found" },
+  { id: 619, front: "鈍い", back: "おそ・い — （形）《文ク おそ・し》① 物事の時期や順序があとである。基準になる時から時間がかなり経過している。《遅》 ↔はやい。「入社は彼の方が―・い」「例年より開花が―・い」「今..." },
+  { id: 620, front: "鈍感", back: "どんかん — （名•形動）文ナリ 感じ方のにぶいこと。気のきかないこと。また，そのさま。 ↔敏感。「―な奴（やつ）」「味覚が―になる」" },
+  { id: 621, front: "鈍感だ", back: "どんかん — （名•形動）文ナリ 感じ方のにぶいこと。気のきかないこと。また，そのさま。 ↔敏感。「―な奴（やつ）」「味覚が―になる」" },
+  { id: 622, front: "銅感", back: "Meaning not found" },
+  { id: 623, front: "鋭い", back: "すすど・い — （形）《文ク すすど・し》① 挙動・性質などが機敏である。するどい。「九郎は―・きをのこにてさぶらふなれば」〈平家物語•11〉② かしこくて，行動に移すのがす早い。「若年..." },
+  { id: 624, front: "鋭するど", back: "Meaning not found" },
+  { id: 625, front: "鋭感", back: "えいかん — 物事に対する鋭い感覚。" },
+  { id: 626, front: "錯位", back: "Meaning not found" },
+  { id: 627, front: "長い", back: "なが・い — （形）《文ク なが・し》① （線状に連続しているものの）ある点からある点までの空間的な隔たりが大きい。《長》「―・い道のり」「―・い刀」「―・い行列」② ある時点からある..." },
+  { id: 628, front: "長編分短編", back: "Meaning not found" },
+  { id: 629, front: "間に合いかねる", back: "Meaning not found" },
+  { id: 630, front: "間に合いがたい", back: "Meaning not found" },
+  { id: 631, front: "間に合いそう", back: "まにあ・う — （動ワ五[ハ四]）① 決められた時刻・期限に遅れない。「バスに―・う」② その場の必要を満たす。十分である。「一万円もあれば―・うだろう」「文房具は大体この店で―・う」〔..." },
+  { id: 632, front: "間に合うわけ", back: "Meaning not found" },
+  { id: 633, front: "関し", back: "かん・する — （動サ変）《文サ変 くわん・す》ある物事にかかわりがある。関係する。かかわる。「教育に―・する諸問題」「政治に―・して発言する」「我―・せず」" },
+  { id: 634, front: "降ってきて", back: "Meaning not found" },
+  { id: 635, front: "集す", back: "Meaning not found" },
+  { id: 636, front: "雨の降るかくり", back: "Meaning not found" },
+  { id: 637, front: "雨季の場合は出", back: "Meaning not found" },
+  { id: 638, front: "雲敷する", back: "Meaning not found" },
+  { id: 639, front: "電事雲", back: "Meaning not found" },
+  { id: 640, front: "電子", back: "でんし — 素粒子の一。記号 e 負の電気素量をもち，スピン 1/2，質量 9.1×10－31 kg で安定。レプトンに属する。原子核のまわりに分布して原子を構成。物質内の電子の状態..." },
+  { id: 641, front: "電話", back: "でんわ — （名）スル ① 電話機で通話すること。また，その通話。「―をかける」「―して問い合わせる」〔1876年アメリカのベルが実用化に成功。日本の電話事業は明治以降国営であったが..." },
+  { id: 642, front: "霧多", back: "Meaning not found" },
+  { id: 643, front: "青島", back: "あおしま — 宮崎市南部，日南海岸の北端にある小島。浸食されて海食台をなし，「鬼の洗濯板」と呼ばれる景観を呈する。ビロウなどの亜熱帯植物群落は特別天然記念物。" },
+  { id: 644, front: "順序", back: "じゅんじょ — ① 何が先で，何があとに来るかという，物事の相互の関係。「―よく乗車する」「―を立てる」② 物事を行う段取り。手順。「―をふむ」 →順番（補説欄）〈子項目〉順序数順序数詞..." },
+  { id: 645, front: "順番", back: "じゅんばん — ある配列にしたがって，次々にその事に当たること。また，その配列。「―がまわってくる」「―に鬼になる」〔類義の語に「順序」があるが，「順序」は全体を一つの秩序と見て，ある基..." },
+  { id: 646, front: "頭が痛かった", back: "Meaning not found" },
+  { id: 647, front: "頭は当分やみそう", back: "Meaning not found" },
+  { id: 648, front: "頭り", back: "Meaning not found" },
+  { id: 649, front: "頭る", back: "Meaning not found" },
+  { id: 650, front: "頭痛がひどい", back: "Meaning not found" },
+  { id: 651, front: "頭脳を持っている", back: "Meaning not found" },
+  { id: 652, front: "頭贈", back: "Meaning not found" },
+  { id: 653, front: "食に対して", back: "Meaning not found" },
+  { id: 654, front: "食べっぷり", back: "Meaning not found" },
+  { id: 655, front: "食をけなし", back: "Meaning not found" },
+  { id: 656, front: "食事するなら", back: "Meaning not found" },
+  { id: 657, front: "食要", back: "Meaning not found" },
+  { id: 658, front: "養護師", back: "Meaning not found" },
+  { id: 659, front: "首付", back: "Meaning not found" },
+  { id: 660, front: "駅着", back: "Meaning not found" },
+  { id: 661, front: "高い", back: "たか・い — （形）《文ク たか・し》① 空間的に基準面よりかなり上にある。㋐ 物の下端から上端までの差が大きい。上方に伸びている。「背の―・い人」「―・い山」「雪が―・く積もる」㋑ ..." },
+  { id: 662, front: "高いお金をかけて", back: "Meaning not found" },
+  { id: 663, front: "高婆代がかなり", back: "Meaning not found" },
+  { id: 664, front: "髪と寒くなる", back: "Meaning not found" },
+  { id: 665, front: "鬱営", back: "Meaning not found" },
+  { id: 666, front: "魚た", back: "Meaning not found" },
+  { id: 667, front: "魚といい形といい", back: "Meaning not found" },
+  { id: 668, front: "鳴子", back: "なるこ — 田畑の害獣・害鳥を追い払う具。数本の竹筒を小板に並べてぶら下げたもの。張った縄につるしたり竿（さお）の先につけたりし，縄の端を引くなどして揺らして鳴らす。季秋〈子項目〉鳴..." },
+  { id: 669, front: "黒い", back: "くろ・い — （形）《文ク くろ・し》① 黒の色である。墨のような色だ。 ↔白い。「―・い喪服」「―・く塗る」② 黒みがかっている。黒っぽい。 ↔白い。「日に焼けて色が―・くなる」③ ..." },
+  { id: 670, front: "黒する", back: "Meaning not found" },
+  { id: 671, front: "黒で行くとすれ", back: "Meaning not found" },
+  { id: 672, front: "黒熱な手動き", back: "Meaning not found" },
+  { id: 673, front: "黒金", back: "Meaning not found" },
+];
 
 export const deckGroups: DeckGroup[] = [
   {
     id: "Set-1",
     title: "Vocabulary 1-100",
-    level: "JLPT N3",
+    level: "JLPT N3/N2",
     startIndex: 1,
     endIndex: 100,
     cardCount: 100
@@ -841,7 +688,7 @@ export const deckGroups: DeckGroup[] = [
   {
     id: "Set-2",
     title: "Vocabulary 101-200",
-    level: "JLPT N3",
+    level: "JLPT N3/N2",
     startIndex: 101,
     endIndex: 200,
     cardCount: 100
@@ -849,7 +696,7 @@ export const deckGroups: DeckGroup[] = [
   {
     id: "Set-3",
     title: "Vocabulary 201-300",
-    level: "JLPT N3",
+    level: "JLPT N3/N2",
     startIndex: 201,
     endIndex: 300,
     cardCount: 100
@@ -857,11 +704,35 @@ export const deckGroups: DeckGroup[] = [
   {
     id: "Set-4",
     title: "Vocabulary 301-400",
-    level: "JLPT N2",
+    level: "JLPT N3/N2",
     startIndex: 301,
     endIndex: 400,
     cardCount: 100
-  }
+  },
+  {
+    id: "Set-5",
+    title: "Vocabulary 401-500",
+    level: "JLPT N3/N2",
+    startIndex: 401,
+    endIndex: 500,
+    cardCount: 100
+  },
+  {
+    id: "Set-6",
+    title: "Vocabulary 501-600",
+    level: "JLPT N3/N2",
+    startIndex: 501,
+    endIndex: 600,
+    cardCount: 100
+  },
+  {
+    id: "Set-7",
+    title: "Vocabulary 601-673",
+    level: "JLPT N3/N2",
+    startIndex: 601,
+    endIndex: 673,
+    cardCount: 73
+  },
 ];
 
 export function getCardsForGroup(groupId: string): Card[] {

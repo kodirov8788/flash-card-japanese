@@ -1,0 +1,4040 @@
+{
+  "お供しいとこ": {
+    "front": "お供しいとこ",
+    "reading": "お",
+    "meaning": "tail (of an animal), cauda",
+    "level": "N1"
+  },
+  "お卵": {
+    "front": "お卵",
+    "reading": "おとしたまご",
+    "meaning": "poached egg",
+    "level": "N3"
+  },
+  "お口": {
+    "front": "お口",
+    "reading": "おおぐち",
+    "meaning": "big mouth, mouth opened wide",
+    "level": "N3"
+  },
+  "お名前": {
+    "front": "お名前",
+    "reading": "おなまえ",
+    "meaning": "name",
+    "level": "N3"
+  },
+  "お問": {
+    "front": "お問",
+    "reading": "おといあわせばんごう",
+    "meaning": "reference number, order number, tracking number",
+    "level": "N3"
+  },
+  "お忙しいとこ": {
+    "front": "お忙しいとこ",
+    "reading": "と",
+    "meaning": "door (esp. Japanese-style)",
+    "level": "N5"
+  },
+  "お手数をおかけ": {
+    "front": "お手数をおかけ",
+    "reading": "おてすうをおかけいたします",
+    "meaning": "to be a burden, to make trouble for someone",
+    "level": "N3"
+  },
+  "お皿": {
+    "front": "お皿",
+    "reading": "おさら",
+    "meaning": "plate, dish",
+    "level": "N5"
+  },
+  "お金など": {
+    "front": "お金など",
+    "reading": "おかね",
+    "meaning": "money",
+    "level": "N5"
+  },
+  "お願いがあ": {
+    "front": "お願いがあ",
+    "reading": "おねがい",
+    "meaning": "request, favour (to ask), wish",
+    "level": "N3"
+  },
+  "お願いがある": {
+    "front": "お願いがある",
+    "reading": "おねがい",
+    "meaning": "request, favour (to ask), wish",
+    "level": "N3"
+  },
+  "ご了承ください": {
+    "front": "ご了承ください",
+    "reading": "ごりょうしょうください",
+    "meaning": "please be aware (that ...), please note (that ...), please understand (that ...)",
+    "level": "N3"
+  },
+  "ご型": {
+    "front": "ご型",
+    "reading": "ごぶんけい",
+    "meaning": "the five basic sentence structures of English (SV, SVC, SVO, SVOO, SVOC)",
+    "level": "N3"
+  },
+  "一です": {
+    "front": "一です",
+    "reading": "です",
+    "meaning": "be, is",
+    "level": "N3"
+  },
+  "一位": {
+    "front": "一位",
+    "reading": "いちい",
+    "meaning": "first place, first rank",
+    "level": "N3"
+  },
+  "一度恥": {
+    "front": "一度恥",
+    "reading": "いちど",
+    "meaning": "once, one time, on one occasion",
+    "level": "N4"
+  },
+  "一段": {
+    "front": "一段",
+    "reading": "いちだん",
+    "meaning": "even more, still more, much more, further",
+    "level": "N2"
+  },
+  "一等": {
+    "front": "一等",
+    "reading": "いっとう",
+    "meaning": "first class, first rank, first grade, first place, first prize",
+    "level": "N3"
+  },
+  "一緒に行った": {
+    "front": "一緒に行った",
+    "reading": "いっしょに",
+    "meaning": "together (with)",
+    "level": "N3"
+  },
+  "一首歌": {
+    "front": "一首歌",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "上司にきずら": {
+    "front": "上司にきずら",
+    "reading": "じょうし",
+    "meaning": "(one's) superior, (one's) boss, the higher-ups",
+    "level": "N1"
+  },
+  "上型": {
+    "front": "上型",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "下取り": {
+    "front": "下取り",
+    "reading": "したどり",
+    "meaning": "trade-in, part exchange",
+    "level": "N1"
+  },
+  "下取りして": {
+    "front": "下取りして",
+    "reading": "したどり",
+    "meaning": "trade-in, part exchange",
+    "level": "N1"
+  },
+  "不成体統": {
+    "front": "不成体統",
+    "reading": "とういつ",
+    "meaning": "unity, consolidation, uniformity, unification, compatible",
+    "level": "N2"
+  },
+  "世紀": {
+    "front": "世紀",
+    "reading": "せいき",
+    "meaning": "century",
+    "level": "N3"
+  },
+  "世紀に完成した": {
+    "front": "世紀に完成した",
+    "reading": "せいき",
+    "meaning": "century",
+    "level": "N3"
+  },
+  "丘口": {
+    "front": "丘口",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "両子": {
+    "front": "両子",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "両目": {
+    "front": "両目",
+    "reading": "りょうめ",
+    "meaning": "both eyes",
+    "level": "N3"
+  },
+  "並み性": {
+    "front": "並み性",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "並んでいる": {
+    "front": "並んでいる",
+    "reading": "ならんで",
+    "meaning": "alongside, side-by-side, abreast",
+    "level": "N3"
+  },
+  "中の仏像": {
+    "front": "中の仏像",
+    "reading": "ちゅう",
+    "meaning": "medium (size), average (grade, level, etc.), middle",
+    "level": "N3"
+  },
+  "中の企像": {
+    "front": "中の企像",
+    "reading": "ちゅう",
+    "meaning": "medium (size), average (grade, level, etc.), middle",
+    "level": "N3"
+  },
+  "中三口": {
+    "front": "中三口",
+    "reading": "ちゅう",
+    "meaning": "medium (size), average (grade, level, etc.), middle",
+    "level": "N3"
+  },
+  "中央改札": {
+    "front": "中央改札",
+    "reading": "ちゅうおう",
+    "meaning": "centre, center, middle, heart",
+    "level": "N3"
+  },
+  "乍一看": {
+    "front": "乍一看",
+    "reading": "みる",
+    "meaning": "to look after (often medically), to take care of",
+    "level": "N3"
+  },
+  "予定がきっし": {
+    "front": "予定がきっし",
+    "reading": "よてい",
+    "meaning": "plans, arrangement, schedule, program, programme, expectation, estimate",
+    "level": "N4"
+  },
+  "事務": {
+    "front": "事務",
+    "reading": "じむ",
+    "meaning": "office work, clerical work, administration, business, affairs",
+    "level": "N3"
+  },
+  "事務職": {
+    "front": "事務職",
+    "reading": "じむしょく",
+    "meaning": "office job, clerical work",
+    "level": "N3"
+  },
+  "事実だけあっ": {
+    "front": "事実だけあっ",
+    "reading": "じじつ",
+    "meaning": "fact, truth, reality",
+    "level": "N3"
+  },
+  "事実だとすれ": {
+    "front": "事実だとすれ",
+    "reading": "じじつ",
+    "meaning": "fact, truth, reality",
+    "level": "N3"
+  },
+  "事実どおり": {
+    "front": "事実どおり",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "事実のまま": {
+    "front": "事実のまま",
+    "reading": "じじつ",
+    "meaning": "fact, truth, reality",
+    "level": "N3"
+  },
+  "二部こる": {
+    "front": "二部こる",
+    "reading": "こる",
+    "meaning": "to become stiff (of muscles)",
+    "level": "N3"
+  },
+  "井目": {
+    "front": "井目",
+    "reading": "せいもく",
+    "meaning": "the nine principal points (on a go board), star points",
+    "level": "N3"
+  },
+  "亡くなった": {
+    "front": "亡くなった",
+    "reading": "なくなる",
+    "meaning": "to die, to pass away",
+    "level": "N4"
+  },
+  "人の意見を尊重し": {
+    "front": "人の意見を尊重し",
+    "reading": "ひと",
+    "meaning": "person, someone, somebody",
+    "level": "N5"
+  },
+  "人の魚を救う": {
+    "front": "人の魚を救う",
+    "reading": "ひと",
+    "meaning": "person, someone, somebody",
+    "level": "N5"
+  },
+  "今日はしつど": {
+    "front": "今日はしつど",
+    "reading": "きょう",
+    "meaning": "today, this day",
+    "level": "N3"
+  },
+  "今日豆": {
+    "front": "今日豆",
+    "reading": "きょう",
+    "meaning": "today, this day",
+    "level": "N3"
+  },
+  "今納得がいか": {
+    "front": "今納得がいか",
+    "reading": "が",
+    "meaning": "indicates the subject of a sentence",
+    "level": "N3"
+  },
+  "今要": {
+    "front": "今要",
+    "reading": "いま",
+    "meaning": "now, the present time, just now, soon, immediately",
+    "level": "N5"
+  },
+  "仕事": {
+    "front": "仕事",
+    "reading": "しごと",
+    "meaning": "work, job, labor, labour, business, task, assignment, occupation, employment",
+    "level": "N5"
+  },
+  "仕事がすごく": {
+    "front": "仕事がすごく",
+    "reading": "しごと",
+    "meaning": "work, job, labor, labour, business, task, assignment, occupation, employment",
+    "level": "N5"
+  },
+  "仕事が私": {
+    "front": "仕事が私",
+    "reading": "しごと",
+    "meaning": "work, job, labor, labour, business, task, assignment, occupation, employment",
+    "level": "N5"
+  },
+  "仕事ぶり": {
+    "front": "仕事ぶり",
+    "reading": "しごとぶり",
+    "meaning": "the way one works, one's working manner",
+    "level": "N3"
+  },
+  "他的漫画": {
+    "front": "他的漫画",
+    "reading": "まんが",
+    "meaning": "cartoon, comic, comic strip, manga",
+    "level": "N4"
+  },
+  "以上": {
+    "front": "以上",
+    "reading": "いじょう",
+    "meaning": "not less than ..., ... and over, ... and above, ... and upwards, ... or more",
+    "level": "N4"
+  },
+  "仮名": {
+    "front": "仮名",
+    "reading": "かな",
+    "meaning": "kana, Japanese syllabaries (i.e. hiragana and katakana)",
+    "level": "N2"
+  },
+  "仮店": {
+    "front": "仮店",
+    "reading": "かりてんぽ",
+    "meaning": "temporary store, temporary premises",
+    "level": "N3"
+  },
+  "仮認": {
+    "front": "仮認",
+    "reading": "かり",
+    "meaning": "temporary, provisional, interim, tentative",
+    "level": "N1"
+  },
+  "企業が増えてきた": {
+    "front": "企業が増えてきた",
+    "reading": "きぎょう",
+    "meaning": "enterprise, business, company, corporation",
+    "level": "N3"
+  },
+  "企画": {
+    "front": "企画",
+    "reading": "きかく",
+    "meaning": "planning, plan, project, arrangements",
+    "level": "N1"
+  },
+  "会対": {
+    "front": "会対",
+    "reading": "かい",
+    "meaning": "meeting, assembly, party, gathering, conference, athletic meet",
+    "level": "N3"
+  },
+  "会社": {
+    "front": "会社",
+    "reading": "かいしゃ",
+    "meaning": "company, corporation, firm",
+    "level": "N5"
+  },
+  "会社を辞めたい": {
+    "front": "会社を辞めたい",
+    "reading": "かいしゃ",
+    "meaning": "company, corporation, firm",
+    "level": "N5"
+  },
+  "伯父の家には本": {
+    "front": "伯父の家には本",
+    "reading": "おじ",
+    "meaning": "uncle",
+    "level": "N3"
+  },
+  "估分": {
+    "front": "估分",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "但是": {
+    "front": "但是",
+    "reading": "ただ",
+    "meaning": "ordinary, common, usual",
+    "level": "N3"
+  },
+  "低下する": {
+    "front": "低下する",
+    "reading": "ていか",
+    "meaning": "fall, decline, lowering, deterioration, degradation",
+    "level": "N2"
+  },
+  "何と": {
+    "front": "何と",
+    "reading": "なんと",
+    "meaning": "what, how",
+    "level": "N1"
+  },
+  "何とかなら": {
+    "front": "何とかなら",
+    "reading": "なんとか",
+    "meaning": "something, something or other, so-and-so",
+    "level": "N3"
+  },
+  "作った料理": {
+    "front": "作った料理",
+    "reading": "つくる",
+    "meaning": "to make, to produce, to manufacture, to build, to construct",
+    "level": "N2"
+  },
+  "修理する": {
+    "front": "修理する",
+    "reading": "しゅうりするけんり",
+    "meaning": "right to repair",
+    "level": "N3"
+  },
+  "修理するくら": {
+    "front": "修理するくら",
+    "reading": "しゅうり",
+    "meaning": "repair, mending, fixing, servicing",
+    "level": "N3"
+  },
+  "個おせしい": {
+    "front": "個おせしい",
+    "reading": "こ",
+    "meaning": "counter for (small) things or pieces",
+    "level": "N3"
+  },
+  "値引き": {
+    "front": "値引き",
+    "reading": "ねびき",
+    "meaning": "price reduction, discount",
+    "level": "N1"
+  },
+  "値引きする": {
+    "front": "値引きする",
+    "reading": "ねびき",
+    "meaning": "price reduction, discount",
+    "level": "N1"
+  },
+  "値打ち": {
+    "front": "値打ち",
+    "reading": "ねうち",
+    "meaning": "value, worth, merit",
+    "level": "N1"
+  },
+  "偏差": {
+    "front": "偏差",
+    "reading": "へんさ",
+    "meaning": "deflection, deviation, variation, declination, drift",
+    "level": "N3"
+  },
+  "健康態は鳥好です": {
+    "front": "健康態は鳥好です",
+    "reading": "けんこう",
+    "meaning": "health",
+    "level": "N3"
+  },
+  "健康状態": {
+    "front": "健康状態",
+    "reading": "けんこうじょうたい",
+    "meaning": "(the condition of) one's health",
+    "level": "N3"
+  },
+  "偶然": {
+    "front": "偶然",
+    "reading": "ぐうぜん",
+    "meaning": "coincidence, chance, accident, fortuity",
+    "level": "N3"
+  },
+  "催す": {
+    "front": "催す",
+    "reading": "もよおす",
+    "meaning": "to hold (an event), to give (a dinner, party, etc.)",
+    "level": "N1"
+  },
+  "像": {
+    "front": "像",
+    "reading": "ぞう",
+    "meaning": "image, figure, statue, picture, portrait",
+    "level": "N1"
+  },
+  "兄または姉": {
+    "front": "兄または姉",
+    "reading": "あに",
+    "meaning": "older brother, elder brother",
+    "level": "N5"
+  },
+  "先にしまし": {
+    "front": "先にしまし",
+    "reading": "さき",
+    "meaning": "point, tip, end, nozzle",
+    "level": "N5"
+  },
+  "先程": {
+    "front": "先程",
+    "reading": "さきほど",
+    "meaning": "a short while ago, a moment ago, just now, some time ago",
+    "level": "N2"
+  },
+  "先輩": {
+    "front": "先輩",
+    "reading": "せんぱい",
+    "meaning": "senior (at school, work, etc.), superior, elder, older person, predecessor",
+    "level": "N4"
+  },
+  "光熱費": {
+    "front": "光熱費",
+    "reading": "こうねつひ",
+    "meaning": "cost of fuel and lighting, cost of heat and electricity, energy bill, utility cost",
+    "level": "N1"
+  },
+  "入れ": {
+    "front": "入れ",
+    "reading": "いれ",
+    "meaning": "container, receptacle, case, bag, pouch, box, holder",
+    "level": "N3"
+  },
+  "入場": {
+    "front": "入場",
+    "reading": "にゅうじょう",
+    "meaning": "entrance, entering, admission, admittance",
+    "level": "N3"
+  },
+  "入学料": {
+    "front": "入学料",
+    "reading": "いり",
+    "meaning": "entering, entrance, entry",
+    "level": "N3"
+  },
+  "入学費": {
+    "front": "入学費",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "入学賃": {
+    "front": "入学賃",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "入学金": {
+    "front": "入学金",
+    "reading": "にゅうがくきん",
+    "meaning": "matriculation fee",
+    "level": "N3"
+  },
+  "八場": {
+    "front": "八場",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "公感": {
+    "front": "公感",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "内臓": {
+    "front": "内臓",
+    "reading": "ないぞう",
+    "meaning": "internal organs, viscera",
+    "level": "N1"
+  },
+  "内臓の働きがよく": {
+    "front": "内臓の働きがよく",
+    "reading": "ないぞう",
+    "meaning": "internal organs, viscera",
+    "level": "N1"
+  },
+  "出して": {
+    "front": "出して",
+    "reading": "だしてくれる",
+    "meaning": "to take out (e.g. garbage), to put out (e.g. dishes on table), to serve (e.g. meal), to get out (e.g. food from cupboard), to submit (e.g. ideas, opinions), to provide for, to pay for, to foot the bill",
+    "level": "N3"
+  },
+  "出合利目": {
+    "front": "出合利目",
+    "reading": "であい",
+    "meaning": "meeting, rendezvous, encounter",
+    "level": "N3"
+  },
+  "出張するんだ": {
+    "front": "出張するんだ",
+    "reading": "しゅっちょう",
+    "meaning": "business trip, official trip",
+    "level": "N2"
+  },
+  "出来": {
+    "front": "出来",
+    "reading": "でき",
+    "meaning": "workmanship, craftsmanship, execution, finish",
+    "level": "N3"
+  },
+  "分しかない": {
+    "front": "分しかない",
+    "reading": "ぶん",
+    "meaning": "part, portion, share",
+    "level": "N3"
+  },
+  "分別": {
+    "front": "分別",
+    "reading": "ふんべつ",
+    "meaning": "discretion, prudence, good sense, judgement, judgment, wisdom, discernment",
+    "level": "N3"
+  },
+  "分別に悩まされて": {
+    "front": "分別に悩まされて",
+    "reading": "ふんべつ",
+    "meaning": "discretion, prudence, good sense, judgement, judgment, wisdom, discernment",
+    "level": "N3"
+  },
+  "別入口": {
+    "front": "別入口",
+    "reading": "べつ",
+    "meaning": "distinction, difference, discrimination",
+    "level": "N4"
+  },
+  "削減できた": {
+    "front": "削減できた",
+    "reading": "さくげん",
+    "meaning": "cut, reduction, curtailment",
+    "level": "N1"
+  },
+  "助かってい": {
+    "front": "助かってい",
+    "reading": "たすかる",
+    "meaning": "to be saved, to be rescued, to survive",
+    "level": "N2"
+  },
+  "動画": {
+    "front": "動画",
+    "reading": "どうが",
+    "meaning": "video (esp. digital), video clip, clip",
+    "level": "N3"
+  },
+  "化粧水": {
+    "front": "化粧水",
+    "reading": "けしょうすい",
+    "meaning": "skin lotion, face lotion",
+    "level": "N3"
+  },
+  "午前中はこうぎ": {
+    "front": "午前中はこうぎ",
+    "reading": "ごぜんちゅう",
+    "meaning": "in the morning, during the morning",
+    "level": "N3"
+  },
+  "午後": {
+    "front": "午後",
+    "reading": "ごご",
+    "meaning": "afternoon, p.m.",
+    "level": "N5"
+  },
+  "午煎由は講義": {
+    "front": "午煎由は講義",
+    "reading": "ひる",
+    "meaning": "noon, midday",
+    "level": "N5"
+  },
+  "単独": {
+    "front": "単独",
+    "reading": "たんどく",
+    "meaning": "sole, single, solo",
+    "level": "N1"
+  },
+  "単純な手続き": {
+    "front": "単純な手続き",
+    "reading": "たんじゅん",
+    "meaning": "simple, plain, uncomplicated, straightforward, simple-minded, naive",
+    "level": "N3"
+  },
+  "博土": {
+    "front": "博土",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "博士はすばら": {
+    "front": "博士はすばら",
+    "reading": "はかせ",
+    "meaning": "expert, learned person",
+    "level": "N3"
+  },
+  "友生争": {
+    "front": "友生争",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "友達": {
+    "front": "友達",
+    "reading": "ともだち",
+    "meaning": "friend, companion",
+    "level": "N5"
+  },
+  "双ふた": {
+    "front": "双ふた",
+    "reading": "そう",
+    "meaning": "pair",
+    "level": "N3"
+  },
+  "双子": {
+    "front": "双子",
+    "reading": "ふたご",
+    "meaning": "twins, twin",
+    "level": "N3"
+  },
+  "収来": {
+    "front": "収来",
+    "reading": "しゅうにゅう",
+    "meaning": "income, earnings, revenue, proceeds, takings, receipts",
+    "level": "N3"
+  },
+  "叔母": {
+    "front": "叔母",
+    "reading": "おば",
+    "meaning": "aunt",
+    "level": "N3"
+  },
+  "取り上げた": {
+    "front": "取り上げた",
+    "reading": "とりあげる",
+    "meaning": "to pick up",
+    "level": "N3"
+  },
+  "取り上げる": {
+    "front": "取り上げる",
+    "reading": "とりあげる",
+    "meaning": "to pick up",
+    "level": "N3"
+  },
+  "取り入れた": {
+    "front": "取り入れた",
+    "reading": "とりいれる",
+    "meaning": "to take in, to gather in",
+    "level": "N2"
+  },
+  "取り入れたこと": {
+    "front": "取り入れたこと",
+    "reading": "とりいれる",
+    "meaning": "to take in, to gather in",
+    "level": "N2"
+  },
+  "取り入れる": {
+    "front": "取り入れる",
+    "reading": "とりいれる",
+    "meaning": "to take in, to gather in",
+    "level": "N2"
+  },
+  "取り戻す": {
+    "front": "取り戻す",
+    "reading": "とりもどす",
+    "meaning": "to take back, to get back, to regain, to recover, to restore, to recoup",
+    "level": "N1"
+  },
+  "取り組む": {
+    "front": "取り組む",
+    "reading": "とりくむ",
+    "meaning": "to grapple with, to wrestle with, to engage in a bout, to be matched against",
+    "level": "N1"
+  },
+  "取り組んだ": {
+    "front": "取り組んだ",
+    "reading": "とりくむ",
+    "meaning": "to grapple with, to wrestle with, to engage in a bout, to be matched against",
+    "level": "N1"
+  },
+  "取り込む": {
+    "front": "取り込む",
+    "reading": "とりこむ",
+    "meaning": "to take in, to bring in, to adopt (e.g. behaviour), to introduce",
+    "level": "N3"
+  },
+  "取り込んだ": {
+    "front": "取り込んだ",
+    "reading": "とりこむ",
+    "meaning": "to take in, to bring in, to adopt (e.g. behaviour), to introduce",
+    "level": "N3"
+  },
+  "受けられ": {
+    "front": "受けられ",
+    "reading": "うける",
+    "meaning": "to receive, to get",
+    "level": "N4"
+  },
+  "受け入れるべき": {
+    "front": "受け入れるべき",
+    "reading": "うけいれる",
+    "meaning": "to accept, to receive, to agree",
+    "level": "N1"
+  },
+  "受够了": {
+    "front": "受够了",
+    "reading": "りょう",
+    "meaning": "finish, completion, the end",
+    "level": "N1"
+  },
+  "古い車": {
+    "front": "古い車",
+    "reading": "ふるい",
+    "meaning": "old, aged, ancient, antiquated, antique, timeworn",
+    "level": "N5"
+  },
+  "召开": {
+    "front": "召开",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "可是": {
+    "front": "可是",
+    "reading": "か",
+    "meaning": "acceptable, satisfactory, allowed, permitted",
+    "level": "N3"
+  },
+  "可能性は低い": {
+    "front": "可能性は低い",
+    "reading": "かのうせい",
+    "meaning": "possibility, chance, likelihood, probability",
+    "level": "N3"
+  },
+  "台湾からきま": {
+    "front": "台湾からきま",
+    "reading": "たいわん",
+    "meaning": "Taiwan",
+    "level": "N3"
+  },
+  "号る": {
+    "front": "号る",
+    "reading": "ごうする",
+    "meaning": "to name, to take a second name or alias",
+    "level": "N3"
+  },
+  "吃葯也没用": {
+    "front": "吃葯也没用",
+    "reading": "チー",
+    "meaning": "forming a chow by picking up a tile discarded by another player",
+    "level": "N3"
+  },
+  "合のやるこ": {
+    "front": "合のやるこ",
+    "reading": "ごう",
+    "meaning": "gō, traditional unit of volume, approx. 180 ml",
+    "level": "N3"
+  },
+  "吉義": {
+    "front": "吉義",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "同じ失敗はしなく": {
+    "front": "同じ失敗はしなく",
+    "reading": "おなじ",
+    "meaning": "same, identical, equal, alike, equivalent",
+    "level": "N5"
+  },
+  "同情": {
+    "front": "同情",
+    "reading": "どうじょう",
+    "meaning": "sympathy, compassion, pity",
+    "level": "N1"
+  },
+  "同様": {
+    "front": "同様",
+    "reading": "どうよう",
+    "meaning": "same, similar, (just) like, equal",
+    "level": "N3"
+  },
+  "向往": {
+    "front": "向往",
+    "reading": "むこう",
+    "meaning": "opposite side, other side",
+    "level": "N5"
+  },
+  "君ならでき": {
+    "front": "君ならでき",
+    "reading": "きみ",
+    "meaning": "you, buddy, pal",
+    "level": "N4"
+  },
+  "君はもっ": {
+    "front": "君はもっ",
+    "reading": "きみ",
+    "meaning": "you, buddy, pal",
+    "level": "N4"
+  },
+  "呼呆": {
+    "front": "呼呆",
+    "reading": "こきゅう",
+    "meaning": "breathing, respiration",
+    "level": "N3"
+  },
+  "哲る": {
+    "front": "哲る",
+    "reading": "てつ",
+    "meaning": "sage, wise man, philosopher, disciple",
+    "level": "N3"
+  },
+  "問題ができる": {
+    "front": "問題ができる",
+    "reading": "もんだい",
+    "meaning": "question (e.g. on a test), problem",
+    "level": "N5"
+  },
+  "喜ぶ": {
+    "front": "喜ぶ",
+    "reading": "よろこぶ",
+    "meaning": "to be delighted, to be glad, to be pleased, to rejoice",
+    "level": "N4"
+  },
+  "因此": {
+    "front": "因此",
+    "reading": "もと",
+    "meaning": "origin, source, beginning",
+    "level": "N3"
+  },
+  "因比": {
+    "front": "因比",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "困るよ": {
+    "front": "困るよ",
+    "reading": "こまる",
+    "meaning": "to be troubled, to have difficulty, to be in a fix, to be at a loss, to be stumped, to be embarrassed",
+    "level": "N5"
+  },
+  "国に帰ること": {
+    "front": "国に帰ること",
+    "reading": "くに",
+    "meaning": "country, state",
+    "level": "N5"
+  },
+  "国頭が痛かった": {
+    "front": "国頭が痛かった",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "地域": {
+    "front": "地域",
+    "reading": "ちいき",
+    "meaning": "area, region, district, locality",
+    "level": "N3"
+  },
+  "地面を掘ったら": {
+    "front": "地面を掘ったら",
+    "reading": "じめん",
+    "meaning": "ground, earth's surface",
+    "level": "N3"
+  },
+  "地面を撮ったら": {
+    "front": "地面を撮ったら",
+    "reading": "じめん",
+    "meaning": "ground, earth's surface",
+    "level": "N3"
+  },
+  "塔": {
+    "front": "塔",
+    "reading": "とう",
+    "meaning": "tower, steeple, spire",
+    "level": "N3"
+  },
+  "塗りたて": {
+    "front": "塗りたて",
+    "reading": "ぬりたて",
+    "meaning": "freshly painted, freshly plastered",
+    "level": "N3"
+  },
+  "塾付": {
+    "front": "塾付",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "塾談": {
+    "front": "塾談",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "壁りたて": {
+    "front": "壁りたて",
+    "reading": "かべ",
+    "meaning": "wall, partition",
+    "level": "N4"
+  },
+  "壱書する": {
+    "front": "壱書する",
+    "reading": "いち",
+    "meaning": "one, 1",
+    "level": "N5"
+  },
+  "変わってい": {
+    "front": "変わってい",
+    "reading": "かわっている",
+    "meaning": "to be unusual (of a person or thing), to be uncommon, to be peculiar, to be eccentric, to be different",
+    "level": "N3"
+  },
+  "夏する": {
+    "front": "夏する",
+    "reading": "なつ",
+    "meaning": "summer",
+    "level": "N5"
+  },
+  "夏志": {
+    "front": "夏志",
+    "reading": "なつ",
+    "meaning": "summer",
+    "level": "N5"
+  },
+  "夏様": {
+    "front": "夏様",
+    "reading": "なつ",
+    "meaning": "summer",
+    "level": "N5"
+  },
+  "多台": {
+    "front": "多台",
+    "reading": "た",
+    "meaning": "multi-",
+    "level": "N3"
+  },
+  "多銭修逐不如": {
+    "front": "多銭修逐不如",
+    "reading": "たせん",
+    "meaning": "lots of money, riches, wealth",
+    "level": "N3"
+  },
+  "夢敵する": {
+    "front": "夢敵する",
+    "reading": "ゆめ",
+    "meaning": "dream",
+    "level": "N4"
+  },
+  "大会は寒かった": {
+    "front": "大会は寒かった",
+    "reading": "たいかい",
+    "meaning": "mass meeting, convention, rally, conference, assembly, gathering",
+    "level": "N3"
+  },
+  "大変だった": {
+    "front": "大変だった",
+    "reading": "たいへん",
+    "meaning": "very, greatly, terribly, awfully",
+    "level": "N5"
+  },
+  "大幅度削減了表": {
+    "front": "大幅度削減了表",
+    "reading": "さくげん",
+    "meaning": "cut, reduction, curtailment",
+    "level": "N1"
+  },
+  "天然": {
+    "front": "天然",
+    "reading": "てんねん",
+    "meaning": "nature, spontaneity",
+    "level": "N3"
+  },
+  "失度": {
+    "front": "失度",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "失礼だとされ": {
+    "front": "失礼だとされ",
+    "reading": "しつれい",
+    "meaning": "discourtesy, impoliteness",
+    "level": "N3"
+  },
+  "好で行かない": {
+    "front": "好で行かない",
+    "reading": "こう",
+    "meaning": "good",
+    "level": "N3"
+  },
+  "嫌われてい": {
+    "front": "嫌われてい",
+    "reading": "きらう",
+    "meaning": "to hate, to dislike, to loathe, to abhor",
+    "level": "N3"
+  },
+  "子のどちら": {
+    "front": "子のどちら",
+    "reading": "こ",
+    "meaning": "child, kid, teenager, youngster, young (non-adult) person",
+    "level": "N4"
+  },
+  "学費": {
+    "front": "学費",
+    "reading": "がくひ",
+    "meaning": "tuition, school expenses",
+    "level": "N3"
+  },
+  "安慰": {
+    "front": "安慰",
+    "reading": "あんい",
+    "meaning": "（名）スル 人の心をやすらかにし，なぐさめること。「三四郎は此活人画から受ける―の念を失つた」〈三四郎•漱石〉",
+    "level": "N3"
+  },
+  "安非": {
+    "front": "安非",
+    "reading": "やす",
+    "meaning": "cheap",
+    "level": "N3"
+  },
+  "定義": {
+    "front": "定義",
+    "reading": "ていぎ",
+    "meaning": "definition",
+    "level": "N1"
+  },
+  "実費": {
+    "front": "実費",
+    "reading": "じっぴ",
+    "meaning": "actual expenses, out-of-pocket expenses",
+    "level": "N1"
+  },
+  "客感": {
+    "front": "客感",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "室度": {
+    "front": "室度",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "害着": {
+    "front": "害着",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "家にいたほ": {
+    "front": "家にいたほ",
+    "reading": "いえ",
+    "meaning": "house, residence, dwelling, home",
+    "level": "N5"
+  },
+  "家にこもる": {
+    "front": "家にこもる",
+    "reading": "いえ",
+    "meaning": "house, residence, dwelling, home",
+    "level": "N5"
+  },
+  "家事": {
+    "front": "家事",
+    "reading": "かじ",
+    "meaning": "housework, domestic chores",
+    "level": "N3"
+  },
+  "容する": {
+    "front": "容する",
+    "reading": "よういにする",
+    "meaning": "to facilitate, to make easy, to simplify",
+    "level": "N3"
+  },
+  "容量を早": {
+    "front": "容量を早",
+    "reading": "ようりょう",
+    "meaning": "capacity, volume",
+    "level": "N3"
+  },
+  "富むとみ": {
+    "front": "富むとみ",
+    "reading": "とむ",
+    "meaning": "to be rich (in), to abound (in), to be abundant (in), to be full (of)",
+    "level": "N1"
+  },
+  "富子": {
+    "front": "富子",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "少し横": {
+    "front": "少し横",
+    "reading": "すこし",
+    "meaning": "a little, a bit, a small amount, a few, some, slightly, somewhat",
+    "level": "N5"
+  },
+  "就想起去世了的母": {
+    "front": "就想起去世了的母",
+    "reading": "そうき",
+    "meaning": "remembering, recollection, calling to mind",
+    "level": "N3"
+  },
+  "就没": {
+    "front": "就没",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "居眠り": {
+    "front": "居眠り",
+    "reading": "いねむり",
+    "meaning": "nodding off (while sitting), dozing",
+    "level": "N3"
+  },
+  "居間": {
+    "front": "居間",
+    "reading": "いま",
+    "meaning": "living room (Western style), sitting room",
+    "level": "N3"
+  },
+  "岡不出": {
+    "front": "岡不出",
+    "reading": "おか",
+    "meaning": "hill, height, knoll, rising ground",
+    "level": "N3"
+  },
+  "岩中": {
+    "front": "岩中",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "岩然": {
+    "front": "岩然",
+    "reading": "いわ",
+    "meaning": "rock, boulder",
+    "level": "N3"
+  },
+  "川品": {
+    "front": "川品",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "工量": {
+    "front": "工量",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "巻熱費が本幅": {
+    "front": "巻熱費が本幅",
+    "reading": "が",
+    "meaning": "indicates the subject of a sentence",
+    "level": "N3"
+  },
+  "帯来": {
+    "front": "帯来",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "帰ること": {
+    "front": "帰ること",
+    "reading": "かえる",
+    "meaning": "to return, to come home, to go home, to go back",
+    "level": "N5"
+  },
+  "平らなとこ": {
+    "front": "平らなとこ",
+    "reading": "たいら",
+    "meaning": "flat, level, even, smooth",
+    "level": "N3"
+  },
+  "平厉地提醒你的": {
+    "front": "平厉地提醒你的",
+    "reading": "ひら",
+    "meaning": "something broad and flat",
+    "level": "N3"
+  },
+  "平均": {
+    "front": "平均",
+    "reading": "へいきん",
+    "meaning": "average, mean",
+    "level": "N3"
+  },
+  "平均的な数値": {
+    "front": "平均的な数値",
+    "reading": "へいきんてき",
+    "meaning": "average, ordinary, normal",
+    "level": "N3"
+  },
+  "平約": {
+    "front": "平約",
+    "reading": "ひら",
+    "meaning": "something broad and flat",
+    "level": "N3"
+  },
+  "年代": {
+    "front": "年代",
+    "reading": "ねんだい",
+    "meaning": "age, era, period, date",
+    "level": "N3"
+  },
+  "年数": {
+    "front": "年数",
+    "reading": "ねんすう",
+    "meaning": "number of years",
+    "level": "N3"
+  },
+  "年月": {
+    "front": "年月",
+    "reading": "としつき",
+    "meaning": "months and years",
+    "level": "N3"
+  },
+  "年齢は何歳です": {
+    "front": "年齢は何歳です",
+    "reading": "ねんれい",
+    "meaning": "age, years",
+    "level": "N3"
+  },
+  "床について": {
+    "front": "床について",
+    "reading": "ゆか",
+    "meaning": "floor",
+    "level": "N3"
+  },
+  "店の拡張工事": {
+    "front": "店の拡張工事",
+    "reading": "みせ",
+    "meaning": "store, shop, establishment, restaurant",
+    "level": "N5"
+  },
+  "店の熱器工事": {
+    "front": "店の熱器工事",
+    "reading": "みせ",
+    "meaning": "store, shop, establishment, restaurant",
+    "level": "N5"
+  },
+  "度の割合": {
+    "front": "度の割合",
+    "reading": "たび",
+    "meaning": "time (three times, each time, etc.), times",
+    "level": "N3"
+  },
+  "引口": {
+    "front": "引口",
+    "reading": "ひきぐち",
+    "meaning": "にげみち。撤退する道。退路。",
+    "level": "N3"
+  },
+  "弥傲": {
+    "front": "弥傲",
+    "reading": "いや",
+    "meaning": "more and more, increasingly",
+    "level": "N3"
+  },
+  "強調を蒸す": {
+    "front": "強調を蒸す",
+    "reading": "きょうちょう",
+    "meaning": "emphasis, stress, highlighting, underlining, underscoring",
+    "level": "N3"
+  },
+  "当に必要なこと": {
+    "front": "当に必要なこと",
+    "reading": "まさに",
+    "meaning": "exactly, just, precisely, really, truly, surely, certainly, without doubt",
+    "level": "N3"
+  },
+  "当口": {
+    "front": "当口",
+    "reading": "はた",
+    "meaning": "or, otherwise",
+    "level": "N3"
+  },
+  "当止如此": {
+    "front": "当止如此",
+    "reading": "はた",
+    "meaning": "or, otherwise",
+    "level": "N3"
+  },
+  "当沢工あて": {
+    "front": "当沢工あて",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "当然だ": {
+    "front": "当然だ",
+    "reading": "とうぜん",
+    "meaning": "natural, right, proper, just, reasonable, appropriate, deserved",
+    "level": "N3"
+  },
+  "当計": {
+    "front": "当計",
+    "reading": "はた",
+    "meaning": "or, otherwise",
+    "level": "N3"
+  },
+  "彼が会社": {
+    "front": "彼が会社",
+    "reading": "かれ",
+    "meaning": "he, him",
+    "level": "N4"
+  },
+  "彼ぐらい": {
+    "front": "彼ぐらい",
+    "reading": "かれ",
+    "meaning": "he, him",
+    "level": "N4"
+  },
+  "彼の作品は面白い": {
+    "front": "彼の作品は面白い",
+    "reading": "あの",
+    "meaning": "that, those, the",
+    "level": "N1"
+  },
+  "彼の漫画": {
+    "front": "彼の漫画",
+    "reading": "あの",
+    "meaning": "that, those, the",
+    "level": "N1"
+  },
+  "彼女": {
+    "front": "彼女",
+    "reading": "かのじょ",
+    "meaning": "she, her",
+    "level": "N4"
+  },
+  "彼女は美人だ": {
+    "front": "彼女は美人だ",
+    "reading": "かのじょ",
+    "meaning": "she, her",
+    "level": "N4"
+  },
+  "従って": {
+    "front": "従って",
+    "reading": "したがって",
+    "meaning": "therefore, consequently, accordingly",
+    "level": "N3"
+  },
+  "得なく": {
+    "front": "得なく",
+    "reading": "える",
+    "meaning": "to get, to earn, to acquire, to procure, to gain, to secure, to attain, to obtain, to win",
+    "level": "N3"
+  },
+  "得然": {
+    "front": "得然",
+    "reading": "とく",
+    "meaning": "profit, advantage, benefit, gain",
+    "level": "N3"
+  },
+  "得通": {
+    "front": "得通",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "徳客は表んだ": {
+    "front": "徳客は表んだ",
+    "reading": "とく",
+    "meaning": "virtue",
+    "level": "N3"
+  },
+  "心をこめて": {
+    "front": "心をこめて",
+    "reading": "こころをこめて",
+    "meaning": "wholeheartedly, with all one's heart",
+    "level": "N3"
+  },
+  "心做": {
+    "front": "心做",
+    "reading": "こころなし",
+    "meaning": "somehow, somewhat, seemingly",
+    "level": "N3"
+  },
+  "必然": {
+    "front": "必然",
+    "reading": "ひつぜん",
+    "meaning": "inevitable, necessary, certain, sure",
+    "level": "N1"
+  },
+  "忘え": {
+    "front": "忘え",
+    "reading": "え",
+    "meaning": "picture, drawing, painting, sketch",
+    "level": "N5"
+  },
+  "忘り": {
+    "front": "忘り",
+    "reading": "わすれられるけんり",
+    "meaning": "right to be forgotten, right to erasure",
+    "level": "N3"
+  },
+  "忙しくて": {
+    "front": "忙しくて",
+    "reading": "いそがしい",
+    "meaning": "busy, occupied, hectic",
+    "level": "N5"
+  },
+  "思いき": {
+    "front": "思いき",
+    "reading": "おもいきって",
+    "meaning": "resolutely, boldly, decisively, daringly",
+    "level": "N3"
+  },
+  "思いやって": {
+    "front": "思いやって",
+    "reading": "おもいやる",
+    "meaning": "to sympathize with, to sympathise with, to feel for, to be considerate of, to show consideration for, to bear in mind",
+    "level": "N3"
+  },
+  "思いやる": {
+    "front": "思いやる",
+    "reading": "おもいやる",
+    "meaning": "to sympathize with, to sympathise with, to feel for, to be considerate of, to show consideration for, to bear in mind",
+    "level": "N3"
+  },
+  "思い出される": {
+    "front": "思い出される",
+    "reading": "おもいだす",
+    "meaning": "to recall, to remember, to recollect",
+    "level": "N4"
+  },
+  "思い出すまい": {
+    "front": "思い出すまい",
+    "reading": "おもいだす",
+    "meaning": "to recall, to remember, to recollect",
+    "level": "N4"
+  },
+  "思い出すものだ": {
+    "front": "思い出すものだ",
+    "reading": "おもいだす",
+    "meaning": "to recall, to remember, to recollect",
+    "level": "N4"
+  },
+  "思い出す限りだ": {
+    "front": "思い出す限りだ",
+    "reading": "おもいだす",
+    "meaning": "to recall, to remember, to recollect",
+    "level": "N4"
+  },
+  "思うばかり": {
+    "front": "思うばかり",
+    "reading": "おもう",
+    "meaning": "to think, to consider, to believe, to reckon",
+    "level": "N4"
+  },
+  "思えばこそ": {
+    "front": "思えばこそ",
+    "reading": "おもう",
+    "meaning": "to think, to consider, to believe, to reckon",
+    "level": "N4"
+  },
+  "思えばさえ": {
+    "front": "思えばさえ",
+    "reading": "おもう",
+    "meaning": "to think, to consider, to believe, to reckon",
+    "level": "N4"
+  },
+  "思ってさえ": {
+    "front": "思ってさえ",
+    "reading": "おもう",
+    "meaning": "to think, to consider, to believe, to reckon",
+    "level": "N4"
+  },
+  "思わされて": {
+    "front": "思わされて",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "怠え很豆眼": {
+    "front": "怠え很豆眼",
+    "reading": "だるい",
+    "meaning": "sluggish, languid, listless, heavy (heart, legs, etc.), dull",
+    "level": "N1"
+  },
+  "恋し機のほう": {
+    "front": "恋し機のほう",
+    "reading": "こいしい",
+    "meaning": "yearned for, longed for, missed",
+    "level": "N2"
+  },
+  "恥じらう": {
+    "front": "恥じらう",
+    "reading": "はじらう",
+    "meaning": "to feel shy, to be bashful, to blush",
+    "level": "N1"
+  },
+  "恥じる": {
+    "front": "恥じる",
+    "reading": "はじる",
+    "meaning": "to feel ashamed",
+    "level": "N1"
+  },
+  "恥ずかしい": {
+    "front": "恥ずかしい",
+    "reading": "はずかしい",
+    "meaning": "embarrassing, embarrassed, ashamed, humiliated, shy",
+    "level": "N4"
+  },
+  "恥ずかしく": {
+    "front": "恥ずかしく",
+    "reading": "はずかし・い",
+    "meaning": "（形）《文シク はづか・し》① （自分の欠点や失敗，あるいは良心のとがめを意識して）他人に顔向けできない気持ちだ。面目ない。「ぶざまな負け方をして―・い」「どこへ出しても...",
+    "level": "N3"
+  },
+  "恥をかく": {
+    "front": "恥をかく",
+    "reading": "はじをかく",
+    "meaning": "to be embarrassed, to lose face",
+    "level": "N3"
+  },
+  "恵す": {
+    "front": "恵す",
+    "reading": "えびす",
+    "meaning": "Ebisu, god of fishing and commerce",
+    "level": "N3"
+  },
+  "患者": {
+    "front": "患者",
+    "reading": "かんじゃ",
+    "meaning": "patient",
+    "level": "N3"
+  },
+  "悩まされて": {
+    "front": "悩まされて",
+    "reading": "なやます",
+    "meaning": "to afflict, to torment, to harass, to molest",
+    "level": "N1"
+  },
+  "悩まれてい": {
+    "front": "悩まれてい",
+    "reading": "なやむ",
+    "meaning": "to be worried, to be troubled",
+    "level": "N3"
+  },
+  "悩みにほ": {
+    "front": "悩みにほ",
+    "reading": "なやみ",
+    "meaning": "trouble, troubles, worry, distress, sorrows, anguish, agony, problem",
+    "level": "N1"
+  },
+  "悩むよりほ": {
+    "front": "悩むよりほ",
+    "reading": "なやむ",
+    "meaning": "to be worried, to be troubled",
+    "level": "N3"
+  },
+  "悪いやり": {
+    "front": "悪いやり",
+    "reading": "わるい",
+    "meaning": "bad, poor, undesirable",
+    "level": "N5"
+  },
+  "悪いる": {
+    "front": "悪いる",
+    "reading": "わるい",
+    "meaning": "bad, poor, undesirable",
+    "level": "N5"
+  },
+  "悪真に言って": {
+    "front": "悪真に言って",
+    "reading": "あく",
+    "meaning": "evil, wickedness",
+    "level": "N1"
+  },
+  "悪習": {
+    "front": "悪習",
+    "reading": "あくしゅう",
+    "meaning": "bad habit, bad custom, evil practice, vice",
+    "level": "N3"
+  },
+  "想止你来西帯回来": {
+    "front": "想止你来西帯回来",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "意をし": {
+    "front": "意をし",
+    "reading": "い",
+    "meaning": "feelings, thoughts",
+    "level": "N3"
+  },
+  "意志": {
+    "front": "意志",
+    "reading": "いし",
+    "meaning": "will, volition, intention, intent, determination",
+    "level": "N3"
+  },
+  "感器": {
+    "front": "感器",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "感心": {
+    "front": "感心",
+    "reading": "かんしん",
+    "meaning": "admiration, being impressed",
+    "level": "N3"
+  },
+  "慰める": {
+    "front": "慰める",
+    "reading": "なぐさめる",
+    "meaning": "to comfort, to console, to amuse",
+    "level": "N2"
+  },
+  "憎む": {
+    "front": "憎む",
+    "reading": "にくむ",
+    "meaning": "to hate, to detest",
+    "level": "N2"
+  },
+  "憎悪": {
+    "front": "憎悪",
+    "reading": "ぞうお",
+    "meaning": "hatred, abhorrence, loathing, detestation",
+    "level": "N3"
+  },
+  "憎感": {
+    "front": "憎感",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "憧道理": {
+    "front": "憧道理",
+    "reading": "りょうり",
+    "meaning": "cooking, cookery, cuisine, food, dish",
+    "level": "N5"
+  },
+  "成功": {
+    "front": "成功",
+    "reading": "せいこう",
+    "meaning": "success, achievement",
+    "level": "N3"
+  },
+  "成績だった": {
+    "front": "成績だった",
+    "reading": "せいせき",
+    "meaning": "results, record, grades, marks",
+    "level": "N3"
+  },
+  "我正是你着想": {
+    "front": "我正是你着想",
+    "reading": "われ",
+    "meaning": "I, me",
+    "level": "N3"
+  },
+  "所以": {
+    "front": "所以",
+    "reading": "ゆえん",
+    "meaning": "reason, grounds",
+    "level": "N3"
+  },
+  "手がなくて": {
+    "front": "手がなくて",
+    "reading": "て",
+    "meaning": "hand, arm",
+    "level": "N5"
+  },
+  "手を抜いて": {
+    "front": "手を抜いて",
+    "reading": "て",
+    "meaning": "hand, arm",
+    "level": "N5"
+  },
+  "手入れ": {
+    "front": "手入れ",
+    "reading": "ていれ",
+    "meaning": "care, looking after, repair, maintenance, tending, trimming, grooming",
+    "level": "N2"
+  },
+  "手当て": {
+    "front": "手当て",
+    "reading": "てあて",
+    "meaning": "salary, pay, compensation, allowance (e.g. housing allowance), benefit, bonus",
+    "level": "N1"
+  },
+  "手数": {
+    "front": "手数",
+    "reading": "てすう",
+    "meaning": "trouble, bother",
+    "level": "N1"
+  },
+  "手配": {
+    "front": "手配",
+    "reading": "てはい",
+    "meaning": "arrangement, preparations",
+    "level": "N1"
+  },
+  "手順": {
+    "front": "手順",
+    "reading": "てじゅん",
+    "meaning": "process, procedure, sequence, protocol, instruction",
+    "level": "N1"
+  },
+  "打折": {
+    "front": "打折",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "承ください": {
+    "front": "承ください",
+    "reading": "しょう",
+    "meaning": "second line of a four-line Chinese poem",
+    "level": "N3"
+  },
+  "招かれた": {
+    "front": "招かれた",
+    "reading": "まねく",
+    "meaning": "to invite, to ask",
+    "level": "N3"
+  },
+  "招く": {
+    "front": "招く",
+    "reading": "まねく",
+    "meaning": "to invite, to ask",
+    "level": "N3"
+  },
+  "招待": {
+    "front": "招待",
+    "reading": "しょうたい",
+    "meaning": "invitation",
+    "level": "N3"
+  },
+  "招致": {
+    "front": "招致",
+    "reading": "しょうち",
+    "meaning": "invitation, summons, bidding (e.g. to host the Olympics), calling",
+    "level": "N3"
+  },
+  "振る舞う": {
+    "front": "振る舞う",
+    "reading": "ふるまう",
+    "meaning": "to behave, to conduct oneself, to act",
+    "level": "N2"
+  },
+  "採掘する": {
+    "front": "採掘する",
+    "reading": "さいくつ",
+    "meaning": "mining, digging, working (a mine)",
+    "level": "N1"
+  },
+  "提出": {
+    "front": "提出",
+    "reading": "ていしゅつ",
+    "meaning": "presentation (of documents), submission (of an application, report, etc.), production (e.g. of evidence), introduction (e.g. of a bill), filing, turning in",
+    "level": "N3"
+  },
+  "換えたほう": {
+    "front": "換えたほう",
+    "reading": "かえる",
+    "meaning": "to replace, to convert, to change",
+    "level": "N3"
+  },
+  "携断する": {
+    "front": "携断する",
+    "reading": "する",
+    "meaning": "to do, to carry out, to perform",
+    "level": "N3"
+  },
+  "摂入": {
+    "front": "摂入",
+    "reading": "とる",
+    "meaning": "to have (e.g. lunch), to take (e.g. vitamins)",
+    "level": "N3"
+  },
+  "改対": {
+    "front": "改対",
+    "reading": "かい",
+    "meaning": "revision",
+    "level": "N3"
+  },
+  "教えてくだ": {
+    "front": "教えてくだ",
+    "reading": "おしえる",
+    "meaning": "to teach, to instruct",
+    "level": "N5"
+  },
+  "数人的性命": {
+    "front": "数人的性命",
+    "reading": "いのち",
+    "meaning": "life, life force",
+    "level": "N3"
+  },
+  "敷なやわい": {
+    "front": "敷なやわい",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "料速": {
+    "front": "料速",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "新しい": {
+    "front": "新しい",
+    "reading": "あたらし・い",
+    "meaning": "（形）《文シク あたら・し》〔「あらたし（新し）」の転。平安時代から現れる形〕① 今までにはなかったさまだ。初めてだ。「―・い発明」「―・い経験」② 従来のものとは違って...",
+    "level": "N3"
+  },
+  "新しい裏を買った": {
+    "front": "新しい裏を買った",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "新しい車を買った": {
+    "front": "新しい車を買った",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "新しく省": {
+    "front": "新しく省",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "新しく鶯": {
+    "front": "新しく鶯",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "新的": {
+    "front": "新的",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "新的省能源的系統": {
+    "front": "新的省能源的系統",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "无起": {
+    "front": "无起",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "日刊印": {
+    "front": "日刊印",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "日台": {
+    "front": "日台",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "日日": {
+    "front": "日日",
+    "reading": "にちにち",
+    "meaning": "毎日。ひび。副詞的にも用いる。「―のつとめ」「―人知れず腐心してゐる」〈雁•鷗外〉〈子項目〉日日花日日草日日夜夜〈句項目〉日日是好日",
+    "level": "N3"
+  },
+  "日目": {
+    "front": "日目",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "日程表によれば": {
+    "front": "日程表によれば",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "映画": {
+    "front": "映画",
+    "reading": "えいが",
+    "meaning": "一秒間一六または二四こまの速度で連続的に撮影されたフィルムを，映写機によって投影し，一連の物語や映像などを写し出すもの。一九世紀末に発明されて以来，トーキー・カラー・ワイ...",
+    "level": "N3"
+  },
+  "昨日": {
+    "front": "昨日",
+    "reading": "きそ",
+    "meaning": "〔「きぞ」か。「そ」の清濁は確定しがたい〕① きのうの夜。昨夜。「―こそは児ろとさ寝しか」〈万葉集•3522〉② きのう。昨日。「―の夜帰りまゐりしに」〈読本・雨月物語•...",
+    "level": "N3"
+  },
+  "時計": {
+    "front": "時計",
+    "reading": "とけい",
+    "meaning": "時間を計ったり，時刻を示したりする機械。錘（おもり）・ぜんまい・電気などの力で運動させて，振り子または天府の振動の等時性を利用して，歯車で指針を等時的に進ませる装置。これ...",
+    "level": "N3"
+  },
+  "時間がたっぷ": {
+    "front": "時間がたっぷ",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "時間のずれ": {
+    "front": "時間のずれ",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "時間のむだだ": {
+    "front": "時間のむだだ",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "普及によって": {
+    "front": "普及によって",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "暴る": {
+    "front": "暴る",
+    "reading": "あば・る",
+    "meaning": "（動ラ下二） →あばれる",
+    "level": "N3"
+  },
+  "更冷了": {
+    "front": "更冷了",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "書ができた": {
+    "front": "書ができた",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "書類": {
+    "front": "書類",
+    "reading": "しょるい",
+    "meaning": "① 文字で書き記したもの。書き付け。文書。「重要―」「秘密―」② （現実と対比して）形式上のもの。「―上の上司」「―の上では問題ない」〈子項目〉書類送検",
+    "level": "N3"
+  },
+  "最浜の蓋煮": {
+    "front": "最浜の蓋煮",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "最近の若者": {
+    "front": "最近の若者",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "有値": {
+    "front": "有値",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "有意必": {
+    "front": "有意必",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "望は番口": {
+    "front": "望は番口",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "本をすくう": {
+    "front": "本をすくう",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "本当は忠出身です": {
+    "front": "本当は忠出身です",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "来月": {
+    "front": "来月",
+    "reading": "らいげつ",
+    "meaning": "今月の次の月。",
+    "level": "N3"
+  },
+  "来週": {
+    "front": "来週",
+    "reading": "らいしゅう",
+    "meaning": "この次の週。",
+    "level": "N3"
+  },
+  "枚まとめて": {
+    "front": "枚まとめて",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "枚分": {
+    "front": "枚分",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "枚分まけてく": {
+    "front": "枚分まけてく",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "柔軟": {
+    "front": "柔軟",
+    "reading": "じゅうなん",
+    "meaning": "（形動）文ナリ ① やわらかく，しなやかなさま。「―な体」② 考え方に，融通性があるさま。「―な考え方」「―に対処する」派生―さ（名）〈子項目〉柔軟仕上げ柔軟性メカニズム...",
+    "level": "N3"
+  },
+  "検査項目はすべて": {
+    "front": "検査項目はすべて",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "検査項貝はすべて": {
+    "front": "検査項貝はすべて",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "構義": {
+    "front": "構義",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "構議": {
+    "front": "構議",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "横切る": {
+    "front": "横切る",
+    "reading": "よこぎ・る",
+    "meaning": "一 （動ラ五[四]）道などを一方の側から他の側へ渡る。横に突っ切って通り過ぎる。横断する。「道を―・る」「本州を―・って日本海へ抜けた台風」可能よこぎれる二 （動ラ下二）...",
+    "level": "N3"
+  },
+  "横断歩導よこ": {
+    "front": "横断歩導よこ",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "機器": {
+    "front": "機器",
+    "reading": "きき",
+    "meaning": "機械・器械・器具の総称。「教育―」",
+    "level": "N3"
+  },
+  "櫻母": {
+    "front": "櫻母",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "歌を聴く": {
+    "front": "歌を聴く",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "歌を職く": {
+    "front": "歌を職く",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "止です": {
+    "front": "止です",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "正義": {
+    "front": "正義",
+    "reading": "せいぎ",
+    "meaning": "① 正しい道義。人が従うべき正しい道理。「―を貫く」② 他者や人々の権利を尊重することで，各人に権利義務・報奨・制裁などを正当に割り当てること。アリストテレスによると，名...",
+    "level": "N3"
+  },
+  "歯舞するのぼ": {
+    "front": "歯舞するのぼ",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "母のこと": {
+    "front": "母のこと",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "母は僕の顔": {
+    "front": "母は僕の顔",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "気にしない": {
+    "front": "気にしない",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "気分が思い": {
+    "front": "気分が思い",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "気持ち": {
+    "front": "気持ち",
+    "reading": "きもち",
+    "meaning": "① 物事に接したときに生じる，感じや心の中の思い。「―が変わる」「私の―をくんで下さい」「彼の―が理解できない」② からだのおかれた状態に応じて起こる，快・不快などの感覚...",
+    "level": "N3"
+  },
+  "水食": {
+    "front": "水食",
+    "reading": "すいしょく",
+    "meaning": "（名）スル 流水・波浪・雨水などが地表を削って，破壊・浸食すること。〈子項目〉水食谷",
+    "level": "N3"
+  },
+  "池添": {
+    "front": "池添",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "決められ": {
+    "front": "決められ",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "決められる": {
+    "front": "決められる",
+    "reading": "き・める",
+    "meaning": "（動マ下一）《文マ下二 き・む》① 規則・方針などを作りあげる。定める。「ルールを―・める」「運動方針を―・める」② 自分の意志や態度をはっきりさせる。決心する。「行くこ...",
+    "level": "N3"
+  },
+  "没有抗疾病": {
+    "front": "没有抗疾病",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "治ったから": {
+    "front": "治ったから",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "法了": {
+    "front": "法了",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "泣き始めた": {
+    "front": "泣き始めた",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "注ぐ": {
+    "front": "注ぐ",
+    "reading": "そそ・ぐ",
+    "meaning": "（動ガ五[四]）〔室町頃まで「そそく」と清音〕❶ 自動詞 ① 水が流れ込む。「東京湾に―・ぐ川」② 雨・雪などが降りかかる。「竹の葉に―・ぐ雨」❷ 他動詞 ① 液体を容器...",
+    "level": "N3"
+  },
+  "注入": {
+    "front": "注入",
+    "reading": "ちゅうにゅう",
+    "meaning": "（名）スル ① そそぎ入れること。つぎこむこと。また，流れ入ること。「薬液を体内に―する」「早川の東流して此川に―する処までは」〈日本風景論•重昂〉② 物事をあるところに...",
+    "level": "N3"
+  },
+  "注意している": {
+    "front": "注意している",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "活説": {
+    "front": "活説",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "流入": {
+    "front": "流入",
+    "reading": "りゅうにゅう",
+    "meaning": "（名）スル ① 水が川や海などに流れ込むこと。「工場廃液の―」② 人や物が他から入り込むこと。「人口の―」「外資が―する」 ↔流出",
+    "level": "N3"
+  },
+  "海る": {
+    "front": "海る",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "海度": {
+    "front": "海度",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "淡要": {
+    "front": "淡要",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "添付して送れる": {
+    "front": "添付して送れる",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "済み": {
+    "front": "済み",
+    "reading": "すみ",
+    "meaning": "物事が済むこと。「その件はもう―だ」「お代は―です」 →ずみ（済）",
+    "level": "N3"
+  },
+  "済む": {
+    "front": "済む",
+    "reading": "す・む",
+    "meaning": "（動マ五[四]）〔「澄む」と同源〕① 物事が終わる。終了する。「仕事が早く―・む」「宿題がまだ―・まない」「この車はまだローンが―・んでない」② 事態が解決・解消する。か...",
+    "level": "N3"
+  },
+  "済んでいる": {
+    "front": "済んでいる",
+    "reading": "す・む",
+    "meaning": "（動マ五[四]）〔「澄む」と同源〕① 物事が終わる。終了する。「仕事が早く―・む」「宿題がまだ―・まない」「この車はまだローンが―・んでない」② 事態が解決・解消する。か...",
+    "level": "N3"
+  },
+  "温度": {
+    "front": "温度",
+    "reading": "おんど",
+    "meaning": "暖かさ冷たさの度合を示す数値。物理的には熱平衡を特徴づけ，熱の移動する傾向を表す量。微視的には，系を構成する粒子のもつエネルギーの分布を決め，その平均値の目安となる量。 ...",
+    "level": "N3"
+  },
+  "温泉が出てきたそ": {
+    "front": "温泉が出てきたそ",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "湿度": {
+    "front": "湿度",
+    "reading": "しつど",
+    "meaning": "① 空気中に含まれている水蒸気の量。 →絶対湿度② 空気の乾湿の程度を示す目安。普通，これを湿度という。 →相対湿度〈子項目〉湿度計",
+    "level": "N3"
+  },
+  "湿気しめ": {
+    "front": "湿気しめ",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "満満的": {
+    "front": "満満的",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "漏らす": {
+    "front": "漏らす",
+    "reading": "もら・す",
+    "meaning": "（動サ五[四]）① 水や光・音などをすき間などから外に出す。こぼす。「小便を―・す」「水も―・さぬ警戒網」② 秘密などをこっそりと他の人に伝える。「軍の機密を―・す」「口...",
+    "level": "N3"
+  },
+  "漏掉": {
+    "front": "漏掉",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "漫画": {
+    "front": "漫画",
+    "reading": "まんが",
+    "meaning": "① 大胆に省略・誇張して描き，笑いを誘いながら風刺や批評をこめた絵。戯画。 →カリカチュア② 絵または絵と台詞（せりふ）によって表現される物語。「四コマ―」「少女―」③ ...",
+    "level": "N3"
+  },
+  "漬純": {
+    "front": "漬純",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "災害": {
+    "front": "災害",
+    "reading": "さいがい",
+    "meaning": "地震・台風・洪水・津波・噴火・旱魃（かんばつ）・大火災・感染症の流行などによって引き起こされる不時のわざわい。また，それによる被害。〈子項目〉災害救助犬災害救助法災害拠点...",
+    "level": "N3"
+  },
+  "災害が起こった時": {
+    "front": "災害が起こった時",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "無い": {
+    "front": "無い",
+    "reading": "な・い",
+    "meaning": "（形）《文ク な・し》① （人間や物が）存在しない。完全な非存在の場合も，ある場面に不在の場合もある。「地獄は本当にあるか―・いか」「ほめられて喜ばない人は―・い」「ここ...",
+    "level": "N3"
+  },
+  "無いな無い": {
+    "front": "無いな無い",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "無がてきた": {
+    "front": "無がてきた",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "無る": {
+    "front": "無る",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "無境": {
+    "front": "無境",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "無然": {
+    "front": "無然",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "無粋": {
+    "front": "無粋",
+    "reading": "ぶすい",
+    "meaning": "（名•形動）文ナリ ① 人情の機微を解さないこと。特に，男女間の情愛の微妙さがわからないこと。また，そのさま。 ↔粋。「―な男」「―な質問」② 情緒のないこと。また，その...",
+    "level": "N3"
+  },
+  "焦る": {
+    "front": "焦る",
+    "reading": "あせ・る",
+    "meaning": "（動ラ五[四]）① 早くやろう，うまくやろうと思っていらいらする。「勝ちを―・って失敗する」② 気がはやって，足をばたばたさせる。「―・る上馬（あがりうま）に乗りて」〈梁...",
+    "level": "N3"
+  },
+  "焦屋": {
+    "front": "焦屋",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "煮えさせら": {
+    "front": "煮えさせら",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "煮える": {
+    "front": "煮える",
+    "reading": "に・える",
+    "meaning": "（動ア下一）《文ヤ下二 に・ゆ》① 沸き立った汁の中で物に熱が通って食べられるようになる。「芋が―・える」② 水が沸きたって熱い湯になる。「―・ゆる茶の湯は面白や」〈狂言...",
+    "level": "N3"
+  },
+  "煮癒する": {
+    "front": "煮癒する",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "熊事": {
+    "front": "熊事",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "熟料品ふだ": {
+    "front": "熟料品ふだ",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "熱する": {
+    "front": "熱する",
+    "reading": "ねっ・する",
+    "meaning": "（動サ変）《文サ変 ねつ・す》① 熱を加える。熱くする。「金属を―・する」② 熱くなる。「まっ赤に―・した溶岩」③ 夢中になる。熱中する。「―・しやすい性質」「政治に―・...",
+    "level": "N3"
+  },
+  "熱は会がいい": {
+    "front": "熱は会がいい",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "熱感": {
+    "front": "熱感",
+    "reading": "ねつかん",
+    "meaning": "熱のある感じ。",
+    "level": "N3"
+  },
+  "父が亡くなった": {
+    "front": "父が亡くなった",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "父を尊敬している": {
+    "front": "父を尊敬している",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "独臭し": {
+    "front": "独臭し",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "率直に言って": {
+    "front": "率直に言って",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "玉社": {
+    "front": "玉社",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "環境を守るため": {
+    "front": "環境を守るため",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "環境問題": {
+    "front": "環境問題",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "環業料": {
+    "front": "環業料",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "生きがい": {
+    "front": "生きがい",
+    "reading": "いきがい",
+    "meaning": "生きるに値するだけの価値。生きていることの喜びや幸福感。「―を見つける」",
+    "level": "N3"
+  },
+  "生きがし": {
+    "front": "生きがし",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "生じられた": {
+    "front": "生じられた",
+    "reading": "しょう・じる",
+    "meaning": "（動ザ上一）〔サ変動詞「生ずる」の上一段化〕 →生ずるに同じ。「効力が―・じる」",
+    "level": "N3"
+  },
+  "生じる": {
+    "front": "生じる",
+    "reading": "しょう・じる",
+    "meaning": "（動ザ上一）〔サ変動詞「生ずる」の上一段化〕 →生ずるに同じ。「効力が―・じる」",
+    "level": "N3"
+  },
+  "生まれた順": {
+    "front": "生まれた順",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "生地な手": {
+    "front": "生地な手",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "生存的値": {
+    "front": "生存的値",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "用旧物銭換新物": {
+    "front": "用旧物銭換新物",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "田中さん": {
+    "front": "田中さん",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "由引入": {
+    "front": "由引入",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "申し訳": {
+    "front": "申し訳",
+    "reading": "もうしわけ",
+    "meaning": "（名）スル ① 自分のとった行動について相手に理由を説明すること。言いわけ。弁解。「―をする」「―がたつ」② なんとか言いわけできる程度。ほんのわずか。実質がなくて形だけ...",
+    "level": "N3"
+  },
+  "男外": {
+    "front": "男外",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "画家": {
+    "front": "画家",
+    "reading": "がか",
+    "meaning": "絵をかくことを職業とする人。絵かき。",
+    "level": "N3"
+  },
+  "番目": {
+    "front": "番目",
+    "reading": "つがいめ",
+    "meaning": "① 二つのものが組み合わさった部分。② 関節。ヘボン〈親項目〉番",
+    "level": "N3"
+  },
+  "疼得厉害": {
+    "front": "疼得厉害",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "病気に何がある": {
+    "front": "病気に何がある",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "病院": {
+    "front": "病院",
+    "reading": "びょういん",
+    "meaning": "患者を収容して診察・治療に当たる，規模の大きな医療機関。医療法では二〇人以上の患者収容設備のあるものをいう。〔一七世紀以降，中国に来たイエズス会宣教師の著書が日本に伝わり...",
+    "level": "N3"
+  },
+  "痛みがなく": {
+    "front": "痛みがなく",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "癒気にける": {
+    "front": "癒気にける",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "発掘する": {
+    "front": "発掘する",
+    "reading": "はっくつ",
+    "meaning": "find*. ▸ 古代の都市の遺跡を発掘する excavate the ruins of an ancient city.発掘現場 〘work on〙 an excava...",
+    "level": "N3"
+  },
+  "目標": {
+    "front": "目標",
+    "reading": "めじるし",
+    "meaning": "他の物と紛れないように，つけておく印。覚えのためにつけた印。「―をつける」",
+    "level": "N3"
+  },
+  "目標表によれば": {
+    "front": "目標表によれば",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "目立っていた": {
+    "front": "目立っていた",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "直せない": {
+    "front": "直せない",
+    "reading": "なお・す",
+    "meaning": "（動サ五[四]）〔「直（なお）」の動詞化〕① 正常な状態にする。悪くなったものをよい状態に戻す。㋐ 修理する。修繕する。「故障したテレビを―・す」㋑ 誤りを訂正する。修正...",
+    "level": "N3"
+  },
+  "着急": {
+    "front": "着急",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "確率": {
+    "front": "確率",
+    "reading": "かくりつ",
+    "meaning": "〔probability〕一つの事象（出来事）の起こり得る確からしさ（可能性）の度合。また，その数値。数学的には 1 を超えることがなく，負にならない。確からしさ。蓋然率...",
+    "level": "N3"
+  },
+  "確立": {
+    "front": "確立",
+    "reading": "かくりつ",
+    "meaning": "（名）スル 物事の基礎・立場・計画・方針などをしっかりきめること。不動のものとして定めること。「外交方針を―する」「婦人の地位の―に努力する」",
+    "level": "N3"
+  },
+  "票います": {
+    "front": "票います",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "禁太する": {
+    "front": "禁太する",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "私からする": {
+    "front": "私からする",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "私たち": {
+    "front": "私たち",
+    "reading": "わたしたち",
+    "meaning": "ourselves. （⇨私 | わたし |） LEARNER CORPUSwe 過剰使用レベル★★★★★日本人学習者は1人称複数代名詞 we を極端に過剰使用しがちで,...",
+    "level": "N3"
+  },
+  "私たちが買える": {
+    "front": "私たちが買える",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "私なり": {
+    "front": "私なり",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "私のことだ": {
+    "front": "私のことだ",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "私らしく": {
+    "front": "私らしく",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "程度": {
+    "front": "程度",
+    "reading": "ていど",
+    "meaning": "① 他の物と比べたときの高低・強弱・多少・優劣などの度合。ほどあい。「生活の―が上がる」「補償額は破損の―による」② 上に基準などを示す語を伴って，物事の段階がほぼそのあ...",
+    "level": "N3"
+  },
+  "立っていた": {
+    "front": "立っていた",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "立て替え": {
+    "front": "立て替え",
+    "reading": "たてかえ",
+    "meaning": "（名）スル 代金を立て替えること。また，その金銭。「―払い」〈子項目〉立て替え金",
+    "level": "N3"
+  },
+  "立て替えて": {
+    "front": "立て替えて",
+    "reading": "たてか・える",
+    "meaning": "（動ア下一）《文ハ下二 たてか・ふ》他人に代わって，一時，代金を払っておく。用立てる。「本代を―・える」",
+    "level": "N3"
+  },
+  "競馬する": {
+    "front": "競馬する",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "答え": {
+    "front": "答え",
+    "reading": "いらえ",
+    "meaning": "こたえ。返事。応答。「窓の中はしづまりかへりて何の―もなし」〈即興詩人•鷗外〉",
+    "level": "N3"
+  },
+  "範囲": {
+    "front": "範囲",
+    "reading": "はんい",
+    "meaning": "〔溶かした金属を鋳型に流し込んで形を整えること，の意〕① 特定の領域・限度の中。「勢力―」「被害は広い―にわたる」「知っている―で答える」② きまり。規則。〈子項目〉範囲...",
+    "level": "N3"
+  },
+  "粟年数": {
+    "front": "粟年数",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "納合された": {
+    "front": "納合された",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "納得": {
+    "front": "納得",
+    "reading": "なっとく",
+    "meaning": "（名）スル 他人の考え・行為を理解し，もっともだと認めること。「十分に説明して―させる」「―がいかない」〈子項目〉納得尽く",
+    "level": "N3"
+  },
+  "納得がいく": {
+    "front": "納得がいく",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "素導": {
+    "front": "素導",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "素敷に受け入れ": {
+    "front": "素敷に受け入れ",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "素軟": {
+    "front": "素軟",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "紫的": {
+    "front": "紫的",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "経不住誘惑": {
+    "front": "経不住誘惑",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "絡しいあい": {
+    "front": "絡しいあい",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "絵をひねる": {
+    "front": "絵をひねる",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "総選": {
+    "front": "総選",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "編み物": {
+    "front": "編み物",
+    "reading": "あみもの",
+    "meaning": "毛糸やレース糸などを編んで，セーターなどの衣類やテーブル掛けなどの装飾品を作ること。また，編んで作ったもの。手編みと機械編みがある。",
+    "level": "N3"
+  },
+  "編む": {
+    "front": "編む",
+    "reading": "あ・む",
+    "meaning": "（動マ五[四]）① 糸・竹・髪の毛など細長い物を，結び合わせたりからみ合わせたりして，一つの形ある物を作り上げる。「毛糸を―・む」「竹でかごを―・む」② 文章を集めて本を...",
+    "level": "N3"
+  },
+  "編集": {
+    "front": "編集",
+    "reading": "へんしゅう",
+    "meaning": "（名）スル 一定の方針のもとに，いろいろな材料を集めて新聞・雑誌・書物などを作ること。また，その仕事。映画フィルム・録音テープなどを一つの作品にまとめることにもいう。「―...",
+    "level": "N3"
+  },
+  "練の漫画": {
+    "front": "練の漫画",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "義務": {
+    "front": "義務",
+    "reading": "ぎむ",
+    "meaning": "① 人が人として，あるいは立場上，身分上当然しなければならないこと。責務。② 〘哲・倫〙道徳的な必然性をもつ原理によって人が課せられる，ある行為をなすべし，またはなすべか...",
+    "level": "N3"
+  },
+  "義理": {
+    "front": "義理",
+    "reading": "ぎり",
+    "meaning": "① 物事の正しい道筋。人間のふみおこなうべき正しい道。道理。② 対人関係や社会関係の中で，守るべき道理として意識されたもの。道義。「―を欠く」「―と人情の板挟み」「今さら...",
+    "level": "N3"
+  },
+  "聞いたとこ": {
+    "front": "聞いたとこ",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "肌": {
+    "front": "肌",
+    "reading": "き",
+    "meaning": "漢字はだ。皮膚。「肌膚」「雪肌」",
+    "level": "N3"
+  },
+  "肖然": {
+    "front": "肖然",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "胃に管を通す": {
+    "front": "胃に管を通す",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "能理解": {
+    "front": "能理解",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "腹題": {
+    "front": "腹題",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "膩頃": {
+    "front": "膩頃",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "自の累身形": {
+    "front": "自の累身形",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "自敷公とう": {
+    "front": "自敷公とう",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "自然": {
+    "front": "自然",
+    "reading": "しぜん",
+    "meaning": "一 （名）① 人為によってではなく，おのずから存在しているもの。山・川・海やそこに生きる万物。天地間の森羅万象。人間をはぐくみ恵みを与える一方，災害をもたらし，人間の介入...",
+    "level": "N3"
+  },
+  "自負": {
+    "front": "自負",
+    "reading": "じふ",
+    "meaning": "（名）スル 自分の才能や仕事に自信をもち，誇らしく思うこと。また，その心。「日本一の腕前だと―する」「―をもつ」「―心」",
+    "level": "N3"
+  },
+  "致力": {
+    "front": "致力",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "舞う": {
+    "front": "舞う",
+    "reading": "ま・う",
+    "meaning": "（動ワ五[ハ四]）① 音楽などに合わせて，かろやかに手足を動かす。おどる。「舞を―・う」② 空を飛ぶ。空中をかろやかに動く。「木の葉が―・う」「雪が―・う」「とんびが―・...",
+    "level": "N3"
+  },
+  "舞台でるなん": {
+    "front": "舞台でるなん",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "舞台で踊るなんて": {
+    "front": "舞台で踊るなんて",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "舞台衣装を着る": {
+    "front": "舞台衣装を着る",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "舞食": {
+    "front": "舞食",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "良い": {
+    "front": "良い",
+    "reading": "い・い",
+    "meaning": "（形）〔形容詞「よい」の終止形・連体形ヨイが近世にエイ（エエ）を経て転じたもの。現代の話し言葉では終止形・連体形にだけ用いられ，改まった場面ではヨイが用いられる。特に，俗...",
+    "level": "N3"
+  },
+  "良いところ": {
+    "front": "良いところ",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "良き": {
+    "front": "良き",
+    "reading": "よき",
+    "meaning": "〔文語形容詞「よし」の連体形から〕一 （名）良いこと。良いもの。二 （連体）よい。「彼とは―ライバルだ」「きょうの―日に」〈句項目〉良きにつけ悪しきにつけ",
+    "level": "N3"
+  },
+  "良好です": {
+    "front": "良好です",
+    "reading": "りょうこう",
+    "meaning": "（名•形動）文ナリ 状態・調子・成績などがよいこと。このましいこと。また，そのさま。「手術後の経過は―だ」「感度―」「―な成績」派生―さ（名）",
+    "level": "N3"
+  },
+  "良質": {
+    "front": "良質",
+    "reading": "りょうしつ",
+    "meaning": "（名•形動）文ナリ 品質がよい・こと（さま）。 ↔悪質。「―の石炭」「―な材料」",
+    "level": "N3"
+  },
+  "色々考えた結果": {
+    "front": "色々考えた結果",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "芝説的活": {
+    "front": "芝説的活",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "花送": {
+    "front": "花送",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "若いころ": {
+    "front": "若いころ",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "荒らす": {
+    "front": "荒らす",
+    "reading": "あら・す",
+    "meaning": "（動サ五[四]）① 整然としていたものを混乱させたり破壊したりする。「犬が庭を―・して困る」② 他人の領域を侵し乱す。「道場を―・す」「安売りで市場を―・す」③ ものが傷...",
+    "level": "N3"
+  },
+  "荒れた肌がすべす": {
+    "front": "荒れた肌がすべす",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "荒れた駅がすべす": {
+    "front": "荒れた駅がすべす",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "荒れる": {
+    "front": "荒れる",
+    "reading": "あ・れる",
+    "meaning": "（動ラ下一）《文ラ下二 あ・る》① 風雨や波が激しくなる。天候が穏やかでなくなる。「台風の影響で海も山も―・れそうだ」② 損なわれた状態になる。荒廃する。「住む人もなく，...",
+    "level": "N3"
+  },
+  "落ちゃん": {
+    "front": "落ちゃん",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "蒸い": {
+    "front": "蒸い",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "蒸し": {
+    "front": "蒸し",
+    "reading": "むし",
+    "meaning": "① 蒸すこと。また，蒸したもの。② 〔女房詞〕味噌。おむし。大上﨟御名之事",
+    "level": "N3"
+  },
+  "蒸らかい": {
+    "front": "蒸らかい",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "薬も効かない": {
+    "front": "薬も効かない",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "薬を飲んだ": {
+    "front": "薬を飲んだ",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "薬張する": {
+    "front": "薬張する",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "行かずに済ん": {
+    "front": "行かずに済ん",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "行く": {
+    "front": "行く",
+    "reading": "い・く",
+    "meaning": "（動カ五[四]） →ゆく（行・往）（逝）に同じ。可能いける",
+    "level": "N3"
+  },
+  "行くぐらい": {
+    "front": "行くぐらい",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "行けない": {
+    "front": "行けない",
+    "reading": "い・く",
+    "meaning": "（動カ五[四]） →ゆく（行・往）（逝）に同じ。可能いける",
+    "level": "N3"
+  },
+  "行っ": {
+    "front": "行っ",
+    "reading": "おこな・う",
+    "meaning": "（動ワ五[ハ四]）① 何らかの事柄や動作をする。多くは，一定の方式に従ってする，の意を含む。「練習を―・う」「熱心な討議が―・われる」「卒業式は三月二二日に―・われる」「...",
+    "level": "N3"
+  },
+  "行ったかい": {
+    "front": "行ったかい",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "行って": {
+    "front": "行って",
+    "reading": "おこな・う",
+    "meaning": "（動ワ五[ハ四]）① 何らかの事柄や動作をする。多くは，一定の方式に従ってする，の意を含む。「練習を―・う」「熱心な討議が―・われる」「卒業式は三月二二日に―・われる」「...",
+    "level": "N3"
+  },
+  "表のすぐそ": {
+    "front": "表のすぐそ",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "表参": {
+    "front": "表参",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "袋愕": {
+    "front": "袋愕",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "袋素が起こった時": {
+    "front": "袋素が起こった時",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "製像": {
+    "front": "製像",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "製品を作りたい": {
+    "front": "製品を作りたい",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "要する": {
+    "front": "要する",
+    "reading": "よう・する",
+    "meaning": "（動サ変）《文サ変 えう・す》〔古くは「ようず」とも〕① 必要とする。求める。「全治一か月を―・する」「注意を―・する問題」「かぐや姫の―・じ給ふべきなりけり」〈竹取物語...",
+    "level": "N3"
+  },
+  "見たなり": {
+    "front": "見たなり",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "見る": {
+    "front": "見る",
+    "reading": "みる",
+    "meaning": "（動マ上一）文マ上一 ❶ ① 視覚によって，物の形・色・様子などを知覚する。「建物を正面からみる」「みたことのない鳥がいる」「不正をみてみないふりをする」「みるからに強そ...",
+    "level": "N3"
+  },
+  "見るなり": {
+    "front": "見るなり",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "見舞い": {
+    "front": "見舞い",
+    "reading": "みまい",
+    "meaning": "① 病人や災難にあった人を訪れたり，無事かどうか手紙でたずねてなぐさめたりすること。「入院中の友達の―に行く」「―の品」「暑中―」「―客」② 見舞うために送る手紙や品物。...",
+    "level": "N3"
+  },
+  "見舞う": {
+    "front": "見舞う",
+    "reading": "みま・う",
+    "meaning": "（動ワ五[ハ四]）① 病人や災難にあった人のもとを訪れたり手紙を出したりして，様子をたずねたりなぐさめたりする。慰問する。「友人を病院に―・う」② 好ましくない物や災難が...",
+    "level": "N3"
+  },
+  "言える": {
+    "front": "言える",
+    "reading": "い・える",
+    "meaning": "（動ア下一）〔「言う」の可能動詞〕① 言うことができる。「英語で―・える」② （しばしば「言える，言える」「言えてる」の形で）そのとおりである，と納得できたときにいう語。...",
+    "level": "N3"
+  },
+  "言えるが": {
+    "front": "言えるが",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "言われて": {
+    "front": "言われて",
+    "reading": "い・う",
+    "meaning": "（動ワ五[ハ四]）❶ 声を出して単語や文を発する。① 何らかの音・単語を発する。「『キャーッ』と―・って倒れた」② 事実や考えを表出する。告げる。「いくら聞いても名前を―...",
+    "level": "N3"
+  },
+  "言われる": {
+    "front": "言われる",
+    "reading": "い・う",
+    "meaning": "（動ワ五[ハ四]）❶ 声を出して単語や文を発する。① 何らかの音・単語を発する。「『キャーッ』と―・って倒れた」② 事実や考えを表出する。告げる。「いくら聞いても名前を―...",
+    "level": "N3"
+  },
+  "言度恥をかけば": {
+    "front": "言度恥をかけば",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "計画": {
+    "front": "計画",
+    "reading": "けいかく",
+    "meaning": "（名）スル 事を行うにあたり，その方法や手順などをあらかじめ考えること。また，その案。もくろみ。プラン。「旅行を―する」「―を立てる」「―を練る」 →企画（補説欄）〈子項...",
+    "level": "N3"
+  },
+  "訳ありませ": {
+    "front": "訳ありませ",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "診惑に負ける": {
+    "front": "診惑に負ける",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "試験": {
+    "front": "試験",
+    "reading": "しけん",
+    "meaning": "（名）スル ① 物事の性質・能力などを知るために，ためし調べてみること。テスト。「新車の性能を―する」「生理学が生物を―するやうに小説も事実を実験し」〈文芸上の自然主義•...",
+    "level": "N3"
+  },
+  "詰まってい": {
+    "front": "詰まってい",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "話がつか": {
+    "front": "話がつか",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "話がつく": {
+    "front": "話がつく",
+    "reading": "はなし",
+    "meaning": "Our conversation became more lively.話に実が入る ▸ 彼らは話に実が入って｟熱中して｠時のたつのを忘れた They were engr...",
+    "level": "N3"
+  },
+  "話がわから": {
+    "front": "話がわから",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "話がわかる": {
+    "front": "話がわかる",
+    "reading": "話が分か・る",
+    "meaning": "世事に通じていて，物事の道理がわかる。「話のわかる人」〈親項目〉話",
+    "level": "N3"
+  },
+  "話が事素だとすれ": {
+    "front": "話が事素だとすれ",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "話になら": {
+    "front": "話になら",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "話にのら": {
+    "front": "話にのら",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "話に乗る": {
+    "front": "話に乗る",
+    "reading": "はなし",
+    "meaning": "Our conversation became more lively.話に実が入る ▸ 彼らは話に実が入って｟熱中して｠時のたつのを忘れた They were engr...",
+    "level": "N3"
+  },
+  "課程": {
+    "front": "課程",
+    "reading": "かてい",
+    "meaning": "学校などで，ある一定期間に配当され，修得しなくてはならない一定範囲の学習や研究などの内容・事項。コース。「教職―」「博士―」〔同音語の「過程」は物事が変化・発展していくプ...",
+    "level": "N3"
+  },
+  "講義": {
+    "front": "講義",
+    "reading": "こうぎ",
+    "meaning": "（名）スル ① 人々に学説・書物・物事などの意味や内容を口頭で説明すること。また，その説明の話。「社会情勢について―する」② 大学における授業。〈子項目〉講義所講義録",
+    "level": "N3"
+  },
+  "講議": {
+    "front": "講議",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "貝標が高ければこ": {
+    "front": "貝標が高ければこ",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "負けてしま": {
+    "front": "負けてしま",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "財布を忘れた": {
+    "front": "財布を忘れた",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "財産の相続で兄弟": {
+    "front": "財産の相続で兄弟",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "買い": {
+    "front": "買い",
+    "reading": "かい",
+    "meaning": "① 買うこと。「安物―」② 相場の値上がりを予想して買うこと。 ↔売り",
+    "level": "N3"
+  },
+  "買いに行った": {
+    "front": "買いに行った",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "買い人のやるこ": {
+    "front": "買い人のやるこ",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "買い換えたほう": {
+    "front": "買い換えたほう",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "買ったら": {
+    "front": "買ったら",
+    "reading": "か・う",
+    "meaning": "（動ワ五[ハ四]）〔「替ふ」と同源〕① （欲しいものを）代金を払って自分のものとする。購入する。 ↔売る。「本を―・う」「入場券を―・う」「権利を―・う」② 人の才能・性...",
+    "level": "N3"
+  },
+  "買ってきて": {
+    "front": "買ってきて",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "貸しみ": {
+    "front": "貸しみ",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "貸む": {
+    "front": "貸む",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "貸らしい": {
+    "front": "貸らしい",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "資料は悪港せ": {
+    "front": "資料は悪港せ",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "資料は郵送": {
+    "front": "資料は郵送",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "質度": {
+    "front": "質度",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "贈品": {
+    "front": "贈品",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "赤ん坊": {
+    "front": "赤ん坊",
+    "reading": "あかんぼう",
+    "meaning": "〔体が赤みがかっているからいう〕① 生まれて間もない子。あかちゃん。あかご。あかんぼ。② 経験が少なく，子供っぽい人。",
+    "level": "N3"
+  },
+  "赤ん等": {
+    "front": "赤ん等",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "赤ん落": {
+    "front": "赤ん落",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "足または姉": {
+    "front": "足または姉",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "足球排成一排": {
+    "front": "足球排成一排",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "転居する": {
+    "front": "転居する",
+    "reading": "てんきょ",
+    "meaning": "one's new address.転居通知 a change-of-address card.",
+    "level": "N3"
+  },
+  "辛口": {
+    "front": "辛口",
+    "reading": "からくち",
+    "meaning": "① 酒・味噌（みそ）などで，口当たりの辛いもの。 ↔甘口。「―の酒」② 辛いもの（特に酒）を好むこと。また，その人。③ 評価などが手きびしいこと。「―の批評」",
+    "level": "N3"
+  },
+  "辞めたい": {
+    "front": "辞めたい",
+    "reading": "や・める",
+    "meaning": "（動マ下一）《文マ下二 や・む》〔「止（や）める」と同源〕就いていた職や地位などを退く。退職する。辞職・辞任する。「都合で会社を―・める」「責任をとって会長を―・める」",
+    "level": "N3"
+  },
+  "返還しません": {
+    "front": "返還しません",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "途中から雨": {
+    "front": "途中から雨",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "連絡してくだ": {
+    "front": "連絡してくだ",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "週間家": {
+    "front": "週間家",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "遊く": {
+    "front": "遊く",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "遊んでいる": {
+    "front": "遊んでいる",
+    "reading": "あす・ぶ",
+    "meaning": "（動バ五[四]）「あそぶ」の転。「君だつてもなにも―・んでゐて食へると云ふ身分でも有るまい」〈浮雲•四迷〉",
+    "level": "N3"
+  },
+  "過ごした": {
+    "front": "過ごした",
+    "reading": "すご・す",
+    "meaning": "（動サ五[四]）〔「すぐす」の転〕① 時間がたつのにまかせる。月日・時をおくる。くらす。「休日を家族と―・す」「楽しいひとときを―・す」「一冬―・す」② 限度をこす。特に...",
+    "level": "N3"
+  },
+  "過程": {
+    "front": "過程",
+    "reading": "かてい",
+    "meaning": "物事が進行・変化・発展していく一連のみちすじ。プロセス。「生産―」「変化の―にある」 →課程（補説欄）",
+    "level": "N3"
+  },
+  "過程を表したもの": {
+    "front": "過程を表したもの",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "道番にくにい": {
+    "front": "道番にくにい",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "達成感も増す": {
+    "front": "達成感も増す",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "違い": {
+    "front": "違い",
+    "reading": "たがい",
+    "meaning": "ちがい。相違。「本物に―ない」〈子項目〉違い目",
+    "level": "N3"
+  },
+  "選まがずら": {
+    "front": "選まがずら",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "選手": {
+    "front": "選手",
+    "reading": "せんしゅ",
+    "meaning": "スポーツで選ばれて競技に出場する人。また，競技者としてスポーツを行っている人。「運動会のリレーの―」「野球―」〈子項目〉選手権選手権大会選手村",
+    "level": "N3"
+  },
+  "部品": {
+    "front": "部品",
+    "reading": "ぶひん",
+    "meaning": "「部分品」の略。「ラジオの―」",
+    "level": "N3"
+  },
+  "配得者": {
+    "front": "配得者",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "酒ができた": {
+    "front": "酒ができた",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "酒をしなけ": {
+    "front": "酒をしなけ",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "醤富": {
+    "front": "醤富",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "醤魔する": {
+    "front": "醤魔する",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "金": {
+    "front": "金",
+    "reading": "かね",
+    "meaning": "① 金属。金・銀・銅・鉄など。「―の箸」② 金銭。おかね。「―をためる」「―を貸す」〔近世，上方では主に銀貨が用いられたことから「銀」の字も用いられた〕〈句項目〉金が唸る...",
+    "level": "N3"
+  },
+  "金の気持ちに関し": {
+    "front": "金の気持ちに関し",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "釜が亡くなった": {
+    "front": "釜が亡くなった",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "鈍い": {
+    "front": "鈍い",
+    "reading": "おそ・い",
+    "meaning": "（形）《文ク おそ・し》① 物事の時期や順序があとである。基準になる時から時間がかなり経過している。《遅》 ↔はやい。「入社は彼の方が―・い」「例年より開花が―・い」「今...",
+    "level": "N3"
+  },
+  "鈍感": {
+    "front": "鈍感",
+    "reading": "どんかん",
+    "meaning": "（名•形動）文ナリ 感じ方のにぶいこと。気のきかないこと。また，そのさま。 ↔敏感。「―な奴（やつ）」「味覚が―になる」",
+    "level": "N3"
+  },
+  "鈍感だ": {
+    "front": "鈍感だ",
+    "reading": "どんかん",
+    "meaning": "（名•形動）文ナリ 感じ方のにぶいこと。気のきかないこと。また，そのさま。 ↔敏感。「―な奴（やつ）」「味覚が―になる」",
+    "level": "N3"
+  },
+  "銅感": {
+    "front": "銅感",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "鋭い": {
+    "front": "鋭い",
+    "reading": "すすど・い",
+    "meaning": "（形）《文ク すすど・し》① 挙動・性質などが機敏である。するどい。「九郎は―・きをのこにてさぶらふなれば」〈平家物語•11〉② かしこくて，行動に移すのがす早い。「若年...",
+    "level": "N3"
+  },
+  "鋭するど": {
+    "front": "鋭するど",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "鋭感": {
+    "front": "鋭感",
+    "reading": "えいかん",
+    "meaning": "物事に対する鋭い感覚。",
+    "level": "N3"
+  },
+  "錯位": {
+    "front": "錯位",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "長い": {
+    "front": "長い",
+    "reading": "なが・い",
+    "meaning": "（形）《文ク なが・し》① （線状に連続しているものの）ある点からある点までの空間的な隔たりが大きい。《長》「―・い道のり」「―・い刀」「―・い行列」② ある時点からある...",
+    "level": "N3"
+  },
+  "長編分短編": {
+    "front": "長編分短編",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "間に合いかねる": {
+    "front": "間に合いかねる",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "間に合いがたい": {
+    "front": "間に合いがたい",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "間に合いそう": {
+    "front": "間に合いそう",
+    "reading": "まにあ・う",
+    "meaning": "（動ワ五[ハ四]）① 決められた時刻・期限に遅れない。「バスに―・う」② その場の必要を満たす。十分である。「一万円もあれば―・うだろう」「文房具は大体この店で―・う」〔...",
+    "level": "N3"
+  },
+  "間に合うわけ": {
+    "front": "間に合うわけ",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "関し": {
+    "front": "関し",
+    "reading": "かん・する",
+    "meaning": "（動サ変）《文サ変 くわん・す》ある物事にかかわりがある。関係する。かかわる。「教育に―・する諸問題」「政治に―・して発言する」「我―・せず」",
+    "level": "N3"
+  },
+  "降ってきて": {
+    "front": "降ってきて",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "集す": {
+    "front": "集す",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "雨の降るかくり": {
+    "front": "雨の降るかくり",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "雨季の場合は出": {
+    "front": "雨季の場合は出",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "雲敷する": {
+    "front": "雲敷する",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "電事雲": {
+    "front": "電事雲",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "電子": {
+    "front": "電子",
+    "reading": "でんし",
+    "meaning": "素粒子の一。記号 e 負の電気素量をもち，スピン 1/2，質量 9.1×10－31 kg で安定。レプトンに属する。原子核のまわりに分布して原子を構成。物質内の電子の状態...",
+    "level": "N3"
+  },
+  "電話": {
+    "front": "電話",
+    "reading": "でんわ",
+    "meaning": "（名）スル ① 電話機で通話すること。また，その通話。「―をかける」「―して問い合わせる」〔1876年アメリカのベルが実用化に成功。日本の電話事業は明治以降国営であったが...",
+    "level": "N3"
+  },
+  "霧多": {
+    "front": "霧多",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "青島": {
+    "front": "青島",
+    "reading": "あおしま",
+    "meaning": "宮崎市南部，日南海岸の北端にある小島。浸食されて海食台をなし，「鬼の洗濯板」と呼ばれる景観を呈する。ビロウなどの亜熱帯植物群落は特別天然記念物。",
+    "level": "N3"
+  },
+  "順序": {
+    "front": "順序",
+    "reading": "じゅんじょ",
+    "meaning": "① 何が先で，何があとに来るかという，物事の相互の関係。「―よく乗車する」「―を立てる」② 物事を行う段取り。手順。「―をふむ」 →順番（補説欄）〈子項目〉順序数順序数詞...",
+    "level": "N3"
+  },
+  "順番": {
+    "front": "順番",
+    "reading": "じゅんばん",
+    "meaning": "ある配列にしたがって，次々にその事に当たること。また，その配列。「―がまわってくる」「―に鬼になる」〔類義の語に「順序」があるが，「順序」は全体を一つの秩序と見て，ある基...",
+    "level": "N3"
+  },
+  "頭が痛かった": {
+    "front": "頭が痛かった",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "頭は当分やみそう": {
+    "front": "頭は当分やみそう",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "頭り": {
+    "front": "頭り",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "頭る": {
+    "front": "頭る",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "頭痛がひどい": {
+    "front": "頭痛がひどい",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "頭脳を持っている": {
+    "front": "頭脳を持っている",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "頭贈": {
+    "front": "頭贈",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "食に対して": {
+    "front": "食に対して",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "食べっぷり": {
+    "front": "食べっぷり",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "食をけなし": {
+    "front": "食をけなし",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "食事するなら": {
+    "front": "食事するなら",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "食要": {
+    "front": "食要",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "養護師": {
+    "front": "養護師",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "首付": {
+    "front": "首付",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "駅着": {
+    "front": "駅着",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "高い": {
+    "front": "高い",
+    "reading": "たか・い",
+    "meaning": "（形）《文ク たか・し》① 空間的に基準面よりかなり上にある。㋐ 物の下端から上端までの差が大きい。上方に伸びている。「背の―・い人」「―・い山」「雪が―・く積もる」㋑ ...",
+    "level": "N3"
+  },
+  "高いお金をかけて": {
+    "front": "高いお金をかけて",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "高婆代がかなり": {
+    "front": "高婆代がかなり",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "髪と寒くなる": {
+    "front": "髪と寒くなる",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "鬱営": {
+    "front": "鬱営",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "魚た": {
+    "front": "魚た",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "魚といい形といい": {
+    "front": "魚といい形といい",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "鳴子": {
+    "front": "鳴子",
+    "reading": "なるこ",
+    "meaning": "田畑の害獣・害鳥を追い払う具。数本の竹筒を小板に並べてぶら下げたもの。張った縄につるしたり竿（さお）の先につけたりし，縄の端を引くなどして揺らして鳴らす。季秋〈子項目〉鳴...",
+    "level": "N3"
+  },
+  "黒い": {
+    "front": "黒い",
+    "reading": "くろ・い",
+    "meaning": "（形）《文ク くろ・し》① 黒の色である。墨のような色だ。 ↔白い。「―・い喪服」「―・く塗る」② 黒みがかっている。黒っぽい。 ↔白い。「日に焼けて色が―・くなる」③ ...",
+    "level": "N3"
+  },
+  "黒する": {
+    "front": "黒する",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "黒で行くとすれ": {
+    "front": "黒で行くとすれ",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "黒熱な手動き": {
+    "front": "黒熱な手動き",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  },
+  "黒金": {
+    "front": "黒金",
+    "reading": "",
+    "meaning": "Meaning not found",
+    "level": "N3"
+  }
+}
