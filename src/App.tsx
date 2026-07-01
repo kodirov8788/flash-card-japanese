@@ -3,8 +3,14 @@ import { deckGroups, getCardsForGroup, flashcards } from './data';
 import type { Card } from './types';
 
 function App() {
-  const [activeGroupId, setActiveGroupId] = useState(deckGroups[0].id);
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [activeGroupId, setActiveGroupId] = useState(() => {
+    const saved = localStorage.getItem('active_group_id');
+    return saved && deckGroups.some(g => g.id === saved) ? saved : deckGroups[0].id;
+  });
+  const [currentIndex, setCurrentIndex] = useState(() => {
+    const saved = Number(localStorage.getItem('current_index'));
+    return Number.isInteger(saved) && saved >= 0 ? saved : 0;
+  });
   const [isFlipped, setIsFlipped] = useState(false);
   const [learnedCards, setLearnedCards] = useState<Set<number>>(() => {
     const saved = localStorage.getItem('learned_cards');
@@ -17,7 +23,9 @@ function App() {
     }
     return new Set();
   });
-  const [showLearnedOnly, setShowLearnedOnly] = useState(false);
+  const [showLearnedOnly, setShowLearnedOnly] = useState(() => {
+    return localStorage.getItem('show_learned_only') === 'true';
+  });
 
   const activeGroup = deckGroups.find(g => g.id === activeGroupId) || deckGroups[0];
   const allCards = getCardsForGroup(activeGroupId);
@@ -30,6 +38,19 @@ function App() {
   useEffect(() => {
     localStorage.setItem('learned_cards', JSON.stringify(Array.from(learnedCards)));
   }, [learnedCards]);
+
+  // Resume where you left off: remember deck, position, and view mode across reloads.
+  useEffect(() => {
+    localStorage.setItem('active_group_id', activeGroupId);
+  }, [activeGroupId]);
+
+  useEffect(() => {
+    localStorage.setItem('current_index', String(currentIndex));
+  }, [currentIndex]);
+
+  useEffect(() => {
+    localStorage.setItem('show_learned_only', String(showLearnedOnly));
+  }, [showLearnedOnly]);
 
   // Keep currentIndex valid whenever the active card list changes size
   // (e.g. a card gets marked learned and disappears from the study queue).
@@ -79,13 +100,24 @@ function App() {
   };
 
   const toggleLearned = (cardId: number) => {
+    // Multiple ids can share the same word text (duplicate entries).
+    // Mark/unmark all of them together so a word doesn't linger in the
+    // study queue just because a duplicate copy wasn't toggled too.
+    const targetCard = flashcards.find(c => c.id === cardId);
+    const siblingIds = targetCard
+      ? flashcards.filter(c => c.front === targetCard.front).map(c => c.id)
+      : [cardId];
+
     setLearnedCards(prev => {
       const next = new Set(prev);
-      if (next.has(cardId)) {
-        next.delete(cardId);
-      } else {
-        next.add(cardId);
-      }
+      const isLearned = next.has(cardId);
+      siblingIds.forEach(id => {
+        if (isLearned) {
+          next.delete(id);
+        } else {
+          next.add(id);
+        }
+      });
       return next;
     });
   };
